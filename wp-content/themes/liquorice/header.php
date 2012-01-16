@@ -68,15 +68,15 @@
          
          <div id="main-social" style="text-align: center">
 		<?php if ( $options['twitterurl'] != '' ) : ?>
-			<a href="<?php echo $options['twitterurl']; ?>" class="twitter"><?php _e( 'Twitter', 'liquorice' ); ?></a>
+			<a href="<?php echo $options['twitterurl']; ?>" class="twitter" target="blank"><?php _e( 'Twitter', 'liquorice' ); ?></a>
 		<?php endif; ?>
 
 		<?php if ( $options['facebookurl'] != '' ) : ?>
-			<a href="<?php echo $options['facebookurl']; ?>" class="facebook"><?php _e( 'Facebook', 'liquorice' ); ?></a>
+			<a href="<?php echo $options['facebookurl']; ?>" class="facebook" target="blank"><?php _e( 'Facebook', 'liquorice' ); ?></a>
 		<?php endif; ?>
 
 		<?php if ( ! $options['hiderss'] ) : ?>
-			<a href="<?php bloginfo( 'rss2_url' ); ?>" class="rss"><?php _e( 'RSS Feed', 'liquorice' ); ?></a>
+			<a href="<?php bloginfo( 'rss2_url' ); ?>" class="rss" target="blank"><?php _e( 'RSS Feed', 'liquorice' ); ?></a>
 		<?php endif; ?>
 	</div><!-- #social-icons-->
       

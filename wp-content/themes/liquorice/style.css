@@ -141,8 +141,8 @@ div#site-title-div{
 /*        -webkit-text-stroke: 0.5px #aec6d9;*/        
 /*	margin: 0 0 55px 0;	*/
         margin: 0px;
-        height: 70px;
-        background: transparent url(images/header-bg.png) no-repeat 0 -5px;
+        height: 60px;
+        background: transparent url(images/header-bg.png) no-repeat bottom;
         opacity: 0.35;
 }
 	
@@ -257,6 +257,7 @@ div#site-title-div{
 	margin: 30px 30px 0 0;
 	padding: 0 10px;
 	width: 1000px;
+        position: relative;
 }
 #primaryContent.blog-content{
     width: 720px;
@@ -889,6 +890,40 @@ a:hover.facebook{
 		height:auto;	
 	}
 }
+
+
+.stock-img{
+    transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg); /* IE 9 */
+    -moz-transform:rotate(-7deg); /* Firefox */
+    -webkit-transform:rotate(-7deg); /* Safari and Chrome */
+    -o-transform:rotate(-7deg); /* Opera */
+    margin-top: 70px;
+    float: right;
+/*    margin-left: -60px;*/
+/*    width: 200px;
+    height: 304px;*/
+}
+.stock-img-2{
+    transform:rotate(10deg);
+    -ms-transform:rotate(10deg); /* IE 9 */
+    -moz-transform:rotate(10deg); /* Firefox */
+    -webkit-transform:rotate(10deg); /* Safari and Chrome */
+    -o-transform:rotate(10deg); /* Opera */
+    margin-top: 30px;
+    margin-left: -90px;
+    float: right;
+    width: 200px;
+    height: 304px;
+}
+img#social-like-arrow{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: -90px;
+    left: 170px;
+}
+
 
 /* 
  * print styles
