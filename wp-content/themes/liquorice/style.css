@@ -166,13 +166,14 @@ div#site-title-div{
 	text-align:center;
 }
 .main-menu ul{
-    width: 598px;
+    width: 695px;
     margin: 0px auto;
 }
 .main-menu ul li {
 	float:left;
 	list-style:none;
 	position:relative; 
+        letter-spacing: 0px;
 }
 .ie6 .main-menu ul,
 .ie6 .main-menu ul li { 
@@ -181,7 +182,7 @@ div#site-title-div{
 .main-menu li a {
 	color: #0c2b43; 
 	display:block;
-	padding:10px 15px;
+	padding:12px 15px;
 	text-align:center;
 }
 .main-menu li a:hover {
@@ -254,9 +255,9 @@ div#site-title-div{
 #primaryContent {
 	clear:both;
  	float: left;
-	margin: 30px 30px 0 0;
+	margin: 0px 30px 0 0;
 	padding: 0 10px;
-	width: 1000px;
+	width: 980px;
         position: relative;
 }
 #primaryContent.blog-content{
@@ -589,6 +590,14 @@ div.aligncenter {
     height: 40px;
     width: 140px;
 }
+img#social-like-arrow{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: -65px;
+    left: 205px;
+    margin: 0px;
+}
 
 a.rss {
 	background:transparent url(images/socialMediaIcons.gif) -81px 0 no-repeat;
@@ -915,13 +924,6 @@ a:hover.facebook{
     float: right;
     width: 200px;
     height: 304px;
-}
-img#social-like-arrow{
-    background: transparent;
-    border: none;
-    position: absolute;
-    top: -90px;
-    left: 170px;
 }
 
 
