@@ -12,18 +12,18 @@
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
         <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/liquorice/reset.css" />
         <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin' rel='stylesheet' type='text/css'>
-            <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
-            <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
-            <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="<?php bloginfo('atom_url'); ?>" />
-            <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-            <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
-            <?php
-            wp_head();
-            if (is_singular())
-                wp_enqueue_script('comment-reply');
-            ?>
-    </head>
+	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin' rel='stylesheet' type='text/css'>
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="<?php bloginfo('atom_url'); ?>" />
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	<link rel="icon" type="image/png" href="/wp-content/themes/liquorice/images/dc-favicon.png"/>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+<?php
+    wp_head();
+	if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
+  ?>
+</head>
 
     <body <?php body_class(); ?> >
 
