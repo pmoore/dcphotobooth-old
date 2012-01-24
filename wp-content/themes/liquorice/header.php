@@ -86,19 +86,22 @@
 
 
             <script type="text/javascript">
-                $('.twitter, .facebook, .rss').hover(
-                function(){
-                    $(this).stop().animate({
-                        marginTop: '0px'
-                    },
-                    300
-                );
-                },
-                function(){
-                    $(this).stop().animate({
-                        marginTop: '-20px'
-                    },
-                    300
-                );
+                $(function(){
+                    $('.twitter, .facebook, .rss').hover(
+                        function(){
+                            $(this).stop().animate({
+                                marginTop: '0px'
+                            },
+                            300
+                        );
+                        },
+                        function(){
+                            $(this).stop().animate({
+                                marginTop: '-20px'
+                            },
+                            300
+                        );
+                    });
+                    
                 });
             </script>
