@@ -11,7 +11,7 @@ if (have_posts()) : while (have_posts()) : the_post();
 
             <div id="post-<?php the_ID(); ?>"  <?php post_class('postWrapper'); ?>>
 
-                <h1 class="postTitle page"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+<!--                <h1 class="postTitle page"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h1>-->
 
                 <div class="post"><?php the_content(__('(more...)')); ?></div>
         <?php wp_link_pages('before=<p class="page-link">&after=</p>&next_or_number=number&pagelink=page %'); ?>

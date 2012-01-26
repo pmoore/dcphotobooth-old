@@ -28,7 +28,7 @@
   ?>
 </head>
 
-    <body <?php body_class(); ?> >
+    <body <?php body_class(); ?> id="<?php echo $pagename ?>" >
 
         <div id="canvas">  
 <?php $options = get_option('liquorice_theme_options'); ?>
@@ -105,6 +105,12 @@
                             300
                         );
                     });
-                    
+                  
+                  $('#outer-screen-hover').hover(function(){
+                      $(this).css('background-color','blue');
+                  },
+                  function(){
+                      $(this).css('background-color','transparent');
+                  });
                 });
             </script>
