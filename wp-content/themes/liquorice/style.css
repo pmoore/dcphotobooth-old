@@ -104,6 +104,7 @@ ol{ padding-left:25px; }
 	margin: 0 auto;
 	padding:10px 0;
 	width:1000px;
+        font-family: ColaborateLightRegular;
 }
 #header-wrap {
 	margin: 0 auto;
@@ -117,7 +118,7 @@ ol{ padding-left:25px; }
 	margin:10px auto 0; 
 	text-align:center; 
 	font-size: 20px;
-        text-shadow: 1px 1px 3px black;
+        text-shadow: 1px 1px 3px #E2DBD1;
 } 
 #site-title a { 
 	color:#0C2B43; 
@@ -174,7 +175,7 @@ div#site-title-div{
 	float:left;
 	list-style:none;
 	position:relative; 
-        letter-spacing: 0px;
+        letter-spacing: 1px;
 }
 .ie6 .main-menu ul,
 .ie6 .main-menu ul li { 
@@ -267,6 +268,7 @@ div#site-title-div{
 	padding: 0 10px;
 	width: 980px;
         position: relative;
+        min-height: 500px;
 }
 #primaryContent.index{
 /*    background: transparent url('images/like-arrow.png') no-repeat 0px 0px;*/
@@ -276,15 +278,20 @@ div#site-title-div{
 }
 #primaryContent h1, 
 #primaryContent h2 {
-	 margin: 10px 0 0;
 	 padding: 0;
 }
 #primaryContent h1.postTitle,
 #primaryContent h2.postTitle { 
 	font-size: 22px; 
-/*	margin: 0 0 20px; */
-/*	padding:10px 0;*/
 	text-align:left;
+        color:#CC4D22;
+        text-shadow: 0px 1px 2px #C04821;
+	font-size:30px;
+	font-weight:normal; 
+	line-height:1.5em;
+	padding:0px 0px 10px 0;
+	text-transform: lowercase;
+        font-family: ColaborateRegular;
 }
 #primaryContent h1.postTitle a, 
 #primaryContent h2.postTitle a {
@@ -316,7 +323,7 @@ div#site-title-div{
 }
 #primaryContent h1.postTitle.page,
 #primaryContent h2.postTitle.page{
-    text-align:center;
+/*    text-align:center;*/
     margin-bottom: 10px;
 }
 
@@ -347,7 +354,7 @@ ol#posts {
 }
 li.postWrapper, 
 div.postWrapper { 
-	background:url("images/border.gif") repeat-x scroll left bottom transparent; 
+/*	background:url("images/border.gif") repeat-x scroll left bottom transparent; */
 	margin:0 0 50px; 
 	padding:0 0 20px; 
 }
@@ -540,8 +547,10 @@ h2#comments {
 #footer { 
 	clear: both;
 	font-size: 80%;
-	padding-top:100px;
+	margin-top:100px;
+        padding-top: 10px;
 	text-align:center;
+        background:url("images/border.gif") repeat-x scroll left top transparent; 
 }
 
 /* normally hidden but will appear when css disabled */
@@ -560,6 +569,7 @@ div.aligncenter {
 }
 .alignleft {
 	float: left;
+        margin-right: 10px;
 }
 .alignright {
 	float: right;
@@ -974,4 +984,13 @@ a:hover.facebook{
     top: 30px;
     left: 225px;
     cursor: pointer;
+}
+
+#member-thumbs{
+    float: right;
+    margin-right: 40px;
+}
+div#memberimg1, div #memberimg2, div#memberimg3{
+    float: left;
+    margin: 0 20px;
 }
