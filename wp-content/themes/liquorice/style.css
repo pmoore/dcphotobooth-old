@@ -361,9 +361,13 @@ div.postWrapper {
 div.post {
 	overflow:hidden;
 	text-align: left;
+        font-size: 16px;
+        line-height: 1.3em;
+        color: #0C2B43;
 }
 .post p {
 	margin-bottom:20px;
+        
 }
 .attachment-post-thumbnail {
 	text-align: left;
@@ -569,7 +573,10 @@ div.aligncenter {
 }
 .alignleft {
 	float: left;
-        margin-right: 10px;
+        
+}
+.aboutusleft{
+    margin-right: 15px;
 }
 .alignright {
 	float: right;
@@ -986,6 +993,8 @@ a:hover.facebook{
     cursor: pointer;
 }
 
+
+/*About Us CSS */
 #member-thumbs{
     float: right;
     margin-right: 40px;
@@ -993,4 +1002,10 @@ a:hover.facebook{
 div#memberimg1, div #memberimg2, div#memberimg3{
     float: left;
     margin: 0 20px;
+}
+#about-us-main{
+    width: 625px;
+    float: left;
+    padding: 0 20px;
+    margin-bottom: 50px;
 }
