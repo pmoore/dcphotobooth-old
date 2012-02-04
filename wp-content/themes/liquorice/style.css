@@ -103,19 +103,19 @@ ol{ padding-left:25px; }
 /*	background:transparent url(images/header-design.jpg) top right no-repeat; */
 	margin: 0 auto;
 	padding:10px 0;
-	width:1000px;
+	width:1050px;
         font-family: ColaborateLightRegular;
         background-color: #FCF9F3;
         box-shadow: 0px 0px 20px #888888;
         -moz-box-shadow: 0px 0px 20px #888888;
         -webkit-box-shadow: 0px 0px 20px #888888;
 /*        border: 2px solid #E2DBD1;*/
-        padding: 5px;
+        padding: 5px 10px;
         min-height: 900px;
-        margin-top: 10px;
-        border-radius: 5px;
+/*        margin-top: 10px;*/
+/*        border-radius: 5px;
         -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
+        -moz-border-radius: 5px;*/
 }
 #header-wrap {
 	margin: 0 auto;
@@ -1019,4 +1019,21 @@ div#memberimg1, div #memberimg2, div#memberimg3{
     float: left;
     padding: 0 20px;
     margin-bottom: 50px;
+}
+#post-date{
+    width: 50px;
+/*    border: 1px solid black;*/
+    border-top-left-radius: 5px;
+    padding: 4px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    left: -69px;
+    background-color: white;
+    border-right: none;
+    box-shadow: 0px 0px 5px #888888;
+    -moz-box-shadow: 0px 0px 20px #888888;
+    -webkit-box-shadow: 0px 0px 6px #888888;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset -3px 0px 10px -4px #000000, -2px 0px 9px 1px #888888;
 }
