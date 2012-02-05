@@ -118,7 +118,7 @@ ol{ padding-left:25px; }
         -moz-border-radius: 5px;*/
 }
 #header-wrap {
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 }
 
 /* the heading and tagline are h1 on homepage and h4 on internal */
@@ -686,7 +686,10 @@ a.twitter{
 	width: 40px; 
 	height:37px;
 /*        margin-top: 10px;*/
-        margin-top: -20px;
+/*        margin-top: -20px;*/
+        position:fixed;
+        right: 80px;
+        top: 54%;
 }
 a:hover.twitter{
 	background:transparent url(images/socialMediaIcons.gif) 0px -37px no-repeat; 
@@ -704,7 +707,11 @@ a.facebook{
 	width: 40px; 
 	height:37px;
 /*        margin-top: 10px;*/
-        margin-top: -20px;
+/*        margin-top: -20px;*/
+        position:fixed;
+        right: 80px;
+        top: 46%;
+        
 }
 a:hover.facebook{
 	background:transparent url(images/socialMediaIcons.gif) -40px -37px no-repeat; 

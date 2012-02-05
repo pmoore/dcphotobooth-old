@@ -44,7 +44,7 @@
             
             <?php if (!$options['hiderss']) : ?>
                                         <a href="<?php bloginfo('rss2_url'); ?>" class="rss"><?php _e('RSS Feed', 'liquorice'); ?></a>
-<?php endif; ?>
+            <?php endif; ?>
                     </div> #social-icons-->
 
 
@@ -71,46 +71,48 @@
                     </div>
                 </div> <!-- end #header-->
 
-                <div id="main-social" style="text-align: center">
-                    <?php if ($options['twitterurl'] != '') : ?>
-                        <a href="<?php echo $options['twitterurl']; ?>" class="twitter" target="blank"><?php _e('Twitter', 'liquorice'); ?></a>
-                    <?php endif; ?>
-
-                    <?php if ($options['facebookurl'] != '') : ?>
-                        <a href="<?php echo $options['facebookurl']; ?>" class="facebook" target="blank"><?php _e('Facebook', 'liquorice'); ?></a>
-                    <?php endif; ?>
-
-                    <?php if (!$options['hiderss']) : ?>
-                        <a href="<?php bloginfo('rss2_url'); ?>" class="rss" target="blank"><?php _e('RSS Feed', 'liquorice'); ?></a>
-                    <?php endif; ?>
-                </div><!-- #social-icons-->
+               
 
             </div> <!-- end #header-wrap-->
+            
+
+    <?php if ($options['twitterurl'] != '') : ?>
+        <a href="<?php echo $options['twitterurl']; ?>" class="twitter" target="blank"><?php _e('Twitter', 'liquorice'); ?></a>
+    <?php endif; ?>
+
+    <?php if ($options['facebookurl'] != '') : ?>
+        <a href="<?php echo $options['facebookurl']; ?>" class="facebook" target="blank"><?php _e('Facebook', 'liquorice'); ?></a>
+    <?php endif; ?>
+
+    <?php if (!$options['hiderss']) : ?>
+        <a href="<?php bloginfo('rss2_url'); ?>" class="rss" target="blank"><?php _e('RSS Feed', 'liquorice'); ?></a>
+    <?php endif; ?>
+
 
 
             <script type="text/javascript">
-                $(function(){
-                    $('.twitter, .facebook, .rss').hover(
-                        function(){
-                            $(this).stop().animate({
-                                marginTop: '0px'
-                            },
-                            300
-                        );
-                        },
-                        function(){
-                            $(this).stop().animate({
-                                marginTop: '-20px'
-                            },
-                            300
-                        );
-                    });
-                  
-                  $('#outer-screen-hover').hover(function(){
-                      $(this).css('background-color','blue');
-                  },
-                  function(){
-                      $(this).css('background-color','transparent');
-                  });
-                });
+//                $(function(){
+//                    $('.twitter, .facebook, .rss').hover(
+//                        function(){
+//                            $(this).stop().animate({
+//                                marginTop: '0px'
+//                            },
+//                            300
+//                        );
+//                        },
+//                        function(){
+//                            $(this).stop().animate({
+//                                marginTop: '-20px'
+//                            },
+//                            300
+//                        );
+//                    });
+//                  
+//                  $('#outer-screen-hover').hover(function(){
+//                      $(this).css('background-color','blue');
+//                  },
+//                  function(){
+//                      $(this).css('background-color','transparent');
+//                  });
+//                });
             </script>
