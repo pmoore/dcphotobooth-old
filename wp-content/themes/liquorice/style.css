@@ -170,11 +170,11 @@ div#site-title-div{
         font-family: ColaborateLightRegular;
 	background: url(images/nav-bg.gif) repeat-x scroll left top transparent;
 	height:46px;
-	
+	width: 970px;
         font-size: 18px;
 	font-weight:bold;
 	list-style: none;
-	margin:0;
+	margin:0 auto;
 	padding-top:2px;
 	position:relative;
 	text-transform:lowercase;  
@@ -1062,4 +1062,12 @@ div#memberimg1, div #memberimg2, div#memberimg3{
     padding: 4px;
     text-align: center;
     text-shadow: 1px 2px 2px #CC4D22;
+}
+
+.post-social{
+    margin-top: 10px;
+}
+.dc-border{
+    background: url("images/border.gif") repeat-x scroll left top transparent;
+    margin: 10px 0;
 }

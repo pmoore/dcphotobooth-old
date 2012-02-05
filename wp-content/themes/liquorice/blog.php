@@ -30,10 +30,24 @@ while ($wp_query->have_posts()) : $wp_query->the_post();
                 <?php //the_content(__('(more...)')); ?>
                 <?php echo get_post_meta(get_the_ID(), 'teaser', true); ?>
             </div>
+            <div class="post-social">
+                <!-- AddThis Button BEGIN -->
+                <div class="addthis_toolbox addthis_default_style ">
+                <a class="addthis_button_preferred_1"></a>
+                <a class="addthis_button_preferred_2"></a>
+                <a class="addthis_button_preferred_3"></a>
+                <a class="addthis_button_preferred_4"></a>
+                <a class="addthis_button_compact"></a>
+                <a class="addthis_counter addthis_bubble_style"></a>
+                </div>
+                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f18708410c8b891"></script>
+                <!-- AddThis Button END -->
+            </div>
+            
                 <?php wp_link_pages('before=<p class="page-link">&after=</p>&next_or_number=number&pagelink=page %'); ?>
             <p class="postMeta">Category <?php the_category(', ') ?> | Tags: <?php the_tags(', '); ?> | <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></p>
 
-            <hr class="noCss" />
+            <div class="dc-border">&nbsp;</div>
         </li>
 
         <?php comments_template(); // Get wp-comments.php template  ?>
