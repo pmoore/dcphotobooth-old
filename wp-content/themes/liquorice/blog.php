@@ -24,7 +24,7 @@ while ($wp_query->have_posts()) : $wp_query->the_post();
 
             <h2 class="postTitle"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
-            <div class="date" id="post-date"><small><?php the_time('M j') ?></small></div>
+            <div class="post-date"><span class="month"><?php the_time('M') ?></span><br /><span class="date"><?php the_time('j') ?></spa></div>
 
             <div class="post">
                 <?php //the_content(__('(more...)')); ?>

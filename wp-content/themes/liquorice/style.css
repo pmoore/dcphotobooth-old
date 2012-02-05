@@ -1038,7 +1038,7 @@ div#memberimg1, div #memberimg2, div#memberimg3{
     padding: 0 20px;
     margin-bottom: 50px;
 }
-#post-date{
+.post-date{
     width: 45px;
 /*    border: 1px solid black;*/
     border-top-left-radius: 5px;
@@ -1062,6 +1062,9 @@ div#memberimg1, div #memberimg2, div#memberimg3{
     padding: 4px;
     text-align: center;
     text-shadow: 1px 2px 2px #CC4D22;
+}
+.post-date .date{
+    font-size: 22px;
 }
 
 .post-social{
