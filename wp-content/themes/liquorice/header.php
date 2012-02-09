@@ -15,7 +15,11 @@
         <![endif]-->
         <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/liquorice/reset.css" />
         <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="/wp-includes/js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
+        <script src="/wp-includes/js/application.js"></script>
+        
 	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin' rel='stylesheet' type='text/css'>
+        <link href='/wp-includes/css/jquery-ui-1.8.17.custom' rel='stylesheet' type='text/css'>
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="<?php bloginfo('atom_url'); ?>" />
@@ -115,4 +119,6 @@
 //                      $(this).css('background-color','transparent');
 //                  });
 //                });
+
+                console.log("Window width: "+$(window).width());
             </script>
