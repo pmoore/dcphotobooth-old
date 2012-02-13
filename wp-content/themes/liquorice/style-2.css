@@ -193,7 +193,7 @@ div#site-title-div{
 	float:left;
 	list-style:none;
 	position:relative; 
-        letter-spacing: 1px;
+/*        letter-spacing: 1px;    Hack of shame for linux*/
 }
 .ie6 .main-menu ul,
 .ie6 .main-menu ul li { 
