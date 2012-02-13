@@ -8,8 +8,15 @@
         <meta name="keywords" content="dc, va, md, washington, virginia, maryland, photobooth, photobooths, wedding, weddings, corporate, party, parties, dc photobooth, dc photobooths, washington dc photobooth, washington dc photobooths, washington d.c. photobooth, washington d.c. photobooths, virginia photobooths, virginia photobooth, va photobooths, va photobooth, northern virginia photobooths, northern virginia photobooth, arlington photobooth, arlington photobooths, alexandria photobooth, alexandria photobooths, maryland photobooth, maryland photobooths, dc wedding photobooths" />
         <meta name="description" content="Make your event more fun and memorable with DC Photobooths!  With one of the best photobooths in the business, DC Photobooths provides professional grade photographs with fun props while maintaining a professional and customizable decor that is sure to blend in perfectly with your event." />
 
+        
         <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?> <?php if (!wp_title('', true, 'left')) ; { ?> | <?php bloginfo('description'); ?> <?php } ?></title>
-        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
+        
+        <?php if(is_home()){ ?>
+            <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
+        <?php }else{ ?>            
+            <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/liquorice/style-2.css" />
+        <?php } ?>
+        
         <!--[if IE]>
             <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/liquorice/style_ie.css" />
         <![endif]-->
@@ -68,29 +75,33 @@
                         <a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><div id="site-title-div">&nbsp;</div></a>
                     </span>
                     </<?php echo $heading_tag; ?>>
-                    <div id="site-description"><?php bloginfo('description'); ?></div>   
+                    
+                    <?php if(is_home()){ ?>
+                        <div id="site-description"><?php bloginfo('description'); ?></div>   
+                    <?php } ?>
+                    
                     <!--by default your pages will be displayed unless you specify your own menu content under Menu through the admin panel-->
                     <div class="main-menu">
 <?php wp_page_menu(array('sort_column' => 'menu_order', 'container_class' => 'menu-header')); ?>
                     </div>
                 </div> <!-- end #header-->
 
-               
+               <?php if ($options['twitterurl'] != '') : ?>
+                    <a href="<?php echo $options['twitterurl']; ?>" class="twitter" target="blank"><?php _e('Twitter', 'liquorice'); ?></a>
+                <?php endif; ?>
+
+                <?php if ($options['facebookurl'] != '') : ?>
+                    <a href="<?php echo $options['facebookurl']; ?>" class="facebook" target="blank"><?php _e('Facebook', 'liquorice'); ?></a>
+                <?php endif; ?>
+
+                <?php if (!$options['hiderss']) : ?>
+                    <a href="<?php bloginfo('rss2_url'); ?>" class="rss" target="blank"><?php _e('RSS Feed', 'liquorice'); ?></a>
+                <?php endif; ?>
 
             </div> <!-- end #header-wrap-->
             
 
-    <?php if ($options['twitterurl'] != '') : ?>
-        <a href="<?php echo $options['twitterurl']; ?>" class="twitter" target="blank"><?php _e('Twitter', 'liquorice'); ?></a>
-    <?php endif; ?>
-
-    <?php if ($options['facebookurl'] != '') : ?>
-        <a href="<?php echo $options['facebookurl']; ?>" class="facebook" target="blank"><?php _e('Facebook', 'liquorice'); ?></a>
-    <?php endif; ?>
-
-    <?php if (!$options['hiderss']) : ?>
-        <a href="<?php bloginfo('rss2_url'); ?>" class="rss" target="blank"><?php _e('RSS Feed', 'liquorice'); ?></a>
-    <?php endif; ?>
+    
 
 
 

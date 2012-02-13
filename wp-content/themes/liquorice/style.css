@@ -118,6 +118,7 @@ ol{ padding-left:25px; }
 }
 #header-wrap {
 	margin: 0 auto 20px auto;
+        position: relative;
 }
 
 /* the heading and tagline are h1 on homepage and h4 on internal */
@@ -140,10 +141,11 @@ ol{ padding-left:25px; }
 	text-decoration:none;	
 }
 div#site-title-div{
-	width: 571px;
-	height: 110px;	
+	width: 438px;
+	height: 85px;	
 	background: url(images/logos/dcphotobooth-logo-slate-shadow-both.png) no-repeat 0 0; 
 	margin: 0px auto;
+        background-size: 438px 75px;
 }
 /* the tagline is a span within the h1 or h4 */
 #site-description { 
@@ -151,7 +153,7 @@ div#site-title-div{
 	font-size: 20px;
 	color: #0C2B43;
         margin: 0px;
-        height: 60px;
+        height: 55px;
         background: transparent url(images/header-bg.png) no-repeat bottom;
         opacity: 0.35;
 }
@@ -205,7 +207,7 @@ div#site-title-div{
 }
 .main-menu li.current_page_item a{
     color: #CC4D22;
-    text-shadow: 0px 1px 3px #C04821;
+    text-shadow: 0px 1px 1px #C04821;
 }
 /* ==================
 		Level TWO
@@ -276,7 +278,7 @@ div#site-title-div{
 	padding: 0 35px;
 	width: 980px;
         position: relative;
-        min-height: 500px;
+        min-height: 700px;
 }
 #primaryContent.index{
 /*    background: transparent url('images/like-arrow.png') no-repeat 0px 0px;*/
@@ -305,21 +307,16 @@ div#site-title-div{
         font-family: ColaborateRegular;
 }
 #primaryContent h1.postTitle a, 
-#primaryContent h2.postTitle a {
-/*  	background:#0097a5 url(images/title-bg.gif) repeat 0 0; */
-/*	-moz-border-radius: 10px;
-	-o-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius:10px;*/  	
-        color: #2D2D2D;
+#primaryContent h2.postTitle a { 	
+/*        color: #2D2D2D;*/
+        color: #3D3C3B;
 	font-size:30px;
 	font-weight:normal; 
 	line-height:1.5em;
 	padding:10px 0px;
-/*	text-shadow:1px 1px #333;*/
 	text-transform: lowercase;
         font-family: ColaborateRegular;
-        text-shadow: 0px 1px 3px black;
+        text-shadow: 0px 1px 2px #3D3C3B;
 }
 #primaryContent h1.postTitle a:hover, 
 #primaryContent h2.postTitle a:hover,
@@ -377,8 +374,8 @@ div.post {
         padding: 2px;
 	font-size: 16px;
         line-height: 1.3em;
-        
-	color: #2D2D2D;
+        color: #666;
+/*	color: #2D2D2D;*/
 	letter-spacing: .1em;
 }
 .post p {
@@ -583,7 +580,7 @@ h2#comments {
 #footer { 
 	clear: both;
 	font-size: 80%;
-	margin-top:100px;
+	margin:100px 0px 20px 0px;
         padding-top: 10px;
 	text-align:center;
         background:url("images/border.gif") repeat-x scroll left top transparent; 
@@ -697,9 +694,9 @@ a.twitter{
 	height:37px;
 /*        margin-top: 10px;*/
 /*        margin-top: -20px;*/
-        position:fixed;
-        right: 80px;
-        top: 54%;
+        position: absolute;
+        right: -70px;
+        top: 65px;
 }
 a:hover.twitter{
 	background:transparent url(images/socialMediaIcons.gif) 0px -37px no-repeat; 
@@ -718,9 +715,9 @@ a.facebook{
 	height:37px;
 /*        margin-top: 10px;*/
 /*        margin-top: -20px;*/
-        position:fixed;
-        right: 80px;
-        top: 46%;
+        position: absolute;
+        right: -70px;
+        top: 5px;
         
 }
 a:hover.facebook{
@@ -1043,7 +1040,7 @@ div#memberimg1, div #memberimg2, div#memberimg3{
     margin: 0 20px;
 }
 #about-us-main{
-    width: 625px;
+    width: 620px;
     float: left;
     padding: 0 20px;
     margin-bottom: 50px;
@@ -1067,12 +1064,12 @@ div#memberimg1, div #memberimg2, div#memberimg3{
     top: 50px;
     font-size: 25px;
     font-weight: bold;
-    color: white;
-/*    background-color: #0C2B43;*/
-    background-color: #2D2D2D;
+    color: #FCF9F3;
+/*    background-color: #2D2D2D;*/
+    background-color: #3D3C3B;
     padding: 4px;
     text-align: center;
-    text-shadow: 1px 2px 2px #CC4D22;
+/*    text-shadow: 1px 2px 2px #CC4D22;*/
 }
 .post-date .date{
     font-size: 22px;
@@ -1084,4 +1081,22 @@ div#memberimg1, div #memberimg2, div#memberimg3{
 .dc-border{
     background: url("images/border.gif") repeat-x scroll left top transparent;
     margin: 10px 0;
+}
+
+.sample-gallery-container{
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
+.sample-gallery-container .ui-dialog-titlebar{
+    display: none;
+}
+img#main-sample-image{
+    width: 400px;
+    height: 600px;
+    margin-bottom: 10px;
+}
+#main-image-dialog{
+    font-size: 12px;
+    color: #666666;
+    font-style: italic;
 }

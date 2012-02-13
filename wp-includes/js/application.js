@@ -11,31 +11,24 @@ $(function(){
         closeOnEscape: true,
 //        title: '<%=  image_tag("navbar/logintitle.png") %>',
         closeText: "",
-        width: 550,
-        height: 810,
+        width: 440,
+        height: 640,
         modal: true,
         autoOpen: false,
         resizable: false,
-        position: 'center'
+        position: 'center',
+        dialogClass: 'sample-gallery-container'
     });
     
     $('.sample-gallery').click(function(){
         $('#main-sample-image').attr('src',$(this).attr('src'));
-        $('#main-image-dialog').dialog('open');        
+        $('#main-image-dialog').dialog('open'); 
+        
+        //Attach click listener to overlay only after its been loaded
+        $('.ui-widget-overlay').click(function() { 
+            $('#main-image-dialog').dialog('close'); 
+        });
     });
     
-    $('a.sample-gallery').click(function(e){
-        console.log('Click');
-        e.preventDefault();
-    });
     
-    $(".ui-widget-overlay").click(function() { 
-        console.log("Clicked");
-        $('#main-image-dialog').dialog("close"); 
-    });
-    
-    $('#main-image-dialog').bind('clickoutside', function(e){
-        $(this).dialog('close');
-        console.log("Clicked");
-    });
 });
