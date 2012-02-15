@@ -1,0 +1,59 @@
+/* 
+    Document   : index.css
+    Created on : Feb 15, 2012, 4:44:13 PM
+    Author     : paul
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#header-wrap {
+	margin: 0 auto 20px auto;
+        position: relative;
+        float: none;
+        width: auto;
+        padding: 0;
+        background: none;
+}
+div#site-title-div{
+	width: 438px;
+	height: 85px;	
+	margin: 0px auto;
+        background-size: 438px 75px;
+}
+.main-menu {
+	background: url(images/nav-bg.gif) repeat-x scroll left top transparent;
+	width: 970px;
+        font-size: 18px;
+	margin:0 auto;
+	float:none;
+}
+.main-menu ul{
+    width: 744px;
+}
+.main-menu li a {
+        border-radius:0px;
+        padding:12px 15px;
+}
+#site-title, 
+#site-description {
+    margin:10px auto 0; 
+    float:none;
+}
+#site-description { 
+	display: block;
+	font-size: 20px;
+	color: #0C2B43;
+        margin: 0px;
+        height: 55px;
+        background: transparent url(images/header-bg.png) no-repeat bottom;
+        opacity: 0.35;
+}
+
+a.twitter{
+	right: -75px;
+        top: 75px
+}
+a.facebook{
+	right: -75px;
+        top: 15px;        
+}

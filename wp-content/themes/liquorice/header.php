@@ -11,10 +11,9 @@
         
         <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?> <?php if (!wp_title('', true, 'left')) ; { ?> | <?php bloginfo('description'); ?> <?php } ?></title>
         
+        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
         <?php if(is_home()){ ?>
-            <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
-        <?php }else{ ?>            
-            <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/liquorice/style-2.css" />
+            <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/liquorice/index.css" />
         <?php } ?>
         
         <!--[if IE]>
@@ -24,6 +23,7 @@
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="/wp-includes/js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
         <script src="/wp-includes/js/application.js"></script>
+        <script src="/wp-includes/js/jquery/jquery.cycle.all.js"></script>
         
 	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin' rel='stylesheet' type='text/css'>
         <link href='/wp-includes/css/jquery-ui-1.8.17.custom.css' rel='stylesheet' type='text/css'>
@@ -130,6 +130,4 @@
 //                      $(this).css('background-color','transparent');
 //                  });
 //                });
-
-                console.log("Window width: "+$(window).width());
             </script>
