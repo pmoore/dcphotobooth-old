@@ -294,14 +294,12 @@ div#site-title-div{
 	 padding: 0;
 }
 #primaryContent h1.postTitle,
-#primaryContent h2.postTitle { 
-	font-size: 22px; 
-	
+#primaryContent h2.postTitle { 	
  	text-align: right;
         
  	color: #CC4D22;
         text-shadow: 0px 1px 2px #CC4D22;
-	font-size:30px;
+	font-size:35px;
 	font-weight:normal; 
 	line-height:1.5em;
 	
