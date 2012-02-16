@@ -18,7 +18,7 @@
 	  <?php the_post_thumbnail(); ?>
 	<?php the_content(__('(more...)')); ?></div>
 	<?php wp_link_pages('before=<p class="page-link">&after=</p>&next_or_number=number&pagelink=page %'); ?>
-	  <p class="postMeta">Category <?php the_category(', ') ?> | Tags: <?php the_tags(', '); ?> </p>
+	  <p class="postMeta">Category <?php the_category(', ') ?> | Tags: <?php the_tags(); ?> </p>
       <hr class="noCss" />
 
     </div>
