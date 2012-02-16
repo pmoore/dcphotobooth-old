@@ -395,6 +395,9 @@ div.post {
     float:left;
     margin-bottom:35px;
 }
+.single-post .post{
+    padding: 0 15px;
+}
 .single-post .addthis_toolbox{
     float: right;
     margin-right: 10px;
