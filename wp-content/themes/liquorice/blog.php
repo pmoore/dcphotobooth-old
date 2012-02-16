@@ -5,18 +5,22 @@
 
 get_header();
 ?>
+<!--<h1 class="postTitle page" style="text-align:right">dc photobooth blog</h1>-->
+<!--    <div style="clear:both"></div>-->
 <div id="primaryContent" class="blog-content">
-<?php
-
-$temp = $wp_query;
-$wp_query = null;
-$wp_query = new WP_Query();
-$wp_query->query('posts_per_page=5' . '&paged=' . $paged);
-while ($wp_query->have_posts()) : $wp_query->the_post();
-    ?>
-
-
+    
     <ol id="posts">
+        <?php
+
+        $temp = $wp_query;
+        $wp_query = null;
+        $wp_query = new WP_Query();
+        $wp_query->query('posts_per_page=5' . '&paged=' . $paged);
+        while ($wp_query->have_posts()) : $wp_query->the_post();
+        ?>
+
+
+    
 
 
         <li id="post-<?php the_ID(); ?>" <?php post_class('postWrapper'); ?>>
