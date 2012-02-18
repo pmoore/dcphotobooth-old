@@ -34,6 +34,7 @@ get_header();
                 <?php //the_content(__('(more...)')); ?>
                 <?php echo get_post_meta(get_the_ID(), 'teaser', true); ?>
             </div>
+            <div class="post-read-more"><a href="<?php the_permalink() ?>" rel="bookmark">read more &raquo;</a></div>
             <div class="post-social">
                 <!-- AddThis Button BEGIN -->
                 <div class="addthis_toolbox addthis_default_style ">

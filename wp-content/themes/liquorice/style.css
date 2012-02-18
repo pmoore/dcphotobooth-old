@@ -1141,7 +1141,13 @@ div#memberimg1, div #memberimg2, div#memberimg3{
 .post-date .date{
     font-size: 20px;
 }
-
+.post-read-more{
+    text-align:right;
+    color: #CC4D22;
+    text-shadow: 0px 1px 2px #CC4D22;
+    font-size: 22px;
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+}
 .post-social{
     margin-top: 10px;
 }
