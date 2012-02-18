@@ -277,6 +277,50 @@ div#site-title-div{
 
 /*     MAIN CONTENT    
 ---------------------------- */
+#index-left{
+    float:left;
+    margin-right: 10px;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+#index-right{
+    float: right;
+    width: 580px;
+    margin-left: 20px;
+    padding-top: 5px;
+    margin-top:10px;
+}
+.home-section{
+/*    margin: 10px 0 10px;*/
+}
+.home-section.bottom{
+    margin-left:20px;
+}
+.home-section-header{
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #FCF9F3;
+    margin-bottom: 10px;
+    color: #3D3C3B;
+}
+.home-section-description{
+    margin-bottom: 5px;
+    color: #3D3C3B;
+    font-size: 18px;
+}
+.home-section-action{
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #FCF9F3;
+    text-align: right;
+    color: #CC4D22;
+    padding-right: 30px;
+    margin-bottom: 20px; 
+}
+
+
 #primaryContent {
 	clear:both;
  	float: left;
@@ -772,11 +816,11 @@ a:hover.facebook{
 	padding:20px 40px;
 	text-align:center;
 }
-#primaryContent .error-page h2 {
+.error-page h2 {
 	font: 3em/2em 'Lobster',Georgia,"Times New Roman",Times,serif;
 	text-align:center;
 }
-#primaryContent .error-page h2 span {
+.error-page h2 span {
 	color:#CC4D22; 
 	font-size:2.2em;
 }
@@ -1051,15 +1095,6 @@ a:hover.facebook{
   h2, h3{ page-break-after: avoid; }
 }
 
-#outer-screen-hover{
-    width: 75px;
-    height: 110px;
-    position:absolute;
-    top: 30px;
-    left: 225px;
-    cursor: pointer;
-}
-
 
 /*About Us CSS */
 #member-thumbs{
@@ -1113,6 +1148,9 @@ div#memberimg1, div #memberimg2, div#memberimg3{
     background: url("images/border.gif") repeat-x scroll left top transparent;
     margin: 10px 0;
 }
+.dc-border.home{
+    margin: 5px 0;
+}
 
 .sample-gallery-container{
     -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
@@ -1132,6 +1170,18 @@ img#main-sample-image{
     font-style: italic;
 }
 
+/*.faq-main{
+    background: #E2DBD1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    -moz-box-shadow: 0px 0px 10px #888888;
+    -webkit-box-shadow: 0px 0px 10px #888888;
+    
+    margin: 20px 0 10px 0;
+    text-align:center;
+    padding: 25px 15px;
+    color: #666;
+}*/
 .rates-section{
     background: #E2DBD1;
     border-radius: 5px;
@@ -1224,4 +1274,69 @@ img#main-sample-image{
     padding: 5px;
     line-height: 1.4em;
     resize: none;
+}
+
+.faq-question{
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #FCF9F3;
+    margin-bottom: 10px;
+}
+.faq-answer{
+    margin-bottom: 30px;
+}
+.faq-footer, .faq-header{
+    text-align:center;
+}
+.faq-header{
+    margin: 20px 0 30px 0;
+}
+.faq-main a{
+    font-weight: bold;
+}
+
+.booth-info{
+    position:relative;
+}
+#outer-screen-hover{
+    width: 85px;
+    height: 140px;
+    position: absolute;
+    top: 61px;
+    right: 318px
+}
+#print-tray-hover{
+    width: 65px;
+    height: 40px;
+    position: absolute;
+    top: 260px;
+    right: 318px;
+}
+#curtains-hover{
+    width: 110px;
+    height: 330px;
+    position: absolute;
+    top: 45px;
+    right: 490px;
+}
+#floor-hover{
+    width: 160px;
+    height: 85px;
+    position: absolute;
+    top: 410px;
+    right: 430px;
+}
+.popup {
+    position: absolute;
+    background: #E2DBD1;
+    display: none; /* keeps the popup hidden if no JS available */
+/*    border: 5px solid white;*/
+/*    border-width: 5px;*/
+    box-shadow: 0px 0px 5px #888888;
+    -moz-box-shadow: 0px 0px 5px #888888;
+    -webkit-box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+    padding: 5px;
+    width: 175px;
 }

@@ -8,6 +8,44 @@
 <!--      <img src="wp-content/themes/liquorice/images/like-arrow.png" id="social-like-arrow">-->
 <!--      <img src="wp-content/themes/liquorice/images/booth/stock-dark-2-small.png" class="stock-img-2">-->
 <!--      <img src="wp-content/themes/liquorice/images/booth/stock-dark-small.png" class="stock-img">-->
+      
+      <div id="index-left" style="margin-left: 20px;">
+          <img src="/wp-content/uploads/2012/01/stock-dark-5.png" class="postimg" width="340" height="530">
+      </div>
+      
+      <div id="index-right">
+          <div class="home-section">
+              <div class="home-section-header">1) why dc photobooth?</div>
+              <div class="home-section-description">With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible</div>
+              <div class="home-section-action"><a href="/sample-galleries">check out our photos &raquo;</a></div>
+          </div>
+          <div class="dc-border home">&nbsp;</div>
+          <div class="home-section">
+              <div class="home-section-header">2) book us for your event?</div>
+              <div class="home-section-description">Finally come to your senses and realize we're the most fun and have the best photobooth in town?  Great!  Now check out our packages to find out which one is best for your event</div>
+              <div class="home-section-action"><a href="/photobooth-packages">choose a package &raquo;</a></div>
+              <div class="home-section-description">Once you have a package in mind, give us a call or shoot us a message to start the booking process.  Feel free to bring up any questions or concerns.</div>
+              <div class="home-section-action"><a href="/contact">shoot us a message &raquo;</a></div>
+          </div>
+          <div class="dc-border home">&nbsp;</div>
+          <div class="home-section">
+              <div class="home-section-header">3) find your event photos!</div>
+              <div class="home-section-description">We host all images from our events on a secure, password protected location.  To view your event's photos you'll just need the password provided to you by DC Photobooth at the time of the event.</div>
+              <div class="home-section-action">find my photos &raquo;</div>
+          </div>
+          <div class="dc-border home">&nbsp;</div>
+          
+          
+      </div>
+      
+      <?php $options = get_option('liquorice_theme_options'); ?>
+      <div style="clear:both"></div>
+      <div class="home-section bottom">
+        <div class="home-section-header">4) keep up with us!</div>
+        <div class="home-section-description">Follow our blog to see where we've been, where we're going and to check out some of our images from past events!  Also be sure to follow our Facebook and Twitter pages for chances to win great prizes!</div>
+        <div class="home-section-action"><a href="<?php echo $options['facebookurl']; ?>">facebook</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="<?php echo $options['twitterurl']; ?>">twitter</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="/blog">blog &raquo;</a></div>
+      </div>
+      
   </div>
   
 <?php
