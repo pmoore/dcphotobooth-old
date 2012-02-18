@@ -33,7 +33,7 @@ $(function(){
     $('#contact-form').submit(function(){
         console.log("form submitting...");
         $.get(
-            'wp-content/themes/liquorice/mail.php',
+            '/wp-content/themes/liquorice/mail.php',
             {
                 from: $('#usermail').val(),
                 subject: $('#subject').val(),
