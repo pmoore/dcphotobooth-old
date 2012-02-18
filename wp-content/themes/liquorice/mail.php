@@ -3,11 +3,20 @@
     $to = "pmoore@weddingwire.com";
     $subject = $_POST["subject"];
     $website = $_POST["website"];
-    $date = $_POST["event_date"];
+    $date = $_POST["date"];
     $message = $_POST["message"];
     $headers = 'From: '.$from;
-
-    if(mail($to, $subject,$message, $headers)){
+    
+    $full_message = "";
+    if($_POST["website"]!=""){
+        $full_message .= "Lead website: ".$website."\n";
+    }
+    if($_POST["date"]!=""){
+        $full_message .= "Event date: ".$date."\n";
+    }
+    $full_message .= $message;
+    
+    if(mail($to, $subject,$full_message, $headers)){
         echo "mail successful send";
     }
     else{
