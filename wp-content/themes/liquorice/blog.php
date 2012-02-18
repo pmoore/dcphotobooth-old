@@ -49,7 +49,7 @@ get_header();
             </div>
             
                 <?php wp_link_pages('before=<p class="page-link">&after=</p>&next_or_number=number&pagelink=page %'); ?>
-            <p class="postMeta">Category <?php the_category(', ') ?> | Tags: <?php the_tags(', '); ?> | <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></p>
+            <p class="postMeta">Category <?php the_category(', ') ?> | Tags: <?php the_tags(); ?> | <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></p>
 
             <div class="dc-border">&nbsp;</div>
         </li>
