@@ -12,10 +12,10 @@
     }
     else{
         echo "there’s some errors to send the mail, verify your server options. 
-From: ".$from.", 
-To: ".$to.", 
-Subject: ".$subject.", 
-Message: ".$message;
+        From: ".$from.", 
+        To: ".$to.", 
+        Subject: ".$subject.", 
+        Message: ".$message;
     }
     
 ?>
