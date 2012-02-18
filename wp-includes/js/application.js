@@ -31,7 +31,6 @@ $(function(){
     });
     
     $('#contact-form').submit(function(){
-        console.log("form submitting..."+$('#usermail').val());
         $.post(
             '/wp-content/themes/liquorice/mail.php',
             {
@@ -65,7 +64,6 @@ $(function(){
     $('.booth-info').each(function () {
         var trigger = $('.trigger', this);
 //        var popup = $('.popup', this).css('opacity', 0);
-        console.log(trigger);
 
         trigger.each(function(index, trig){
             var pop = $(trig).next().css('opacity', 0);;

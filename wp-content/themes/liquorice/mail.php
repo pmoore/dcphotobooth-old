@@ -1,6 +1,6 @@
 <?php
     $from = $_POST['from'];
-    $to = "pmoore@weddingwire.com";
+    $to = "info@dmvphotobooths.com";
     $subject = $_POST["subject"];
     $website = $_POST["website"];
     $date = $_POST["date"];
@@ -19,7 +19,7 @@
     $full_message .= $message_footer;
     
     if(mail($to, $subject,$full_message, $headers)){
-        echo "mail successful send";
+        echo "Message was successfully sent!";
     }
     else{
         echo "there’s some errors to send the mail, verify your server options. 
@@ -30,5 +30,3 @@
     }
     
 ?>
-
-Email from <?php echo $from ?>
