@@ -30,5 +30,23 @@ $(function(){
         });
     });
     
+    $('#contact-form').submit(function(){
+        console.log("form submitting...");
+        $.get(
+            'wp-content/themes/liquorice/mail.php',
+            {
+                from: $('#usermail').val(),
+                subject: $('#subject').val(),
+                website: $('#usersite').val(),
+                date: $('#userdate').val(),
+                message: $('#message').val()
+            },
+            function(){
+                alert('Message sent');
+            }
+        );  
+        return false;
+    });
+    
     
 });
