@@ -31,8 +31,8 @@ $(function(){
     });
     
     $('#contact-form').submit(function(){
-        console.log("form submitting...");
-        $.get(
+        console.log("form submitting..."+$('#usermail').val());
+        $.post(
             '/wp-content/themes/liquorice/mail.php',
             {
                 from: $('#usermail').val(),
@@ -41,8 +41,8 @@ $(function(){
                 date: $('#userdate').val(),
                 message: $('#message').val()
             },
-            function(){
-                alert('Message sent');
+            function(response){
+                alert(response);
             }
         );  
         return false;
