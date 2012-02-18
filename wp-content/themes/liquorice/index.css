@@ -18,7 +18,7 @@ div#site-title-div{
 	width: 438px;
 	height: 85px;	
 	margin: 0px auto;
-        background-size: 438px 75px;
+        background: url(images/logos/dcphotobooth-logo-slate-shadow-both-home.png) no-repeat 0 0;
 }
 .main-menu {
 	background: url(images/nav-bg.gif) repeat-x scroll left top transparent;
