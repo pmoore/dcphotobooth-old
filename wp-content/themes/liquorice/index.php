@@ -31,7 +31,7 @@
           <div class="home-section">
               <div class="home-section-header">3) find your event photos!</div>
               <div class="home-section-description">We host all images from our events on a secure, password protected location.  To view your event's photos you'll just need the password provided to you by DC Photobooth at the time of the event.</div>
-              <div class="home-section-action">find my photos &raquo;</div>
+              <div class="home-section-action"><a href="http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/" target="blank">find my photos &raquo;</a></div>
           </div>
           <div class="dc-border home">&nbsp;</div>
           
