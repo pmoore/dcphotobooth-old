@@ -6,6 +6,12 @@
 
 /*jQuery initializers*/
 $(function(){
+    $('#index-header').hover(function(){
+        $(this).find('.home-section-action').css('text-decoration','underline');
+    },
+    function(){
+        $(this).find('.home-section-action').css('text-decoration','none');
+    });
     
     $('#main-image-dialog').dialog({
         closeOnEscape: true,

@@ -9,6 +9,16 @@
 <!--      <img src="wp-content/themes/liquorice/images/booth/stock-dark-2-small.png" class="stock-img-2">-->
 <!--      <img src="wp-content/themes/liquorice/images/booth/stock-dark-small.png" class="stock-img">-->
       
+      <a href="http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/" style="text-decoration: none; float:left;" target="blank">
+      <div id="index-header">
+          <div class="home-section-header">Sheraton Baltimore North Winter Bridal Show</div>          
+          <div class="home-section-description">Looking for your photos from the Sheraton Baltimore North Winter Bridal Show?  Look no further!  Click here to get to your photos using the password provided at the Bridal Show!</div>          
+          <div class="home-section-description"  style="text-align:center"><img src="/wp-content/themes/liquorice/images/bridal_shows/sheraton-horizontal.png" style="margin:10px 0"></div>
+          <div class="home-section-action" style="padding-right: 0px; margin-bottom: 0px;">find my photos &raquo;</div>
+      </div>
+      </a>
+      <div style="clear:both"></div>
+      
       <div id="index-left" style="margin-left: 20px;">
           <img src="/wp-content/uploads/2012/01/stock-dark-5.png" class="postimg" width="340" height="530">
       </div>
