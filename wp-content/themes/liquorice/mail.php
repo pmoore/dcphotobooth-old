@@ -5,7 +5,7 @@
     $website = $_POST["website"];
     $date = $_POST["date"];
     $message = $_POST["message"];
-    $message_footer = "This message was auto generated from www.dc-photobooth.com.  Don't be an asshole and respond to it ASAP.";
+    $message_footer = "This message was auto generated from www.dc-photobooth.com.";
     $headers = 'From: '.$from;
     
     $full_message = "";
