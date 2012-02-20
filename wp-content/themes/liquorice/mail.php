@@ -1,4 +1,5 @@
 <?php
+    $name = $_POST['name'];
     $from = $_POST['from'];
     $to = "info@dmvphotobooths.com";
     $subject = $_POST["subject"];
@@ -9,6 +10,9 @@
     $headers = 'From: '.$from;
     
     $full_message = "";
+    if($_POST["name"]!=""){
+        $full_message .= "Name: ".$name."\n";
+    }
     if($_POST["website"]!=""){
         $full_message .= "Lead website: ".$website."\n";
     }

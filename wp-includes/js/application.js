@@ -40,6 +40,7 @@ $(function(){
         $.post(
             '/wp-content/themes/liquorice/mail.php',
             {
+                name: $('#username').val(),
                 from: $('#usermail').val(),
                 subject: $('#subject').val(),
                 website: $('#usersite').val(),
