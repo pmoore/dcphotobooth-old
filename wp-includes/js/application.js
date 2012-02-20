@@ -123,6 +123,7 @@ $(function(){
             });
         });
         
+        
     });
     
     var all_showing = false;
@@ -160,4 +161,14 @@ $(function(){
         
     });
     
-});
+    var navul = $('#main-menu').find('ul');
+//    console.log($('#main-menu').width());
+//    setTimeout(console.log(navul.width()), 5000);
+//    setTimeout(console.log($('#main-menu').width() - navul.width()), 6000);
+    setTimeout(function() {
+        $('#main-menu').find('ul').css('margin-left',($('#main-menu').width()-$('#main-menu').find('ul').width())/2+"px");
+        $('#main-menu').find('ul').css('visibility','visible');
+    }, 100);
+    
+    
+}); //end initializers

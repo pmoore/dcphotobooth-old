@@ -97,8 +97,8 @@
                     <?php } ?>
                     
                     <!--by default your pages will be displayed unless you specify your own menu content under Menu through the admin panel-->
-                    <div class="main-menu">
-<?php wp_page_menu(array('sort_column' => 'menu_order', 'container_class' => 'menu-header')); ?>
+                    <div class="main-menu" id="main-menu">
+                        <?php wp_page_menu(array('sort_column' => 'menu_order', 'container_class' => 'menu-header')); ?>
                     </div>
                 </div> <!-- end #header-->
 

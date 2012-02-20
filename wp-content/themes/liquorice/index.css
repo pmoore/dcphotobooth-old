@@ -29,7 +29,9 @@ div#site-title-div{
 	float:none;
 }
 .main-menu ul{
-    width: 690px;
+    width: auto;
+    float: left;
+    visibility: hidden;
 }
 .main-menu li a {
         border-radius:0px;
