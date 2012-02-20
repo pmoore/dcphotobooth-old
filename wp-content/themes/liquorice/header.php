@@ -8,6 +8,9 @@
         <meta name="keywords" content="dc, va, md, washington, virginia, maryland, photobooth, photobooths, wedding, weddings, corporate, party, parties, dc photobooth, dc photobooths, washington dc photobooth, washington dc photobooths, washington d.c. photobooth, washington d.c. photobooths, virginia photobooths, virginia photobooth, va photobooths, va photobooth, northern virginia photobooths, northern virginia photobooth, arlington photobooth, arlington photobooths, alexandria photobooth, alexandria photobooths, maryland photobooth, maryland photobooths, dc wedding photobooths" />
         <meta name="description" content="Make your event more fun and memorable with DC Photobooths!  With one of the best photobooths in the business, DC Photobooths provides professional grade photographs with fun props while maintaining a professional and customizable decor that is sure to blend in perfectly with your event." />
 
+        <script type="text/javascript" src="http://static.weddingwire.com/static/js/widgets/mobileRedirect.js"></script><script type="text/javascript"><!--
+        WeddingWire.mobile.detectMobile({"storefrontURL":"/website/dc-photobooth-washington-baltimore/d2e61fd51540494f.html"});
+        --></script>
         
         <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?> <?php if (!wp_title('', true, 'left')) ; { ?> | <?php bloginfo('description'); ?> <?php } ?></title>
         
