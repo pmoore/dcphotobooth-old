@@ -504,7 +504,7 @@ li.postWrapper.sticky {
         width: 300px;
 }
 .pagination-newer a { 
-	background: transparent url(images/pagination-left.jpg) no-repeat center left; 
+	background: transparent url(images/pagination-left.png) no-repeat center left; 
 	padding:5px 0 5px 30px;
 	width:105px;
 }
@@ -514,7 +514,7 @@ li.postWrapper.sticky {
     width: 300px;
 }
 .pagination-older a { 
-	background: transparent url(images/pagination-right.jpg) no-repeat center right ; 
+	background: transparent url(images/pagination-right.png) no-repeat center right ; 
 	float:right;
 	padding-right:30px;
 	width:100%;
