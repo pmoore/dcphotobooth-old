@@ -22,11 +22,11 @@
                     <div class="booth-popup-content" id="screen-popup" style="height:380px">Customizable slideshow showing your events images, or custom logo/graphics.<br/><br/>
                         Like so:
                         <div style="margin:10px 0 10px 0px; text-align:center" id="booth-screen-slideshow">
-                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg" class="booth-slideshow-img" width="175">
-                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth2.jpg" class="booth-slideshow-img" width="175">
-                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth26.jpg" class="booth-slideshow-img" width="175">
-                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth20.jpg" class="booth-slideshow-img" width="175">
-                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth11.jpg" class="booth-slideshow-img" width="175">
+                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg" class="booth-slideshow-img" width="175" height="260">
+                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth2.jpg" class="booth-slideshow-img" width="175" height="260">
+                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth26.jpg" class="booth-slideshow-img" width="175" height="260">
+                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth20.jpg" class="booth-slideshow-img" width="175" height="260">
+                            <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth11.jpg" class="booth-slideshow-img" width="175" height="260">
                         </div>
 
                     </div>
