@@ -1260,47 +1260,118 @@ img#main-sample-image{
     font-weight: bold;
 }
 
-.booth-info{
+#booth-info{
     position:relative;
+    width: 470px;
+    float:left;
+    margin-right: 15px;
+}
+#booth-info-right{
+    float:right;
+    width: 485px;
+    margin-top: 20px;
+}
+.booth-info-header{
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #666;
+    margin: 20px 0 0 0;
+}
+.booth-info-description{
+    font-family: 'ColaborateLightRegular';
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+.booth-info-description ul{
+    list-style: disc;
+}
+.booth-info-description ul li{
+    margin-left: 20px;
 }
 #outer-screen-hover{
-    width: 85px;
-    height: 140px;
+    width: 105px;
+    height: 160px;
     position: absolute;
-    top: 61px;
-    right: 318px
+    top: 40px;
+    right: 41px;
 }
 #print-tray-hover{
-    width: 65px;
+    width: 70px;
     height: 40px;
     position: absolute;
-    top: 260px;
-    right: 318px;
+    top: 272px;
+    right: 50px;
 }
 #curtains-hover{
-    width: 110px;
-    height: 330px;
+    width: 120px;
+    height: 375px;
     position: absolute;
-    top: 45px;
-    right: 490px;
+    top: 15px;
+    right: 242px;
 }
 #floor-hover{
-    width: 160px;
-    height: 85px;
+    width: 170px;
+    height: 100px;
     position: absolute;
-    top: 410px;
-    right: 430px;
+    top: 425px;
+    right: 182px;
 }
-.popup {
+#camera-hover{
+    width: 40px;
+    height: 40px;
     position: absolute;
-    background: #E2DBD1;
-    display: none; /* keeps the popup hidden if no JS available */
-/*    border: 5px solid white;*/
-/*    border-width: 5px;*/
-    box-shadow: 0px 0px 5px #888888;
-    -moz-box-shadow: 0px 0px 5px #888888;
-    -webkit-box-shadow: 0px 0px 5px #888888;
-    border-radius: 5px;
-    padding: 5px;
-    width: 175px;
+    top: 152px;
+    right: 157px;
+}
+#inner-screen-hover{
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    top: 201px;
+    right: 157px;
+}
+#lighting-hover{
+    width: 40px;
+    height: 109px;
+    position: absolute;
+    top: 40px;
+    right: 157px;
+}
+#panel-hover{
+    width: 118px;
+    height: 168px;
+    position: absolute;
+    top: 335px;
+    right: 47px;
+}
+#panel-hover-2{
+    width: 65px;
+    height: 225px;
+    position: absolute;
+    top: 290px;
+    right: 370px;
+}
+#panel-hover-3{
+    width: 65px;
+    height: 225px;
+    position: absolute;
+    top: 37px;
+    right: 370px;
+}
+#booth-image-container{
+/*    background: transparent url('/wp-content/themes/liquorice/images/booth/sample-booth-2.jpg') no-repeat 0 0;*/
+    position: relative;
+    width: 470px;
+}
+.booth-trigger{
+/*    background: red;*/
+}
+.booth-popup-content{
+    font-family: 'ColaborateRegular';
+    font-size: 16px;
+    display:none;
+    text-align: center;
+}
+.booth-slideshow-img{
+    border:10px solid silver;
 }
