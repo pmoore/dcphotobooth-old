@@ -168,7 +168,7 @@ $(function(){
     setTimeout(function() {
         $('#main-menu').find('ul').css('margin-left',($('#main-menu').width()-$('#main-menu').find('ul').width())/2+"px");
         $('#main-menu').find('ul').css('visibility','visible');
-    }, 100);
+    }, 200);
     
     
 }); //end initializers
