@@ -43,7 +43,6 @@ get_header();
                     <a class="addthis_button_facebook"></a>
                     <a class="addthis_button_twitter"></a>
                     <a class="addthis_button_gmail"></a>
-                    <a class=""></a>
                     <a class="addthis_button_compact"></a>
                     <a class="addthis_counter addthis_bubble_style"></a>
                 </div>
