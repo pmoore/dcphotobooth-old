@@ -53,7 +53,7 @@
       <div class="home-section bottom">
         <div class="home-section-header">4) keep up with us!</div>
         <div class="home-section-description">Follow our blog to see where we've been, where we're going and to check out some of our images from past events!  Also be sure to follow our Facebook and Twitter pages for chances to win great prizes!</div>
-        <div class="home-section-action"><a href="<?php echo $options['facebookurl']; ?>">facebook</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="<?php echo $options['twitterurl']; ?>">twitter</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="/blog">blog &raquo;</a></div>
+        <div class="home-section-action"><a href="<?php echo $options['facebookurl']; ?>" target="blank">facebook</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="<?php echo $options['twitterurl']; ?>" target="blank">twitter</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="/blog">blog &raquo;</a></div>
       </div>
       
   </div>
