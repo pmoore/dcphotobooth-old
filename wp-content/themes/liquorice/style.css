@@ -390,6 +390,7 @@ div.post {
         color: #3d3c3b;
 /*	color: #2D2D2D;*/
 	letter-spacing: .1em;
+        margin-bottom: 15px;
 }
 .post p {
 	margin-bottom:20px;        
