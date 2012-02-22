@@ -19,8 +19,14 @@
       </a>
       <div style="clear:both"></div>
       
-      <div id="index-left" style="margin-left: 20px;">
+      <div id="index-left" class="home-slideshow" style="margin-left: 20px;">
           <img src="/wp-content/uploads/2012/01/stock-dark-5.png" class="postimg" width="340" height="530">
+          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth23.jpg" class="postimg" width="340" height="530">
+          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg" class="postimg" width="340" height="530">
+          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21.jpg" class="postimg" width="340" height="530">
+          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg" class="postimg" width="340" height="530">
+          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17.jpg" class="postimg" width="340" height="530">
+          
       </div>
       
       <div id="index-right">

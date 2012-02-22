@@ -6,6 +6,10 @@
 
 /*jQuery initializers*/
 $(function(){
+    $('.home-slideshow').cycle({
+        fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+    });
+    
     $('#index-header').hover(function(){
         $(this).find('.home-section-action').css('text-decoration','underline');
     },
