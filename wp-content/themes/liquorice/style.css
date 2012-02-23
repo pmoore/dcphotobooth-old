@@ -42,6 +42,7 @@ body {
 a {
 	color:#CC4D22;
 	text-decoration: none;
+        outline:none;
 }
 a:hover { 
 	-webkit-transition: background 0.2s linear;
@@ -347,6 +348,7 @@ div#site-title-div{
     margin-bottom: 10px;
     font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
     text-align: right;
+    float: right;
 }
 
 #primaryContent h3 {

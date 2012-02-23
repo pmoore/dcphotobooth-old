@@ -11,6 +11,7 @@
 <div id="primaryContent">
     <div class="post">
         <h1 class="postTitle page">the booth</h1>
+        <div style="clear:both"></div>
 
         <div id="booth-info">
             <p style="text-align: center; font-size: 14px; margin-top:-20px; width: 470px">Hover over areas of the photobooth to learn more!</p>

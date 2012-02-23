@@ -20,20 +20,46 @@ $(function(){
         $(this).find('.home-section-action').css('text-decoration','none');
     });
     
+    /* Sample Gallery Initializers */
     $('#main-image-dialog').dialog({
         closeOnEscape: true,
-//        title: '<%=  image_tag("navbar/logintitle.png") %>',
         closeText: "",
         width: 440,
-        height: 640,
+        height: 680,
         modal: true,
         autoOpen: false,
         resizable: false,
         position: 'center',
-        dialogClass: 'sample-gallery-container'
+        dialogClass: 'sample-gallery-container',
+        close: function(){ $('#main-image-share').empty(); }
+    });
+    
+    
+    /* AddThis with Pinterest with each sample image */
+    $('.sample-gallery').each(function(index){
+        $(this).data('social_clone',$('#image_social_toolbox').clone());
+        $(this).data('social_clone').css({
+            display: 'none',
+            marginTop: '0px',
+            float: 'none'            
+        });
+        $(this).data('social_clone').find('a.addthis_button_pinterest').attr('pi:pinit:media',$(this).attr('src'));        
+        $(this).data('social_clone').find('a.addthis_button_facebook_like').attr({
+            'addthis:url': $(this).attr('src'),
+            'addthis:title': $(this).attr('title')
+        });
+        $(this).data('social_clone').find('a.addthis_button_tweet').attr({
+            'addthis:url': $(this).attr('src'),
+            'addthis:title': $(this).attr('title')
+        });        
+        $(this).closest('.post').append($(this).data('social_clone'));     
     });
     
     $('.sample-gallery').click(function(){
+        $(this).data('social_clone').appendTo($('#main-image-share'));
+        $(this).data('social_clone').show();
+
+        /*change main image*/
         $('#main-sample-image').attr('src',$(this).attr('src'));
         $('#main-image-dialog').dialog('open'); 
         
@@ -43,6 +69,8 @@ $(function(){
         });
     });
     
+    
+    /* Contact Form Initializers */
     $('#contact-form').submit(function(){
         $.post(
             '/wp-content/themes/liquorice/mail.php',

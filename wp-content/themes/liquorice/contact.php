@@ -10,6 +10,8 @@ get_header();
     <div class="post">
 
         <h1 class="postTitle page">send us a message!</h1>
+        
+        <div style="clear:both"></div>
         <div id="contact-form-container"><form id="contact-form" class="contact-form" action=" " method="post">
                 <div id="contact-form-left"><label class="iconic user" for="username"> Name <span class="required">*</span></label><br />
                     <input id="username" type="text" name="username" placeholder="What can we call you?"/>
