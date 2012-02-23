@@ -1380,3 +1380,16 @@ img#main-sample-image{
 .booth-slideshow-img{
     border:10px solid silver;
 }
+
+/*SEO CSS*/
+#home-seo-container{
+    overflow: hidden;
+    line-height: 1.4em;
+    color: #3D3C3B;
+    font-size: 14px;
+    margin-right:10px;
+}
+.seo-text{
+    overflow: hidden;
+    height: 1.4em;
+}

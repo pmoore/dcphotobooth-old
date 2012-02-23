@@ -173,4 +173,18 @@ $(function(){
         });
     });
     
+    
+    /*SEO Initializers*/
+    $('.seo-text').hover(
+        function(){
+            $(this).stop().animate({
+                height: '150px'
+            }, 1500);
+        },
+        function(){
+            $(this).stop().animate({
+                height: '15px'
+            }, 1500);
+    });
+    
 }); //end initializers
