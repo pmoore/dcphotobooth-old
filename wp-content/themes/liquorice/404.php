@@ -1,23 +1,21 @@
 <?php get_header(); ?>
+<div style="clear:both"></div>
 
 <div id="content" class="error-page">
- <h2><span>Area 404</span> <br /> Nonexistent Area</h2>
- <p><strong>This is  a restricted area. No trespassing beyond this point. This place does not exist. You were never here.</strong><br />
+ <h2><span>404</span> <br /> 
+ <img src="http://test.dcphotobooths.com:8085/wp-content/uploads/2012/02/paulmoore-150x150.jpg" alt="Paul Moore - Supreme Emporer of DC Photobooth" title="Paul Moore" width="200" height="200" class="size-thumbnail wp-image-106 postimg memberimg"><br />    
+ Nonexistent Area</h2>
+ 
+ 
+ 
+ <p><strong>Oops!  Not sure what you were looking for, but it doesn't seem to be here!</strong><br />
 </p>
 <dl>
-	<dt>Leave now by either:</dt>
-    	<dd> Going <a href="<?php echo home_url(); ?>">HOME</a> 
- 		or try doing a Search.</dd>
+	<dt><a href="<?php echo home_url(); ?>">Let's head back home, shall we?</a></dt>
+    	
  </dl>
 
  
-     <form id="searchform" method="get" action="<?php echo home_url();  ?>">
-	    <div>
-		    <input type="text" name="s" id="s" size="25" />
-		    <input type="submit" value="<?php _e('Search'); ?>" id="error-search" />
-	    </div>
-	    </form>
-
  
 </div> <!-- end #content -->
 

@@ -149,7 +149,7 @@ ol{ padding-left:25px; }
 div#site-title-div{
 	width: 322px;
 	height: 65px;	
-	background: url(images/logos/dcphotobooth-logo-slate-shadow-both.png) no-repeat 0 0;         
+	background: url(images/logos/dcphotobooth-logo-slate-shadow-both-site.png) no-repeat 0 0;         
 	background-size: 322px 55px;
 	margin-left: 20px;
 	margin-top: 5px;
@@ -277,6 +277,7 @@ div#site-title-div{
 
 /*     MAIN CONTENT    
 ---------------------------- */
+
 #primaryContent {
 	clear:both;
  	float: left;
@@ -386,9 +387,10 @@ div.post {
         padding: 2px;
 	font-size: 16px;
         line-height: 1.3em;
-        color: #666;
+        color: #3d3c3b;
 /*	color: #2D2D2D;*/
 	letter-spacing: .1em;
+        margin-bottom: 15px;
 }
 .post p {
 	margin-bottom:20px;        
@@ -409,7 +411,7 @@ div.post {
 	text-align: left;
 }
 img {
-	background:#e2dbd1; 
+/*	background:#e2dbd1; */
 	border: 1px solid #d1bfa6;
 	margin:0 10px 10px 0; 
 	padding:3px; 
@@ -503,7 +505,7 @@ li.postWrapper.sticky {
         width: 300px;
 }
 .pagination-newer a { 
-	background: transparent url(images/pagination-left.jpg) no-repeat center left; 
+	background: transparent url(images/pagination-left.png) no-repeat center left; 
 	padding:5px 0 5px 30px;
 	width:105px;
 }
@@ -513,7 +515,7 @@ li.postWrapper.sticky {
     width: 300px;
 }
 .pagination-older a { 
-	background: transparent url(images/pagination-right.jpg) no-repeat center right ; 
+	background: transparent url(images/pagination-right.png) no-repeat center right ; 
 	float:right;
 	padding-right:30px;
 	width:100%;
@@ -772,11 +774,11 @@ a:hover.facebook{
 	padding:20px 40px;
 	text-align:center;
 }
-#primaryContent .error-page h2 {
+.error-page h2 {
 	font: 3em/2em 'Lobster',Georgia,"Times New Roman",Times,serif;
 	text-align:center;
 }
-#primaryContent .error-page h2 span {
+.error-page h2 span {
 	color:#CC4D22; 
 	font-size:2.2em;
 }
@@ -1051,15 +1053,6 @@ a:hover.facebook{
   h2, h3{ page-break-after: avoid; }
 }
 
-#outer-screen-hover{
-    width: 75px;
-    height: 110px;
-    position:absolute;
-    top: 30px;
-    left: 225px;
-    cursor: pointer;
-}
-
 
 /*About Us CSS */
 #member-thumbs{
@@ -1105,13 +1098,22 @@ div#memberimg1, div #memberimg2, div#memberimg3{
 .post-date .date{
     font-size: 20px;
 }
-
+.post-read-more{
+    text-align:right;
+    color: #CC4D22;
+    text-shadow: 0px 1px 2px #CC4D22;
+    font-size: 22px;
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+}
 .post-social{
     margin-top: 10px;
 }
 .dc-border{
     background: url("images/border.gif") repeat-x scroll left top transparent;
     margin: 10px 0;
+}
+.dc-border.home{
+    margin: 5px 0;
 }
 
 .sample-gallery-container{
@@ -1132,6 +1134,18 @@ img#main-sample-image{
     font-style: italic;
 }
 
+/*.faq-main{
+    background: #E2DBD1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    -moz-box-shadow: 0px 0px 10px #888888;
+    -webkit-box-shadow: 0px 0px 10px #888888;
+    
+    margin: 20px 0 10px 0;
+    text-align:center;
+    padding: 25px 15px;
+    color: #666;
+}*/
 .rates-section{
     background: #E2DBD1;
     border-radius: 5px;
@@ -1224,4 +1238,140 @@ img#main-sample-image{
     padding: 5px;
     line-height: 1.4em;
     resize: none;
+}
+
+.faq-question{
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+/*    font-weight: bold;*/
+    text-shadow: 1px 1px 1px #666;
+    margin-bottom: 10px;
+}
+.faq-answer{
+    margin-bottom: 30px;
+}
+.faq-footer, .faq-header{
+    text-align:center;
+}
+.faq-header{
+    margin: 20px 0 30px 0;
+}
+.faq-main a{
+    font-weight: bold;
+}
+
+#booth-info{
+    position:relative;
+    width: 470px;
+    float:left;
+    margin-right: 15px;
+}
+#booth-info-right{
+    float:right;
+    width: 485px;
+    margin-top: 20px;
+}
+.booth-info-header{
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #666;
+    margin: 20px 0 0 0;
+}
+.booth-info-description{
+    font-family: 'ColaborateLightRegular';
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+.booth-info-description ul{
+    list-style: disc;
+}
+.booth-info-description ul li{
+    margin-left: 20px;
+}
+#outer-screen-hover{
+    width: 105px;
+    height: 160px;
+    position: absolute;
+    top: 40px;
+    right: 41px;
+}
+#print-tray-hover{
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    top: 272px;
+    right: 50px;
+}
+#curtains-hover{
+    width: 120px;
+    height: 375px;
+    position: absolute;
+    top: 15px;
+    right: 242px;
+}
+#floor-hover{
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    top: 425px;
+    right: 182px;
+}
+#camera-hover{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 152px;
+    right: 157px;
+}
+#inner-screen-hover{
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    top: 201px;
+    right: 157px;
+}
+#lighting-hover{
+    width: 40px;
+    height: 109px;
+    position: absolute;
+    top: 40px;
+    right: 157px;
+}
+#panel-hover{
+    width: 118px;
+    height: 168px;
+    position: absolute;
+    top: 335px;
+    right: 47px;
+}
+#panel-hover-2{
+    width: 65px;
+    height: 225px;
+    position: absolute;
+    top: 290px;
+    right: 370px;
+}
+#panel-hover-3{
+    width: 65px;
+    height: 225px;
+    position: absolute;
+    top: 37px;
+    right: 370px;
+}
+#booth-image-container{
+/*    background: transparent url('/wp-content/themes/liquorice/images/booth/sample-booth-2.jpg') no-repeat 0 0;*/
+    position: relative;
+    width: 470px;
+}
+.booth-trigger{
+/*    background: red;*/
+}
+.booth-popup-content{
+    font-family: 'ColaborateRegular';
+    font-size: 16px;
+    display:none;
+    text-align: center;
+}
+.booth-slideshow-img{
+    border:10px solid silver;
 }
