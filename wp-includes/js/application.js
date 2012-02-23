@@ -183,7 +183,7 @@ $(function(){
         },
         function(){
             $(this).stop().animate({
-                height: '15px'
+                height: '1.4em'
             }, 1500);
     });
     
