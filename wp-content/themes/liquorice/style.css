@@ -1388,8 +1388,15 @@ img#main-sample-image{
     color: #3D3C3B;
     font-size: 14px;
     margin-right:10px;
+    margin-bottom: 20px;
 }
 .seo-text{
     overflow: hidden;
     height: 1.4em;
+}
+.seo-show-more{
+    text-align: right;
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
 }

@@ -175,14 +175,14 @@ $(function(){
     
     
     /*SEO Initializers*/
-    $('.seo-text').hover(
+    $('.seo-container').hover(
         function(){
-            $(this).stop().animate({
+            $(this).find('.seo-text').stop().animate({
                 height: '150px'
             }, 1500);
         },
         function(){
-            $(this).stop().animate({
+            $(this).find('.seo-text').stop().animate({
                 height: '1.4em'
             }, 1500);
     });
