@@ -105,13 +105,44 @@ $(function(){
     
     
     var navul = $('#main-menu').find('ul');
-//    console.log($('#main-menu').width());
-//    setTimeout(console.log(navul.width()), 5000);
-//    setTimeout(console.log($('#main-menu').width() - navul.width()), 6000);
     setTimeout(function() {
         $('#main-menu').find('ul').css('margin-left',($('#main-menu').width()-$('#main-menu').find('ul').width())/2+"px");
         $('#main-menu').find('ul').css('visibility','visible');
-    }, 200);
+    }, 300);
     
+    
+    
+    /* Pinterest button on hover of postimgs */
+    $('.postimg').each(function(index){ 
+        /*Place pinterest button on img*/
+        $(this).data('pinterest_btn',$('#social_toolbox').find('a.addthis_button_pinterest').clone());
+        var p = $(this).position();
+        $(this).data('pinterest_btn').css({
+            display: 'none',
+            position: 'absolute',
+            top: p.top+15,
+            left: p.left+10
+        });  
+        $(this).data('pinterest_btn').attr('pi:pinit:media',$(this).attr('src'));        
+        $(this).closest('.post').append($(this).data('pinterest_btn'));
+        
+        $(this).mouseover(
+            function(){    
+                clearTimeout($(this).data('pinterest_btn').data('pinhide_timeout'+index));
+                $(this).data('pinterest_btn').fadeIn(400);
+        }).mouseout(
+            function(){
+                pin_btn = $(this).data('pinterest_btn');
+                var pinhide_timeout = setTimeout(function(){pin_btn.fadeOut(400)}, 100);
+                $(this).data('pinterest_btn').data('pinhide_timeout'+index, pinhide_timeout);
+        });
+        $(this).data('pinterest_btn').mouseover(
+            function(){
+                clearTimeout($(this).data('pinhide_timeout'+index));
+            }).mouseout(
+            function(){
+                //mouse out handler
+        });
+    });
     
 }); //end initializers

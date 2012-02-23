@@ -14,8 +14,8 @@
       <h1 class="postTitle"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h1>
       <div class="date"><small><?php the_date(); ?> by <?php the_author(); ?></small></div>
       <!-- AddThis Button BEGIN -->
-        <div class="addthis_toolbox addthis_default_style">
-            <a class="addthis_button_pinterest" pi:pinit:url="<?php the_permalink() ?>" pi:pinit:layout="horizontal"></a>
+        <div class="addthis_toolbox addthis_default_style" id="social_toolbox">
+            <a class="addthis_button_pinterest" pi:pinit:url="<?php the_permalink() ?>" pi:pinit:media="" pi:pinit:layout="horizontal"></a>
             <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
             <a class="addthis_button_tweet"></a>
             <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>

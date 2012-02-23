@@ -39,7 +39,7 @@
         
         <?php 
             foreach ( $sample_images as $key=>$img ) { ?>
-                <img src="<?php echo $img ?>" alt="DC Photobooth Sample Images" title="DC Photobooth Sample" width="<?php echo $sample_img_width ?>" height="<?php echo $sample_img_height ?>" class="alignnone size-full postimg sample-gallery<?php if(($key+1)%5==0){ ?> far-right<?php } ?>" />
+                <img src="<?php echo $img ?>" alt="DC Photobooth Sample Images" title="DC Photobooth Sample" width="<?php echo $sample_img_width ?>" height="<?php echo $sample_img_height ?>" class="alignnone size-full pageimg sample-gallery<?php if(($key+1)%5==0){ ?> far-right<?php } ?>" />
             <?php
             }
         ?>

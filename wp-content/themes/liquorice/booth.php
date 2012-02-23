@@ -16,7 +16,7 @@
             <p style="text-align: center; font-size: 14px; margin-top:-20px; width: 470px">Hover over areas of the photobooth to learn more!</p>
                 
                 <div id="booth-image-container">
-                    <img class="wp-image-48 postimg" title="DC Photobooth" src="/wp-content/themes/liquorice/images/booth/sample-booth-2.jpg" alt="First Booth for DC Photobooth" width="450" height="556" />
+                    <img class="wp-image-48 pageimg" title="DC Photobooth" src="/wp-content/themes/liquorice/images/booth/sample-booth-2.jpg" alt="First Booth for DC Photobooth" width="450" height="556" />
                     
                     <div class="booth-trigger" id="outer-screen-hover"></div>
                     <div class="booth-popup-content" id="screen-popup" style="height:380px">Customizable slideshow showing your events images, or custom logo/graphics.<br/><br/>
