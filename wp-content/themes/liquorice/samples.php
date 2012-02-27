@@ -38,7 +38,7 @@
         <h1 class="postTitle page">sample galleries</h1>
         
         <!-- AddThis Button BEGIN -->
-        <div class="addthis_toolbox addthis_default_style" id="image_social_toolbox" style="width:320px; text-align: center; margin: 0px auto; float:left; margin-top: 20px;">
+        <div class="addthis_toolbox addthis_default_style" id="image_social_toolbox" style="width:325px; text-align: center; margin: 0px auto; float:left; margin-top: 20px;">
             <a class="addthis_button_pinterest" pi:pinit:url="<?php the_permalink() ?>" pi:pinit:media="" pi:pinit:layout="horizontal" style="outline:none;"></a>
             <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
             <a class="addthis_button_tweet"></a>
