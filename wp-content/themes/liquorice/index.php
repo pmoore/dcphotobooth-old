@@ -9,7 +9,7 @@
 <!--      <img src="wp-content/themes/liquorice/images/booth/stock-dark-2-small.png" class="stock-img-2">-->
 <!--      <img src="wp-content/themes/liquorice/images/booth/stock-dark-small.png" class="stock-img">-->
       
-      <a href="http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/" style="text-decoration: none; float:left;" target="blank">
+      <a href="http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/" style="text-decoration: none; float:left;" target="blank" id="index-header-link">
       <div id="index-header">
           <div class="home-section-header">Sheraton Baltimore North Winter Bridal Show</div>          
           <div class="home-section-description">Looking for your photos from the Sheraton Baltimore North Winter Bridal Show?  Look no further!  Click here to get to your photos using the password provided at the Bridal Show!</div>          
@@ -19,7 +19,7 @@
       </a>
       <div style="clear:both"></div>
       
-      <div id="index-left" class="home-slideshow" style="margin-left: 20px;">
+      <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
           <img src="/wp-content/uploads/2012/01/stock-dark-5.png" class="pageimg" width="340" height="530">
           <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth23.jpg" class="pageimg" width="340" height="530">
           <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg" class="pageimg" width="340" height="530">
