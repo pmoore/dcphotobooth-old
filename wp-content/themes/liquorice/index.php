@@ -41,7 +41,7 @@
               <div class="home-section-description">Finally come to your senses and realize we're the most fun and have the best photobooth in town?  Great!  Now check out our packages to find out which one is best for your event</div>
               <div class="home-section-action"><a href="/photobooth-packages">choose a package &raquo;</a></div>
               <div class="home-section-description">Once you have a package in mind, give us a call or shoot us a message to start the booking process.  Feel free to bring up any questions or concerns.</div>
-              <div class="home-section-action"><a href="/contact">shoot us a message &raquo;</a></div>
+              <div class="home-section-action"><a href="/contact">send us a message &raquo;</a></div>
           </div>
           <div class="dc-border home">&nbsp;</div>
           <div class="home-section">
