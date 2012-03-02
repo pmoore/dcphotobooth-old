@@ -87,7 +87,7 @@
             </ul>
 
             <div id="header-wrap">
-                <div id="header"> 
+                <div id="header" title="<?php bloginfo('description'); ?>"> 
 <?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'h4'; ?>
                     <<?php echo $heading_tag; ?> id="site-title">
                     <span>
@@ -96,7 +96,7 @@
                     </<?php echo $heading_tag; ?>>
                     
                     <?php if(is_home()){ ?>
-                        <div id="site-description"><?php bloginfo('description'); ?></div>   
+                        <div id="site-description" title="<?php bloginfo('description'); ?>"><?php bloginfo('description'); ?></div>   
                     <?php } ?>
                     
                     <!--by default your pages will be displayed unless you specify your own menu content under Menu through the admin panel-->
