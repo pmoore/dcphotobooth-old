@@ -32,22 +32,22 @@
       <div id="index-right">
           <div class="home-section">
               <div class="home-section-header">1) why dc photobooth?</div>
-              <div class="home-section-description">With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible</div>
-              <div class="home-section-action"><a href="/sample-galleries">check out our photos &raquo;</a></div>
+              <div class="home-section-description">Looking to rent a photobooth for your wedding, corporate party, or other event?  With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible.  </div>
+              <div class="home-section-action"><a href="/sample-galleries" title="Take a look at some of DC Photobooth's photos from past events">check out our photos &raquo;</a></div>
           </div>
           <div class="dc-border home">&nbsp;</div>
           <div class="home-section">
               <div class="home-section-header">2) book us for your event!</div>
               <div class="home-section-description">Finally come to your senses and realize we're the most fun and have the best photobooth in town?  Great!  Now check out our packages to find out which one is best for your event</div>
-              <div class="home-section-action"><a href="/photobooth-packages">choose a package &raquo;</a></div>
+              <div class="home-section-action"><a href="/photobooth-packages" title="More details on the photobooth rental packages we provide">choose a package &raquo;</a></div>
               <div class="home-section-description">Once you have a package in mind, give us a call or shoot us a message to start the booking process.  Feel free to bring up any questions or concerns.</div>
-              <div class="home-section-action"><a href="/contact">send us a message &raquo;</a></div>
+              <div class="home-section-action"><a href="/contact" title="Contact DC Photobooth to learn more about renting a photobooth for your wedding or event">send us a message &raquo;</a></div>
           </div>
           <div class="dc-border home">&nbsp;</div>
           <div class="home-section">
               <div class="home-section-header">3) find your event photos!</div>
               <div class="home-section-description">We host all images from our events on a secure, password protected location.  To view your event's photos you'll just need the password provided to you by DC Photobooth at the time of the event.</div>
-              <div class="home-section-action"><a href="http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/" target="blank">find my photos &raquo;</a></div>
+              <div class="home-section-action"><a href="http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/" target="blank" title="Find the photos ">find my photos &raquo;</a></div>
           </div>
           <div class="dc-border home">&nbsp;</div>
           
