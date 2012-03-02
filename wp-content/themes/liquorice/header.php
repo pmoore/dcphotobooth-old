@@ -9,7 +9,7 @@
         <meta name="description" content="Looking to rent a photobooth for your next event in Northern Virginia, Washington, DC or Baltimore and other southern areas of Maryland?  DC Photobooth is the premiere photobooth rental company for the area.  Rent a photobooth from us to ensure that your event is one your guests will certainly remember!  With one of the best photobooths in the business, DC Photobooth provides professional grade photographs with fun props while maintaining a professional and customizable decor that is sure to blend in perfectly with your event." />
 
         <script type="text/javascript" src="http://static.weddingwire.com/static/js/widgets/mobileRedirect.js"></script><script type="text/javascript"><!--
-        WeddingWire.mobile.detectMobile({"storefrontURL":"/website/dc-photobooth-washington-baltimore/d2e61fd51540494f.html"});
+        WeddingWire.mobile.detectMobile({"storefrontURL":"http://m.weddingwire.com/website/dc-photobooth-washington-baltimore/d2e61fd51540494f.html"});
         --></script>
         
         <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?> <?php if (!wp_title('', true, 'left')) ; { ?> | <?php bloginfo('description'); ?> <?php } ?></title>
