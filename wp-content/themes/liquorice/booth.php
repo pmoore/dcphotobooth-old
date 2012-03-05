@@ -10,7 +10,7 @@
 
 <div id="primaryContent">
     <div class="post">
-        <h1 class="postTitle page">the booth</h1>
+        <h1 class="postTitle page">our photobooth</h1>
         <div style="clear:both"></div>
 
         <div id="booth-info">
