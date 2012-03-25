@@ -37,7 +37,7 @@
           </div>
           <div class="dc-border home">&nbsp;</div>
           <div class="home-section">
-              <div class="home-section-header">2) book us for your event!</div>
+              <div class="home-section-header">2) book us for your event</div>
               <div class="home-section-description">Finally come to your senses and realize we're the most fun and have the best photobooth in town?  Great!  Now check out our packages to find out which one is best for your event</div>
               <div class="home-section-action"><a href="/photobooth-packages" title="Photobooth packages">choose a package &raquo;</a></div>
               <div class="home-section-description">Once you have a package in mind, give us a call or shoot us a message to start the booking process.  Feel free to bring up any questions or concerns.</div>
@@ -45,7 +45,7 @@
           </div>
           <div class="dc-border home">&nbsp;</div>
           <div class="home-section">
-              <div class="home-section-header">3) find your event photos!</div>
+              <div class="home-section-header">3) find your event photos</div>
               <div class="home-section-description">We host all images from our events on a secure, password protected location.  To view your event's photos you'll just need the password provided to you by DC Photobooth at the time of the event.</div>
               <div class="home-section-action"><a href="http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/" target="blank" title="Photo hosting">find my photos &raquo;</a></div>
           </div>
@@ -57,7 +57,7 @@
       <?php $options = get_option('liquorice_theme_options'); ?>
       <div style="clear:both"></div>
       <div class="home-section bottom">
-        <div class="home-section-header">4) keep up with us!</div>
+        <div class="home-section-header">4) keep up with us</div>
         <div class="home-section-description">Follow our blog to see where we've been, where we're going and to check out some of our images from past events!  Also be sure to follow our Facebook and Twitter pages for chances to win great prizes!</div>
         <div class="home-section-action"><a href="<?php echo $options['facebookurl']; ?>" target="blank" title="DC Photobooth Facebook">facebook</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="<?php echo $options['twitterurl']; ?>" target="blank" title="DC Photobooth Twitter">twitter</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="/blog"  title="DC Photobooth Blog">blog &raquo;</a></div>
       </div>

@@ -174,11 +174,12 @@ $(function(){
     });
     
     
+    
     /*SEO Initializers*/
     $('.seo-container').hover(
-        function(){
+        function(){            
             $(this).find('.seo-text').stop().animate({
-                height: '150px'
+                height: '175px'
             }, 1500);
         },
         function(){
