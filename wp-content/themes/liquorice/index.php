@@ -10,6 +10,8 @@
 <!--      <img src="wp-content/themes/liquorice/images/booth/stock-dark-small.png" class="stock-img">-->
       
       <a href="http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/" style="text-decoration: none; float:left;" target="blank" id="index-header-link" title="DC Photobooth at Sheraton Baltimore North Hotel">
+      
+<!--      Header for home page as needed -->
       <div id="index-header">
           <div class="home-section-header">Sheraton Baltimore North Winter Bridal Show</div>          
           <div class="home-section-description">Looking for your photos from the Sheraton Baltimore North Winter Bridal Show?  Look no further!  Click here to get to your photos using the password provided at the Bridal Show!</div>          
@@ -18,6 +20,8 @@
       </div>
       </a>
       <div style="clear:both"></div>
+      
+      
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
           <img src="/wp-content/uploads/2012/01/stock-dark-5.png" class="pageimg" width="340" height="530">
@@ -31,6 +35,10 @@
       
       <div id="index-right">
           <div class="home-section">
+              <div id="index-event-photos-link">
+                <a href="/event-photos">find your photos</a>
+              </div>
+              
               <div class="home-section-header">1) why dc photobooth?</div>
               <div class="home-section-description">Looking to rent a photobooth for your wedding, corporate party, or other event?  With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible.  </div>
               <div class="home-section-action"><a href="/sample-galleries" title="DC Photobooth's sample photos">check out our photos &raquo;</a></div>

@@ -93,6 +93,7 @@ a.facebook{
     margin-bottom: 5px;
     color: #3D3C3B;
     font-size: 18px;
+    line-height: 1.1em;
 }
 .home-section-action{
     font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
@@ -123,6 +124,22 @@ a.facebook{
 #index-header .home-section-header{
     text-shadow: 0px 1px 2px #CC4D22;
     color: #CC4D22;
+}
+#index-event-photos-link{
+    width: 50px;
+    text-align: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 3px 0px 3px 15px;
+    position: absolute;
+    right: -75px;
+    background-color: #FCF9F3;
+    box-shadow: 5px 0px 5px #888888;
+    -moz-box-shadow: 5px 0px 20px #888888;
+    -webkit-box-shadow: 5px 0px 10px #888888;
+    top: -24px;
+    font-weight: bold;
+    height: 50px;
 }
 
 
