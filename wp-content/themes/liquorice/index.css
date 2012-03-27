@@ -126,22 +126,33 @@ a.facebook{
     color: #CC4D22;
 }
 #index-event-photos-link{
-    width: 50px;
     text-align: left;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 3px 0px 3px 15px;
     position: absolute;
-    right: -75px;
+    right: -85px;
     background-color: #FCF9F3;
-    box-shadow: 5px 0px 5px #888888;
-    -moz-box-shadow: 5px 0px 20px #888888;
-    -webkit-box-shadow: 5px 0px 10px #888888;
+    box-shadow: 2px 0px 10px -1px #888888;
+    -moz-box-shadow: 2px 0px 10px -1px #888888;
+    -webkit-box-shadow: 2px 0px 10px -1px #888888;
     top: -24px;
     font-weight: bold;
-    height: 50px;
+    z-index: 0;
 }
-
+#index-event-photos-link-inner{
+    padding: 5px 0px 7px 20px;
+    width: 55px;
+    box-shadow: inset 8px 0px 20px -8px rgba(1,1,1,0.4);
+    -webkit-box-shadow: inset 8px 0px 20px -8px rgba(1,1,1,0.4);
+    -moz-box-shadow: inset 8px 0px 20px -8px rgba(1,1,1,0.4);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 2px #CC4D22;
+    font-weight: normal;
+}
 
 @media (max-width: 1050px) {
   .mobile-collapse, #site-description, #main-menu    { display: none; }

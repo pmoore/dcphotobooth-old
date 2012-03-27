@@ -36,7 +36,9 @@
       <div id="index-right">
           <div class="home-section">
               <div id="index-event-photos-link">
-                <a href="/event-photos">find your photos</a>
+                  <div id="index-event-photos-link-inner">
+                        <a href="/event-photos">find your photos</a>
+                  </div>
               </div>
               
               <div class="home-section-header">1) why dc photobooth?</div>
