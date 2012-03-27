@@ -440,7 +440,7 @@ img.pageimg.sample-gallery{
     margin: 10px 31px 10px 0px;
     cursor: pointer;
 }
-.far-right{
+img.pageimg.sample-gallery.far-right, .far-right{
     margin-right: 0px;
 }
 img.pageimg.sample-gallery:hover{
