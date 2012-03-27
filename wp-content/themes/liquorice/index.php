@@ -37,7 +37,7 @@
           <div class="home-section">
               <div id="index-event-photos-link">
                   <div id="index-event-photos-link-inner">
-                        <a href="/event-photos">find your photos</a>
+                        <a href="/event-photos">Find Your Photos</a>
                   </div>
               </div>
               
