@@ -132,9 +132,9 @@ a.facebook{
     position: absolute;
     right: -85px;
     background-color: #FCF9F3;
-    box-shadow: 2px 0px 10px -1px #888888;
-    -moz-box-shadow: 2px 0px 10px -1px #888888;
-    -webkit-box-shadow: 2px 0px 10px -1px #888888;
+    box-shadow: 4px 0px 10px -1px #888888;
+    -moz-box-shadow: 4px 0px 10px -1px #888888;
+    -webkit-box-shadow: 4px 0px 10px -1px #888888;
     top: -24px;
     font-weight: bold;
     z-index: 0;
