@@ -139,6 +139,12 @@ a.facebook{
     font-weight: bold;
     z-index: 0;
 }
+#index-event-photos-link:hover{
+    box-shadow: 5px 0px 15px -1px #CC4D22;
+    -moz-box-shadow: 5px 0px 15px -1px #CC4D22;
+    -webkit-box-shadow: 5px 0px 15px -1px #CC4D22;
+    
+}
 #index-event-photos-link-inner{
     padding: 5px 3px 7px 17px;
     width: 55px;
