@@ -5,7 +5,13 @@
   */
 
   get_header();
-
+  
+  $pinit_url = 'http://www.dc-photobooth.com/wp-content/themes/liquorice/images/logos/glasses-mustache-medium-website.png';
+  if (has_post_thumbnail( $post->ID ) ):
+    $pinit_img = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+    $pinit_url = $pinit_img[0];
+  endif;
+  
   if (have_posts()) : while (have_posts()) : the_post();
   ?>
 
@@ -15,7 +21,7 @@
       <div class="date"><small><?php the_date(); ?> by <?php the_author(); ?></small></div>
       <!-- AddThis Button BEGIN -->
         <div class="addthis_toolbox addthis_default_style" id="social_toolbox">
-            <a class="addthis_button_pinterest" pi:pinit:url="<?php the_permalink() ?>" pi:pinit:media="" pi:pinit:layout="horizontal"></a>
+            <a class="addthis_button_pinterest" pi:pinit:url="<?php the_permalink() ?>" pi:pinit:media="<?php echo $pinit_url ?>" pi:pinit:layout="horizontal"></a>
             <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
             <a class="addthis_button_tweet"></a>
             <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
@@ -25,7 +31,6 @@
 
         <div style="clear:both"></div>
       <div class="post">
-	  <?php the_post_thumbnail(); ?>
 	<?php the_content(__('(more...)')); ?></div>
 	<?php wp_link_pages('before=<p class="page-link">&after=</p>&next_or_number=number&pagelink=page %'); ?>
 	  <p class="postMeta">Category <?php the_category(', ') ?> | Tags: <?php the_tags(); ?> </p>
