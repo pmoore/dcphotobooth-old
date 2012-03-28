@@ -1424,6 +1424,7 @@ img#main-sample-image{
 .event-item-type{
     font-size: 12px;
     color: #666;
+    line-height: 1.2em;
 }
 .event-item img{
     float: left;
