@@ -160,6 +160,15 @@ a.facebook{
     font-weight: normal;
 }
 
+#footer-bg-div{
+    background: none;
+    width: 1050px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    opacity: 0.5;
+}
+
 @media (max-width: 1050px) {
   .mobile-collapse, #site-description, #main-menu    { display: none; }
   #index-right, .home-section  { width: auto; }

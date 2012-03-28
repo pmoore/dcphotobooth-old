@@ -287,7 +287,6 @@ div#site-title-div{
 
 #primaryContent {
 	clear:both;
- 	float: left;
 	padding: 0 35px;
 	width: 980px;
         position: relative;
@@ -451,6 +450,17 @@ img.pageimg.sample-gallery:hover{
 }
 #main-image-dialog{
     text-align: center;
+}
+#main-image-share{
+    width: 330px;
+    margin: 0px auto 10px auto;
+    
+}
+#main-image-share .at300b{
+    float:left;
+}
+#main-image-share .addthis_button_tweet.at300b{
+    padding-left: 20px;
 }
 
 img.wp-smiley {
@@ -625,7 +635,7 @@ h2#comments {
 	margin:100px 0px 20px 0px;
         padding-top: 10px;
 	text-align:center;
-        
+        position: relative;
  	background:url("images/border.gif") repeat-x scroll left top transparent; 
 }
 
@@ -1434,4 +1444,13 @@ img#main-sample-image{
 .event-item-name{
     font-weight: bold;
     margin-bottom: 3px;
+}
+
+#footer-bg-div{
+    background: transparent url(images/header-bg.png) no-repeat bottom;
+    width: 1050px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    opacity: 0.5;
 }

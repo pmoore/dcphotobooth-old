@@ -26,8 +26,8 @@
                     array(  'name' => 'Tai & Becci Truong', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-03-24")), 
-                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_011205-201x300.jpg',
-                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_011205.jpg',
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_052956-1764629163-O-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_052956-1764629163-O.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/3-24-Truong-Wedding/22108372_DKwP2T',
                             'link_title' => 'DC Photobooth at the Wedding of Tai and Becci Truong'
                         )
@@ -51,7 +51,7 @@
             <?php foreach ( $events as $key=>$event ) { ?>
 
                 <div class="event-item floatLeft<?php if(($key+1)%5==0){ ?> far-right<?php } ?>">
-                    <a href="<?php echo $event['host_url'] ?>" target="blank">
+                    <a href="<?php echo $event['host_url'] ?>" target="blank" title="<?php echo $event['link_title'] ?>">
                         <img src="<?php echo $event['featured_image'] ?>" alt="DC Photobooth Event Photos" title="DC Photobooth Event Photos" width="<?php echo $sample_img_width ?>" height="<?php echo $sample_img_height ?>" class="pageimg" />                
                         <div class="event-item-name"><?php echo $event['name'] ?></div>
                     </a>
@@ -65,7 +65,7 @@
         <div id="temp-image-filler" style="float:right;">
             <?php foreach ( $events as $key=>$event ) { ?>
                 <div>
-                    <img src="<?php echo $event['featured_image_large'] ?>" width="375" height="562" class="postimg">
+                    <img src="<?php echo $event['featured_image_large'] ?>" width="375" height="562" class="postimg" alt="<?php echo $event['link_title'] ?>">
                     <div class="event-item-name" style="width:385px; margin-top: 10px;"><?php echo $event['name'] ?></div>
                     <span class="event-item-date" style="width:385px;"><?php echo $event['date'] ?></span>
                     <span class="event-item-type" style="width:385px;"><?php echo $event['type'] ?></span>

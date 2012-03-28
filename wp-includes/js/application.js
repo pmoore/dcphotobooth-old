@@ -39,31 +39,21 @@ $(function(){
     
     
     /* AddThis with Pinterest with each sample image */
-    $('.sample-gallery').each(function(index){
-        $(this).data('social_clone',$('#image_social_toolbox').clone());
-        $(this).data('social_clone').css({
-            display: 'none',
-            marginTop: '0px',
-            float: 'none'            
-        });
-        $(this).data('social_clone').find('a.addthis_button_pinterest').attr('pi:pinit:media',$(this).attr('src'));        
-        $(this).data('social_clone').find('a.addthis_button_facebook_like').attr({
-            'addthis:url': $(this).attr('src'),
-            'addthis:title': $(this).attr('title')
-        });
-        $(this).data('social_clone').find('a.addthis_button_tweet').attr({
-            'addthis:url': $(this).attr('src'),
-            'addthis:title': $(this).attr('title')
-        });        
-        $(this).closest('.post').append($(this).data('social_clone'));     
-    });
     
     $('.sample-gallery').click(function(){
-        $(this).data('social_clone').appendTo($('#main-image-share'));
-        $(this).data('social_clone').show();
+        var tbx = document.getElementById("main-image-share"),
+            svcs = {email: 'Email', print: 'Print', facebook: 'Facebook', expanded: 'More'};
+
+        tbx.innerHTML += '<a class="addthis_button_pinterest" pi:pinit:url="'+ window.location.pathname +'" pi:pinit:media="' + $(this).data('large-src') + '" pi:pinit:layout="horizontal" style="outline:none;"></a>'+
+                '<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="' + $(this).data('large-src') + '"></a>'+
+                '<a class="addthis_button_tweet" addthis:url="' + $(this).data('large-src') + '"></a>'
+            ;
+        
+
+        addthis.toolbox("#main-image-share");
 
         /*change main image*/
-        $('#main-sample-image').attr('src',$(this).attr('src'));
+        $('#main-sample-image').attr('src',$(this).data('large-src'));
         $('#main-image-dialog').dialog('open'); 
         
         //Attach click listener to overlay only after its been loaded

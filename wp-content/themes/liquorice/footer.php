@@ -1,6 +1,7 @@
 
       <div id="footer">
-       <p>Copyright &copy; <?php echo date('Y');?> DC Photobooth, LLC </p>
+          <div id="footer-bg-div"></div>
+          <p>Copyright &copy; <?php echo date('Y');?> DC Photobooth, LLC </p>
         <?php wp_footer(); ?>
       </div>
       
