@@ -7,6 +7,13 @@
  get_header();
  
  $events = array (  
+                    array(  'name' => 'DC Photobooth Launch Party', 
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-01-26")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth-Launch-Party/22144760_cZ9Nqj'
+                        ),               
                     array(  'name' => 'Baltimore Sheraton North Hotel', 
                             'type' => 'Bridal Show', 
                             'date' => date("M d, Y", strtotime("2012-02-19")), 
@@ -33,29 +40,28 @@
         <h1 class="postTitle page">event photos</h1>
         <div style="clear:both"></div>
         
-        <div class="event-photo-instructions floatLeft" style="width: 480px; margin-bottom: 10px;">
-            Click on your event and use your password to view your photos
-        </div>
-        
-        <div style="clear:both"></div>
-        
-        <?php foreach ( $events as $key=>$event ) { ?>
-        
-            <div class="event-item floatLeft<?php if(($key+1)%5==0){ ?> far-right<?php } ?>">
-                <a href="<?php echo $event['host_url'] ?>" target="blank">
-                    <img src="<?php echo $event['featured_image'] ?>" alt="DC Photobooth Event Photos" title="DC Photobooth Event Photos" width="<?php echo $sample_img_width ?>" height="<?php echo $sample_img_height ?>" class="pageimg" />                
-                    <div class="event-item-name"><?php echo $event['name'] ?></div>
-                </a>
-                <span class="event-item-date"><?php echo $event['date'] ?></span>
-                <span class="event-item-type"><?php echo $event['type'] ?></span>
+        <div class="event-items-container floatLeft" style="width:590px;" >
+            <div class="event-photo-instructions floatLeft" style="width: 480px; margin-bottom: 10px;">
+                Click on your event and use your password to view your photos
             </div>
-        <?php } ?>
         
+            <?php foreach ( $events as $key=>$event ) { ?>
+
+                <div class="event-item floatLeft<?php if(($key+1)%5==0){ ?> far-right<?php } ?>">
+                    <a href="<?php echo $event['host_url'] ?>" target="blank">
+                        <img src="<?php echo $event['featured_image'] ?>" alt="DC Photobooth Event Photos" title="DC Photobooth Event Photos" width="<?php echo $sample_img_width ?>" height="<?php echo $sample_img_height ?>" class="pageimg" />                
+                        <div class="event-item-name"><?php echo $event['name'] ?></div>
+                    </a>
+                    <span class="event-item-date"><?php echo $event['date'] ?></span>
+                    <span class="event-item-type"><?php echo $event['type'] ?></span>
+                </div>
+            <?php } ?>
+        </div>
         
         
         <div id="temp-image-filler" style="float:right;">
             <?php foreach ( $events as $key=>$event ) { ?>
-                <img src="<?php echo $event['featured_image_large'] ?>" width="450" height="670" class="postimg">
+                <img src="<?php echo $event['featured_image_large'] ?>" width="375" height="562" class="postimg">
             <?php } ?>
         </div>
         
