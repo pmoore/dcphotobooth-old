@@ -76,7 +76,7 @@
             }
         ?>
         <div id="main-image-dialog">
-            <div id="main-image-share" style="margin-bottom:5px;">
+            <div id="main-image-share" style="margin-bottom:5px; padding-left: 20px;">
                 
             </div>
             <img src="<?php echo $sample_images[0]["large"] ?>" id="main-sample-image"><br/>click anywhere outside image to close
