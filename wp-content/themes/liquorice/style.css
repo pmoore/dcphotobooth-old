@@ -297,6 +297,7 @@ div#site-title-div{
 }
 #primaryContent.blog-content{
     width: 750px;
+    float: left;
 }
 #primaryContent h1, 
 #primaryContent h2 {
