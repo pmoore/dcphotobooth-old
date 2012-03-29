@@ -28,6 +28,20 @@
           <div class="home-section-action" style="padding-right: 0px; margin-bottom: 0px;">find my photos &raquo;</div>
       </div>
       </a>
+      
+      <div id="index-social-container" style="width:285px; float:right;">
+          <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style" id="image_social_toolbox" style="width:325px; text-align: center; margin: 0px auto; float:left;">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+        </div>
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f18708410c8b891"></script>
+        <!-- AddThis Button END -->
+          
+      </div>
+      
+      
       <div style="clear:both"></div>
       
       
