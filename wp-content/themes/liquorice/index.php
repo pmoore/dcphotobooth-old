@@ -1,5 +1,14 @@
 <?php
 
+    $main_images = array (  'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth23.jpg', 
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17.jpg',
+                            '/wp-content/uploads/2012/01/stock-dark-5.png'
+                                
+    );
+
   get_header();
 ?>
   
@@ -24,12 +33,13 @@
       
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
-          <img src="/wp-content/uploads/2012/01/stock-dark-5.png" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth23.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
+          
+          <?php 
+                foreach ( $main_images as $key=>$img ) { ?>
+                    <img src="<?php echo $img ?>" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
+                <?php
+                }
+            ?>
           
       </div>
       
