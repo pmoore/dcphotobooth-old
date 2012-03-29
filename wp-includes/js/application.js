@@ -44,7 +44,7 @@ $(function(){
         var tbx = document.getElementById("main-image-share"),
             svcs = {email: 'Email', print: 'Print', facebook: 'Facebook', expanded: 'More'};
 
-        tbx.innerHTML += '<a class="addthis_button_pinterest" pi:pinit:url="'+ window.location.pathname +'" pi:pinit:media="' + $(this).data('large-src') + '" pi:pinit:layout="horizontal" style="outline:none;"></a>'+
+        tbx.innerHTML += '<a class="addthis_button_pinterest" pi:pinit:url="http://www.dc-photobooth.com'+ window.location.pathname +'" pi:pinit:media="' + $(this).data('large-src') + '" pi:pinit:layout="horizontal" style="outline:none;"></a>'+
                 '<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="' + $(this).data('large-src') + '"></a>'+
                 '<a class="addthis_button_tweet" addthis:url="' + $(this).data('large-src') + '"></a>'
             ;
