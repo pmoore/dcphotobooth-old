@@ -137,7 +137,7 @@ $(function(){
     $('.post .postimg').each(function(index){ 
         /*Place pinterest button on img*/
 //        $(this).data('pinterest_btn',$('#social_toolbox').find('a.addthis_button_pinterest').clone());
-        var p = $(this).offset();
+        var p = $(this).position();
 //        $(this).data('pinterest_btn').css({
 //            display: 'none',
 //            position: 'absolute',
@@ -165,8 +165,8 @@ $(function(){
 //                //mouse out handler
 //        });
 //      
-        var pinit_html = '<div style="display: none; position: absolute; top: '+(p.top-113)+'px; left: '+(p.left-200)+'px;" id="pinit-container-'+index+'"><a class="addthis_button_pinterest" pi:pinit:url="http://www.dc-photobooth.com'+ window.location.pathname +'" pi:pinit:media="' + $(this).attr('src') + '" pi:pinit:layout="horizontal" style="outline:none;"></a></div>';
-       
+        var pinit_html = '<div style="display: none; position: absolute; top: '+(p.top+15)+'px; left: '+(p.left+10)+'px;" id="pinit-container-'+index+'"><a class="addthis_button_pinterest" pi:pinit:url="http://www.dc-photobooth.com'+ window.location.pathname +'" pi:pinit:media="' + $(this).attr('src') + '" pi:pinit:layout="horizontal" style="outline:none;"></a></div>';
+        
         $(this).closest('.post').append(pinit_html);
 
         $(this).mouseover(
@@ -180,7 +180,6 @@ $(function(){
             });
         $('#pinit-container-'+index).hover(
             function(){
-                console.log("Pin hover in");
                 clearTimeout($(this).data('pinhide_timeout'+index));
             },
             function(){
