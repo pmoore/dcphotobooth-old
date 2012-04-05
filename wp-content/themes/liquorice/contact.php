@@ -19,11 +19,11 @@ get_header();
                     <label class="iconic mail-alt" for="usermail"> E-mail address <span class="required">*</span></label><br/>
                     <input id="usermail" type="email" name="usermail" placeholder="Trust me, we hate spam as much as you do." />
                     <br />
-                    <label class="iconic link" for="usersite"> Website </label><br />
-                    <input id="usersite" type="url" name="usersite" placeholder="Have a wedding or event website?"/>
+                    <label class="iconic location" for="userlocation"> Location </label><br />
+                    <input id="usersite" type="text" name="userlocation" placeholder="Where is this all going down?"/>
                     <br />
                     <label class="iconic date" for="userdate"> Event Date </label><br />
-                    <input id="userdate" type="date" name="userdate" placeholder="When is this all going down?"/>
+                    <input id="userdate" type="date" name="userdate" placeholder="...and when?"/>
 
                 </div>
                 <div id="contact-form-right"><label class="iconic quote-alt" for="subject"> Subject </label><br />
@@ -34,6 +34,19 @@ get_header();
 
                 </div>
                 <div style="clear: both;"></div>
+                
+                <label class="iconic referrer" for="userdate"> How did you find out about us? </label><br />
+                <div class="style-select">
+                    <select id="referrer">
+                        <option value="Google">Google</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="WeddingWire">WeddingWire</option>
+                        <option value="From a Friend">From a Friend</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                
                 <p class="indication">All fields with a <span class="required">*</span> are required</p>
                 <input type="submit" value="Send your message !" />
 

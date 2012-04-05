@@ -71,9 +71,10 @@ $(function(){
                 name: $('#username').val(),
                 from: $('#usermail').val(),
                 subject: $('#subject').val(),
-                website: $('#usersite').val(),
                 date: $('#userdate').val(),
-                message: $('#message').val()
+                location: $('#userlocation').val(),
+                message: $('#message').val(),
+                referrer: $('#referrer').val()
             },
             function(response){
                 alert(response);

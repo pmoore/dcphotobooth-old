@@ -1261,6 +1261,25 @@ img#main-sample-image{
     line-height: 1.4em;
     resize: none;
 }
+.contact-form .style-select{
+    width: 240px;
+    height: 34px;
+    overflow: hidden;
+    margin: 5px auto 20px auto;
+    background: url(images/down_arrow_select.jpg) no-repeat right #ddd;
+}
+.contact-form .style-select select{
+    background: transparent;
+    width: 240px;
+    padding: 5px;
+    border: 1px solid #999;
+    font-size: 16px;
+    height: 34px;
+    -webkit-appearance: none;
+    color: #3D3C3B;
+}
+
+
 
 .faq-question{
     font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
