@@ -2,3 +2,5 @@
 /wp-config.php
 wp-config.php
 migrate_dump_local.sh
+/wp-content/uploads/*
+wp-content/uploads/*

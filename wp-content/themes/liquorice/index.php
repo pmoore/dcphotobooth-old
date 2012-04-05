@@ -1,5 +1,14 @@
 <?php
 
+    $main_images = array (  'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth23.jpg', 
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17.jpg',
+                            '/wp-content/uploads/2012/01/stock-dark-5.png'
+                                
+    );
+
   get_header();
 ?>
   
@@ -19,17 +28,32 @@
           <div class="home-section-action" style="padding-right: 0px; margin-bottom: 0px;">find my photos &raquo;</div>
       </div>
       </a>
+      
+      <div id="index-social-container" style="width:285px; float:right;">
+          <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style" id="image_social_toolbox" style="width:325px; text-align: center; margin: 0px auto; float:left;">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+        </div>
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f18708410c8b891"></script>
+        <!-- AddThis Button END -->
+          
+      </div>
+      
+      
       <div style="clear:both"></div>
       
       
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
-          <img src="/wp-content/uploads/2012/01/stock-dark-5.png" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth23.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
-          <img src="http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17.jpg" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
+          
+          <?php 
+                foreach ( $main_images as $key=>$img ) { ?>
+                    <img src="<?php echo $img ?>" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
+                <?php
+                }
+            ?>
           
       </div>
       
