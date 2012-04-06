@@ -41,7 +41,7 @@ get_header();
                         <option value="Google">Google</option>
                         <option value="Facebook">Facebook</option>
                         <option value="WeddingWire">WeddingWire</option>
-                        <option value="Craig's List">Craig's List</option>
+                        <option value="Craig's List">Craigslist</option>
                         <option value="From a Friend">From a Friend</option>
                         <option value="Other">Other</option>
                     </select>
