@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="booth-trigger" id="floor-hover"></div>
-                    <div class="booth-popup-content" id="floor-popup">Fit up to 8 people in the booth at one time</div>
+                    <div class="booth-popup-content" id="floor-popup">Fit up to 7 people in the booth at one time</div>
 
                     <div class="booth-trigger" id="camera-hover"></div>
                     <div class="booth-popup-content" id="camera-popup">12 Megapixel DSLR Camera ensures you and your guests get the highest quality photos from at your event</div>
