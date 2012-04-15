@@ -7,21 +7,13 @@
  get_header();
  
  $events = array (  
-                    array(  'name' => 'DC Photobooth Launch Party', 
-                            'type' => 'Party', 
-                            'date' => date("M d, Y", strtotime("2012-01-26")), 
-                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347-201x300.jpg',
-                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347.jpg',
-                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth-Launch-Party/22144760_cZ9Nqj',
-                            'link_title' => 'DC Photobooth Launch Party'
-                        ),               
-                    array(  'name' => 'Baltimore Sheraton North Hotel', 
-                            'type' => 'Bridal Show', 
-                            'date' => date("M d, Y", strtotime("2012-02-19")), 
-                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10-201x300.jpg',
-                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg',
-                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/',
-                            'link_title' => 'DC Photobooth at the Baltimore Sheraton North Bridal Show'
+                    array(  'name' => 'NBAC Countdown to the Olympics', 
+                            'type' => 'Fundraiser', 
+                            'date' => date("M d, Y", strtotime("2012-04-14")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/North-Baltimore-Aquatic-Club/22451267_Tst2Th',
+                            'link_title' => 'DC Photobooth at the NBAC Countdown to the Olympics Fundraiser'
                         ),
                     array(  'name' => 'Tai & Becci Truong', 
                             'type' => 'Wedding', 
@@ -30,6 +22,22 @@
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_052956-1764629163-O.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/3-24-Truong-Wedding/22108372_DKwP2T',
                             'link_title' => 'DC Photobooth at the Wedding of Tai and Becci Truong'
+                        ),
+                    array(  'name' => 'Baltimore Sheraton North Hotel', 
+                            'type' => 'Bridal Show', 
+                            'date' => date("M d, Y", strtotime("2012-02-19")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/',
+                            'link_title' => 'DC Photobooth at the Baltimore Sheraton North Bridal Show'
+                        ),
+                    array(  'name' => 'DC Photobooth Launch Party', 
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-01-26")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth-Launch-Party/22144760_cZ9Nqj',
+                            'link_title' => 'DC Photobooth Launch Party'
                         )
             );
  
