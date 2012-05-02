@@ -15,6 +15,14 @@
                             'host_url' => 'http://dc-photobooth.smugmug.com/Professional/4-30-WeddingWire-Recruiting/22763467_3Sj6Z7',
                             'link_title' => 'DC Photobooth at the a WeddingWire Recruitment Event at the Majestic'
                         ),
+                    array(  'name' => 'Colleen & Ryan Hill', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-04-28")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_015647-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_015647.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/4-28-Colleen-and-Ryan-Wedding/22763435_WhXcmT#!i=1825945173&k=3LZqr3h',
+                            'link_title' => 'DC Photobooth at the Wedding of Colleen and Ryan Hill'
+                        ),
                     array(  'name' => 'NBAC Countdown to the Olympics', 
                             'type' => 'Fundraiser', 
                             'date' => date("M d, Y", strtotime("2012-04-14")), 
