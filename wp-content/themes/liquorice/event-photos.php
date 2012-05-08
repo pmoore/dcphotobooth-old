@@ -7,6 +7,14 @@
  get_header();
  
  $events = array (  
+                    array(  'name' => 'West Lake HS Prom', 
+                            'type' => 'Prom', 
+                            'date' => date("M d, Y", strtotime("2012-05-05")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Professional/4-30-WeddingWire-Recruiting/22763467_3Sj6Z7',
+                            'link_title' => 'DC Photobooth at the West Lake High School Prom'
+                        ),
                     array(  'name' => 'WeddingWire Recruitment Event', 
                             'type' => 'Recruitment', 
                             'date' => date("M d, Y", strtotime("2012-04-30")), 
