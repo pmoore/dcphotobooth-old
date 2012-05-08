@@ -94,7 +94,7 @@
         </div>
         
         
-        <div id="temp-image-filler" style="float:right;">
+        <div id="temp-image-filler" style="float:right; display: none;">
             <?php foreach ( $events as $key=>$event ) { ?>
                 <div>
                     <img src="<?php echo $event['featured_image_large'] ?>" width="375" height="562" class="postimg" alt="<?php echo $event['link_title'] ?>">
