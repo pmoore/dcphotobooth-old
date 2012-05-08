@@ -1,18 +1,26 @@
 <?php
 
 /*
-  Template Name: Event Photos
+  Template Name: Event Photos 
  */
 
  get_header();
  
  $events = array (  
+                    array(  'name' => 'Dorman\'s Bat Mitzvah', 
+                            'type' => 'Bat Mitzvah', 
+                            'date' => date("M d, Y", strtotime("2012-05-06")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_003205-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_003205.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/5-6-Hannah-Dorman-Bat-Mitzvah/22857874_8HxchX',
+                            'link_title' => 'DC Photobooth at Hannah Dorman\'s Bat Mitzvah'
+                        ),
                     array(  'name' => 'West Lake HS Prom', 
                             'type' => 'Prom', 
                             'date' => date("M d, Y", strtotime("2012-05-05")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157.jpg',
-                            'host_url' => 'http://dc-photobooth.smugmug.com/Professional/4-30-WeddingWire-Recruiting/22763467_3Sj6Z7',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/5-5-West-Lake-HS-Prom/22857852_MZfW76',
                             'link_title' => 'DC Photobooth at the West Lake High School Prom'
                         ),
                     array(  'name' => 'WeddingWire Recruitment Event', 
