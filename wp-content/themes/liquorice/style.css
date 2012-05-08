@@ -1450,6 +1450,8 @@ img#main-sample-image{
 .event-item-name, .event-item-type, .event-item-date{
     text-align: center;
 /*    float: left;*/
+    margin: 0 auto 3px auto;
+    width: 170px;
 }
 .event-item-date{
     font-size: 14px;
