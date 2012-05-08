@@ -95,8 +95,8 @@
                         <img src="<?php echo $event['featured_image'] ?>" alt="DC Photobooth Event Photos" title="DC Photobooth Event Photos" width="<?php echo $sample_img_width ?>" height="<?php echo $sample_img_height ?>" class="pageimg" />                
                         <div class="event-item-name"><?php echo $event['name'] ?></div>
                     </a>
-                    <span class="event-item-date"><?php echo $event['date'] ?></span>
-                    <span class="event-item-type"><?php echo $event['type'] ?></span>
+                    <div class="event-item-date"><?php echo $event['date'] ?></div>
+                    <div class="event-item-type"><?php echo $event['type'] ?></div>
                 </div>
             <?php } ?>
         </div>
