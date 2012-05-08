@@ -1441,9 +1441,10 @@ img#main-sample-image{
 }
 
 .event-item{
-    width: 160px;
+    width: 20%;
     height: 345px;
-    margin: 10px 31px 10px 0px;
+    margin: 10px 0;
+    text-align: center;
     
 }
 .event-item-name, .event-item-type, .event-item-date{
@@ -1460,7 +1461,7 @@ img#main-sample-image{
     line-height: 1.2em;
 }
 .event-item img{
-    float: left;
+/*    float: left;*/
     margin-bottom: 10px;
     cursor: pointer;
 }

@@ -75,8 +75,8 @@
         <h1 class="postTitle page">event photos</h1>
         <div style="clear:both"></div>
         
-        <div class="event-items-container floatLeft" style="width:590px;" >
-            <div class="event-photo-instructions floatLeft" style="width: 480px; margin-bottom: 10px;">
+        <div class="event-items-container floatLeft" style="width:967px;" >
+            <div class="event-photo-instructions" style="width: 480px; margin-bottom: 10px;">
                 Click on your event and use your password to view your photos
             </div>
         
