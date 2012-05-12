@@ -20,7 +20,7 @@
                             'date' => date("M d, Y", strtotime("2012-05-11")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552.jpg',
-                            'host_url' => 'http://dc-photobooth.smugmug.com/Dance/5-11-Mark-Twain-Middle-School/22931160_HCfrtw',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/Howard-University-Graduation/22931303_txqdJs',
                             'link_title' => 'DC Photobooth at Howard University School of Pharmacy Celebration'
                         ),
                     array(  'name' => 'Dorman\'s Bat Mitzvah', 
