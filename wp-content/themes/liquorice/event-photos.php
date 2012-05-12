@@ -7,6 +7,14 @@
  get_header();
  
  $events = array (  
+                    array(  'name' => 'Mark Twain Middle School 8th Grade Dance', 
+                            'type' => 'Dance', 
+                            'date' => date("M d, Y", strtotime("2012-05-12")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_025723-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_025723.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Dance/5-11-Mark-Twain-Middle-School/22931160_HCfrtw',
+                            'link_title' => 'DC Photobooth at Mark Twain Middle School 8th Grade Dance'
+                        ),
                     array(  'name' => 'Dorman\'s Bat Mitzvah', 
                             'type' => 'Bat Mitzvah', 
                             'date' => date("M d, Y", strtotime("2012-05-06")), 
