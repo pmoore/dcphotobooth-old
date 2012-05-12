@@ -16,7 +16,7 @@
                             'link_title' => 'DC Photobooth at Mark Twain Middle School 8th Grade Dance'
                         ),
                     array(  'name' => 'Howard University Graduation Celebration', 
-                            'type' => 'Dance', 
+                            'type' => 'Graduation', 
                             'date' => date("M d, Y", strtotime("2012-05-11")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552.jpg',
