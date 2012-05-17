@@ -67,7 +67,7 @@
               
               <div class="home-section-header">1) why dc photobooth?</div>
               <div class="home-section-description">Looking to rent a photobooth for your wedding, corporate party, or other event?  With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible.  </div>
-              <div class="home-section-action"><a href="/sample-galleries" title="DC Photobooth's sample photos">check out our photos &raquo;</a></div>
+              <div class="home-section-action"><a href="/photobooth-sample" title="DC Photobooth's sample photos">check out our photos &raquo;</a></div>
           </div>
           <div class="dc-border home">&nbsp;</div>
           <div class="home-section">
