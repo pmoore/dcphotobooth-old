@@ -1,12 +1,11 @@
 <?php
 
-    $main_images = array (  'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth23.jpg', 
-                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg',
-                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21.jpg',
-                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg',
-                            'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17.jpg',
-                            '/wp-content/uploads/2012/01/stock-dark-5.png'
-                                
+    $main_images = array (  'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-688x1024.jpg', 
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_042514-688x1024.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_011205-1764617195-O-688x1024.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-688x1024.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-688x1024.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-688x1024.jpg'
     );
 
   get_header();
