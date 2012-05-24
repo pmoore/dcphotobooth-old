@@ -6,10 +6,25 @@
 
  get_header();
  
- $events = array (  
+ $events = array (  array(  'name' => 'Sam & Emma Goldstein', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-05-12")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-4W6ndHh-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-4W6ndHh.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/5-12-Goldstein-Wedding/23120174_wtKgfK',
+                            'link_title' => 'DC Photobooth at the Wedding of Sam and Emma Goldstein'
+                        ),
+                    array(  'name' => 'University of Maryland', 
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-05-12")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-zXW466b-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-zXW466b.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/5-12-UMD/23120692_CqK2HT',
+                            'link_title' => 'DC Photobooth at the University of Maryland End of Year Celebration'
+                        ),
                     array(  'name' => 'Mark Twain Middle School Dance', 
                             'type' => 'Dance', 
-                            'date' => date("M d, Y", strtotime("2012-05-12")), 
+                            'date' => date("M d, Y", strtotime("2012-05-11")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_025723-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_025723.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Dance/5-11-Mark-Twain-Middle-School/22931160_HCfrtw',
@@ -17,7 +32,7 @@
                         ),
                     array(  'name' => 'Howard University Graduation Celebration', 
                             'type' => 'Graduation', 
-                            'date' => date("M d, Y", strtotime("2012-05-11")), 
+                            'date' => date("M d, Y", strtotime("2012-05-10")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Parties/Howard-University-Graduation/22931303_txqdJs',
