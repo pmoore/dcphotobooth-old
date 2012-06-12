@@ -11,6 +11,9 @@
   get_header();
 ?>
   
+<script type="text/javascript" src="http://static.weddingwire.com/static/js/widgets/mobileRedirect.js"></script><script type="text/javascript"><!--
+        WeddingWire.mobile.detectMobile({"storefrontURL":"/website/dc-photobooth-washington-baltimore/d2e61fd51540494f.html"});
+        --></script>
   
   <div id="primaryContent" class="index">
 <!--      <img src="wp-content/themes/liquorice/images/like-arrow.png" id="social-like-arrow">-->
