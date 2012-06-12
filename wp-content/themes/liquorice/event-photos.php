@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Sam & Emma Goldstein', 
+ $events = array (  array(  'name' => 'Ashley & Zoe', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-06-02")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/i-3tFZk67-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/i-3tFZk67.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/6-2-Ashley-and-Zoe-Wedding/23355382_nznb84',
+                            'link_title' => 'DC Photobooth at the Wedding of Ashley and Zoe'
+                        ),
+                    array(  'name' => 'Sam & Emma Goldstein', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-05-12")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-4W6ndHh-201x300.jpg',
