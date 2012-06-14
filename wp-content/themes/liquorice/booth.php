@@ -110,7 +110,7 @@
         <div class="booth-info-description">
             <ul>
                 <li>Dimensions: approximately 6’ wide and 3.5’ deep with a similar footprint to a light bulb silhouette. </li>
-                <li>Photos print out on 4x6 photo paper, in a 2x2 layout (<a href="/sample-galleries" class="bold">see samples</a>)</li>
+                <li>Photos print out on 4x6 photo paper, in a 2x2 layout (<a href="/photobooth-sample" class="bold">see samples</a>)</li>
                 <li>Camera is a 12 mega-pixel DSLR</li>
                 <li>Photos print in 10-15 seconds</li>
                 <li>4 pictures taken per session</li>                                
