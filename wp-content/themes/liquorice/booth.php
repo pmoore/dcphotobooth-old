@@ -71,7 +71,7 @@
                     <li>Professional grade lighting calibrated specifically for the booth</li>
                     <li>Two LCD screens provide high resolution, custom presentation</li>
                     <li>No ink jet printers.  Photos printed by photo quality printer on photo quality paper</li>
-                    <li>Take a look at some <a href="/sample-galleries" class="bold">sample photos</a> for an example</li>
+                    <li>Take a look at some <a href="/photobooth-sample" class="bold">sample photos</a> for an example</li>
                 </ul>
                 
             </div>
