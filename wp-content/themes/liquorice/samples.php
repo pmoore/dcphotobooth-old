@@ -9,47 +9,41 @@
  $sample_img_width = 160;
  $sample_img_height = 240;
  
- $sample_images = array(    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1-201x300.jpg", 
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth2-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth2.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth26-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth26.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth20-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth20.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth11-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth11.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth5-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth5.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth231-201x300.jpg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth231.jpg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/stock-dark.png",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/stock-dark.png" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/stock-dark-4.png",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/stock-dark-4.png" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/guestbook-2.jpeg",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/guestbook-2.jpeg" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/stock-dark-5.png",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/stock-dark-5.png" ),
-                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/stock-dark-2.png",
-                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/stock-dark-2.png" )
-//                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/DCPB_0052-200x300.jpg",
-//                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/DCPB_0052.jpg" ),
-//                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/DCPB_0011-200x300.jpg",
-//                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/DCPB_0011.jpg" ),
-//                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/DCPB_0021-200x300.jpg",
-//                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/DCPB_0021.jpg" ),
-//                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/all-1-200x300.jpg",
-//                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/all-1.jpg" ),
-//                            array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/DCPB_0010-21-200x300.jpg",
-//                                    "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/01/DCPB_0010-21.jpg" )
-                        );
+ $sample_images = array(    
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_042514-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_042514-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-4W6ndHh-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-4W6ndHh-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_003205-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_003205-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-688x1024.jpg" ),
+     
+    
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_025723-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_025723-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth26-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth26.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth20-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth20.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_034046-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_034046-688x1024.jpg" ),
+     
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth21.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth17.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth1.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth231-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth231.jpg" )
+);
  
 ?>
 
