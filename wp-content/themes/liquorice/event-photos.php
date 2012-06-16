@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Ashley & Zoe', 
+ $events = array (  array(  'name' => 'Thomas & Yong', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-06-09")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101003910-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101003910.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Tommy-and-Yong-Wedding/23568163_38QJkh',
+                            'link_title' => 'DC Photobooth at the Wedding of Thomas and Yong'
+                        ),
+                    array(  'name' => 'NBC 4', 
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-06-07")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101002941-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101002941.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/NBC-Universal/23567985_k8jLz9',
+                            'link_title' => 'DC Photobooth at NBC 4 Party'
+                        ),
+                    array(  'name' => 'Ashley & Zoe', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-06-02")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/i-3tFZk67-201x300.jpg',
