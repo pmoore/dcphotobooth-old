@@ -123,6 +123,17 @@ a.facebook{
     text-shadow: 0px 1px 2px #CC4D22;
     color: #CC4D22;
 }
+.home-slideshow-ad{
+    background: #E2DBD1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    -moz-box-shadow: 0px 0px 10px #888888;
+    -webkit-box-shadow: 0px 0px 10px #888888;
+    padding: 10px;
+    height: 510px;
+    width: 320px;
+}
+
 #index-event-photos-link{
     text-align: left;
     border-top-right-radius: 5px;

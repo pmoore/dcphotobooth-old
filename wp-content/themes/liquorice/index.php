@@ -4,8 +4,7 @@
                             'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_042514-688x1024.jpg',
                             'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_011205-1764617195-O-688x1024.jpg',
                             'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-688x1024.jpg',
-                            'http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-688x1024.jpg',
-                            'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-688x1024.jpg'
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-688x1024.jpg'
     );
 
   get_header();
@@ -24,9 +23,9 @@
       
 <!--      Header for home page as needed -->
       <div id="index-header">
-          <div class="home-section-header">Sheraton Baltimore North Winter Bridal Show</div>          
+          <div class="home-section-header">Having an event in July?</div>          
           <div class="home-section-description">Looking for your photos from the Sheraton Baltimore North Winter Bridal Show?  Look no further!  Click here to get to your photos using the password provided at the Bridal Show!</div>          
-          <div class="home-section-description"  style="text-align:center"><img src="/wp-content/themes/liquorice/images/bridal_shows/sheraton-horizontal.png" alt="DC Photobooth at Sheraton Baltimore North Hotel" style="margin:10px 0"></div>
+          <div class="home-section-description"  style="text-align:center; display: none;"><img src="/wp-content/themes/liquorice/images/bridal_shows/sheraton-horizontal.png" alt="DC Photobooth at Sheraton Baltimore North Hotel" style="margin:10px 0"></div>
           <div class="home-section-action" style="padding-right: 0px; margin-bottom: 0px;">find my photos &raquo;</div>
       </div>
       </a>
@@ -49,6 +48,7 @@
       
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
+<!--          <div class="home-slideshow-ad">TEST</div>-->
           
           <?php 
                 foreach ( $main_images as $key=>$img ) { ?>
@@ -56,6 +56,8 @@
                 <?php
                 }
             ?>
+                    
+          
           
       </div>
       
