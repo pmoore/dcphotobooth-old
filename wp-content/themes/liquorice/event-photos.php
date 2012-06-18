@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Thomas & Yong', 
+ $events = array (  array(  'name' => 'Steve\'s 70th', 
+                            'type' => 'Birthday', 
+                            'date' => date("M d, Y", strtotime("2012-06-16")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101004856-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101004856.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Birthday/Steves-70th-Birthday/23618578_bD3TXN',
+                            'link_title' => 'DC Photobooth at Steve\'s 70th Birthday Party'
+                        ),
+                    array(  'name' => 'Thomas & Yong', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-06-09")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101003910-201x300.jpg',
@@ -16,7 +24,7 @@
                         ),
                     array(  'name' => 'NBC 4', 
                             'type' => 'Party', 
-                            'date' => date("M d, Y", strtotime("2012-06-07")), 
+                            'date' => date("M d, Y", strtotime("2012-06-08")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101002941-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101002941.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Parties/NBC-Universal/23567985_k8jLz9',
