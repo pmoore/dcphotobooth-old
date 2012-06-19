@@ -4,7 +4,8 @@
                             'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_042514-688x1024.jpg',
                             'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_011205-1764617195-O-688x1024.jpg',
                             'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-688x1024.jpg',
-                            'http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-688x1024.jpg'
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-688x1024.jpg',
+                            'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101002941-688x1024.jpg'
     );
 
   get_header();
@@ -48,16 +49,44 @@
       
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
-<!--          <div class="home-slideshow-ad">TEST</div>-->
+          <a class="home-slideshow-ad" href="/contact">
+              <div class="home-ad-header">Having an event in July?</div>
+              <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
+              <div class="home-ad-sub-header">Click Here to Contact Us</div>
+          </a>
           
           <?php 
-                foreach ( $main_images as $key=>$img ) { ?>
+                foreach ( array_slice($main_images, 0, 2) as $key=>$img ) { ?>
                     <img src="<?php echo $img ?>" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
                 <?php
                 }
             ?>
                     
+          <a class="home-slideshow-ad" href="/contact">
+              <div class="home-ad-header">Having an event in July?</div>
+              <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
+              <div class="home-ad-sub-header">Click Here to Contact Us</div>
+          </a>
           
+          <?php 
+                foreach ( array_slice($main_images, 2, 2) as $key=>$img ) { ?>
+                    <img src="<?php echo $img ?>" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
+                <?php
+                }
+            ?>
+                    
+          <a class="home-slideshow-ad" href="/contact">
+              <div class="home-ad-header">Having an event in July?</div>
+              <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
+              <div class="home-ad-sub-header">Click Here to Contact Us</div>
+          </a>                
+                    
+          <?php 
+                foreach ( array_slice($main_images, 4, 2) as $key=>$img ) { ?>
+                    <img src="<?php echo $img ?>" alt="DC Photobooth, Photobooth Rentals" class="pageimg" width="340" height="530">
+                <?php
+                }
+            ?>
           
       </div>
       

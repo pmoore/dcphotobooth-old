@@ -124,14 +124,42 @@ a.facebook{
     color: #CC4D22;
 }
 .home-slideshow-ad{
-    background: #E2DBD1;
+    background: #E2DBD1 url('/wp-content/themes/liquorice/images/july-ad-background.jpg') no-repeat -1px -1px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #888888;
     -moz-box-shadow: 0px 0px 10px #888888;
     -webkit-box-shadow: 0px 0px 10px #888888;
     padding: 10px;
-    height: 510px;
-    width: 320px;
+    height: 509px;
+    width: 319px;
+    display: block;
+    position: relative;
+}
+.home-slideshow-ad:hover{
+    box-shadow: 0px 0px 15px #CC4D22;
+    -moz-box-shadow: 0px 0px 15px #CC4D22;
+    -webkit-box-shadow: 0px 0px 15px #CC4D22;
+}
+.home-slideshow-ad .home-ad-header,
+.home-slideshow-ad .home-ad-sub-header{
+    text-shadow: 0px 1px 2px #8c3701;
+    color: #D7C3AB;
+    font-size: 22px;
+    font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 101px;
+}
+.home-slideshow-ad a:hover,
+.home-slideshow-ad a:hover{
+    text-shadow: 0px 1px 2px #8c3701;
+    color: #D7C3AB;
+    text-decoration: none;
+}
+.home-slideshow-ad .home-ad-sub-header{
+    margin-top: 10px;
+}
+.home-slideshow-ad .home-ad-sub-header.large{
+    font-size: 35px;
 }
 
 #index-event-photos-link{
