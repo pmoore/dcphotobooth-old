@@ -95,7 +95,7 @@
                     </<?php echo $heading_tag; ?>>
                     
                     <?php if(is_home()){ ?>
-                        <div id="site-description" title="<?php bloginfo('description'); ?>"><?php bloginfo('description'); ?></div>   
+                        <div id="site-description" title="<?php bloginfo('description'); ?>"></div>   
                     <?php } ?>
                     
                     <!--by default your pages will be displayed unless you specify your own menu content under Menu through the admin panel-->

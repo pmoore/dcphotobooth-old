@@ -46,7 +46,7 @@ div#site-title-div{
 	display: block;
 	font-size: 20px;
 	color: #0C2B43;
-        margin: 0px;
+        margin: -45px 0 0 0;
         height: 55px;
         background: transparent url(images/header-bg.png) no-repeat bottom;
         opacity: 0.35;
