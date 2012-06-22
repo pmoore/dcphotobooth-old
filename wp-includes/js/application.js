@@ -7,7 +7,8 @@
 /*jQuery initializers*/
 $(function(){
     $('.home-slideshow').cycle({
-        fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+        fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+        timeout: 6000
     });
     $('#booth-screen-slideshow').cycle({
         fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...

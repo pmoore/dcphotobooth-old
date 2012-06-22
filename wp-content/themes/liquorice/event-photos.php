@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Steve\'s 70th', 
+ $events = array (  array(  'name' => 'Antoine Bethea\'s Safe Coverage', 
+                            'type' => 'Fundraiser', 
+                            'date' => date("M d, Y", strtotime("2012-06-21")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101022821-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101022821.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/Antoine-Bethea-Safe-Coverage/23725441_DZmTVL',
+                            'link_title' => 'DC Photobooth at Antoine Bethea\'s Safe Coverage Fundraiser'
+                        ),
+                    array(  'name' => 'Steve\'s 70th', 
                             'type' => 'Birthday', 
                             'date' => date("M d, Y", strtotime("2012-06-16")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101004856-201x300.jpg',
