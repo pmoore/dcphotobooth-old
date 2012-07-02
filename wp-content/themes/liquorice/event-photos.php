@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Steve\'s 70th Part 2', 
+ $events = array (  array(  'name' => 'Dorothy\'s Birthday Party', 
+                            'type' => 'Birthday', 
+                            'date' => date("M d, Y", strtotime("2012-06-30")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_002520-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_002520.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/6-30-Dorothys-Birthday/23913877_LtdN5X',
+                            'link_title' => 'DC Photobooth at Dorothy\'s Birthday Party'
+                        ),
+                    array(  'name' => 'Jenna\'s Graduation Party', 
+                            'type' => 'Graduation Party', 
+                            'date' => date("M d, Y", strtotime("2012-06-30")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_021302-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_021302.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Parties/6-30-Jennas-Graduation-Party/23913837_qbwqfX',
+                            'link_title' => 'DC Photobooth at Jenna\'s Graduation Party'
+                        ),
+                    array(  'name' => 'Steve\'s 70th Part 2', 
                             'type' => 'Birthday', 
                             'date' => date("M d, Y", strtotime("2012-06-23")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101030716-201x300.jpg',
@@ -79,7 +95,7 @@
                             'link_title' => 'DC Photobooth at Mark Twain Middle School 8th Grade Dance'
                         ),
                     array(  'name' => 'Howard University Graduation Celebration', 
-                            'type' => 'Graduation', 
+                            'type' => 'Graduation Party', 
                             'date' => date("M d, Y", strtotime("2012-05-10")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552.jpg',
