@@ -288,7 +288,7 @@ div#site-title-div{
 /*     MAIN CONTENT    
 ---------------------------- */
 
-#primaryContent {
+#primaryContent{
 	clear:both;
 	padding: 0 35px;
 	width: 980px;
@@ -301,6 +301,10 @@ div#site-title-div{
 #primaryContent.blog-content{
     width: 750px;
     float: left;
+}
+#primaryContent.blog-content.archives{
+    width: 980px;
+    float:left;
 }
 #primaryContent h1, 
 #primaryContent h2 {
@@ -315,7 +319,8 @@ div#site-title-div{
     line-height:1.5em;
 }
 #primaryContent h1.postTitle,
-#primaryContent h2.postTitle { 	
+#primaryContent h2.postTitle,
+#archives h2{ 	
  	text-align: left;        
  	color: #CC4D22;
         text-shadow: 0px 1px 2px #CC4D22;
@@ -352,12 +357,19 @@ div#site-title-div{
     
 }
 #primaryContent h1.postTitle.page,
-#primaryContent h2.postTitle.page{
+#primaryContent h2.postTitle.page,
+#archives h2{
 /*    text-align:center;*/
     margin-bottom: 10px;
     font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
     text-align: right;
     float: right;
+}
+#archives h2
+{
+    float: none;
+    text-align: left;
+    text-transform: none;
 }
 
 #primaryContent h3 {
