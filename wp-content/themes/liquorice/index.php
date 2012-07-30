@@ -24,7 +24,7 @@
       
 <!--      Header for home page as needed -->
       <div id="index-header">
-          <div class="home-section-header">Having an event in July?</div>          
+          <div class="home-section-header">Having an event in August?</div>          
           <div class="home-section-description">Looking for your photos from the Sheraton Baltimore North Winter Bridal Show?  Look no further!  Click here to get to your photos using the password provided at the Bridal Show!</div>          
           <div class="home-section-description"  style="text-align:center; display: none;"><img src="/wp-content/themes/liquorice/images/bridal_shows/sheraton-horizontal.png" alt="DC Photobooth at Sheraton Baltimore North Hotel" style="margin:10px 0"></div>
           <div class="home-section-action" style="padding-right: 0px; margin-bottom: 0px;">find my photos &raquo;</div>
@@ -50,7 +50,7 @@
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
           <a class="home-slideshow-ad" href="/contact">
-              <div class="home-ad-header">Having an event in July?</div>
+              <div class="home-ad-header">Having an event in August?</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
               <div class="home-ad-sub-header">Click Here to Contact Us</div>
           </a>
@@ -63,7 +63,7 @@
             ?>
                     
           <a class="home-slideshow-ad" href="/contact">
-              <div class="home-ad-header">Having an event in July?</div>
+              <div class="home-ad-header">Having an event in August?</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
               <div class="home-ad-sub-header">Click Here to Contact Us</div>
           </a>
@@ -76,7 +76,7 @@
             ?>
                     
           <a class="home-slideshow-ad" href="/contact">
-              <div class="home-ad-header">Having an event in July?</div>
+              <div class="home-ad-header">Having an event in August?</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
               <div class="home-ad-sub-header">Click Here to Contact Us</div>
           </a>                
