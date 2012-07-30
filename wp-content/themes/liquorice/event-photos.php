@@ -14,6 +14,22 @@
                             'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Jackie-and-Gordon/24455822_tnh39f',
                             'link_title' => 'DC Photobooth at the Jackie and Gordon\'s Wedding'
                         ),
+                    array(  'name' => 'WeddingWire World', 
+                            'type' => 'Conference', 
+                            'date' => date("M d, Y", strtotime("2012-07-23")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101094929-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101094929.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/WeddingWire-World-2012/24355389_x58ckQ',
+                            'link_title' => 'DC Photobooth at WeddingWire World'
+                        ),
+                    array(  'name' => 'Ashley and Darryl', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-07-22")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101015241-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_002520.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/ashley-and-darryl/24322608_THPD82',
+                            'link_title' => 'DC Photobooth at Ashley and Darryl\'s Wedding'
+                        ),
                     array(  'name' => 'Dorothy\'s Birthday Party', 
                             'type' => 'Birthday', 
                             'date' => date("M d, Y", strtotime("2012-06-30")), 

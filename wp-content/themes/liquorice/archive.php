@@ -7,7 +7,7 @@
   <div id="archives"> 
   <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
    <?php /* If this is a category archive */ if (is_category()) { ?>
-    <h2> &#8216;<?php single_cat_title(); ?>&#8217; Category</h2>
+    <h2><?php ucwords(single_cat_title()); ?> Posts</h2>
    <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
     <h2>Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h2>
    <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
@@ -22,29 +22,49 @@
     <h2>Blog Archives</h2>
    <?php } ?>
    </div>
+<div id="primaryContent" class="blog-content archives">
  <ol id="posts">
   <?php while (have_posts()) : the_post(); ?>
 
-    <li id="post-<?php the_ID(); ?>"   <?php post_class('postWrapper'); ?>>
+    <li id="post-<?php the_ID(); ?>" <?php post_class('postWrapper'); ?>>
 
-      <h2 class="postTitle"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-      
-      <p class="date"><small><?php the_time('F j, Y'); ?> by <?php the_author(); ?></small></p>
-	
-      <div class="post">
-      <?php the_post_thumbnail(); ?>
 
-	  <?php the_content(__('(more...)')); ?></div>
-      <p class="postMeta">Category <?php the_category(', ') ?> | Tags: <?php the_tags(' ', ',', ' '); ?> | <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></p>
+        <h2 class="postTitle"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
-      <hr class="noCss" />
+        <div class="post-date"><span class="month"><?php the_time('M') ?></span><br /><span class="date"><?php the_time('j') ?></spa></div>
+
+        <div class="post">
+            <?php //the_content(__('(more...)')); ?>
+            <?php echo get_post_meta(get_the_ID(), 'teaser', true); ?>
+        </div>
+        <div class="post-read-more"><a href="<?php the_permalink() ?>" rel="bookmark">read more &raquo;</a></div>
+        <div class="post-social">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style "
+                    addthis:url="<?php the_permalink() ?>"
+                    addthis:title="<?php the_title(); ?>">
+                <a class="addthis_button_facebook"></a>
+                <a class="addthis_button_twitter"></a>
+                <a class="addthis_button_gmail"></a>
+                <a class="addthis_button_compact"></a>
+                <a class="addthis_counter addthis_bubble_style"></a>
+            </div>
+            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f18708410c8b891"></script>
+            <!-- AddThis Button END -->
+        </div>
+
+            <?php wp_link_pages('before=<p class="page-link">&after=</p>&next_or_number=number&pagelink=page %'); ?>
+        <p class="postMeta">Category <?php the_category(', ') ?> | <?php the_tags(); ?> | <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></p>
+
+        <div class="dc-border">&nbsp;</div>
     </li>
 
     <?php comments_template(); // Get wp-comments.php template ?>
 
-    <?php endwhile; ?>
+  <?php endwhile; ?>
 
   </ol>
+</div>
 
  
  <?php else : ?>
