@@ -12,7 +12,15 @@
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_020742-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_020742.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Jackie-and-Gordon/24455822_tnh39f',
-                            'link_title' => 'DC Photobooth at the Jackie and Gordon\'s Wedding'
+                            'link_title' => 'DC Photobooth at Jackie and Gordon\'s Wedding'
+                        ),
+                    array(  'name' => 'Jamie and Chris', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-07-27")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/08/i-4xwv53F-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/08/i-4xwv53F.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/7-27-Jamie-and-Chris/24603842_fWxwhD',
+                            'link_title' => 'DC Photobooth at Jamie and Chris\' Wedding'
                         ),
                     array(  'name' => 'WeddingWire World', 
                             'type' => 'Conference', 
