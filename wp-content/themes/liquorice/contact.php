@@ -23,7 +23,7 @@ get_header();
                     <input id="usersite" type="text" name="userlocation" placeholder="Where is this all going down?"/>
                     <br />
                     <label class="iconic date" for="userdate"> Event Date </label><br />
-                    <input id="userdate" type="date" name="userdate" placeholder="...and when?"/>
+                    <input id="userdate" type="text" name="userdate" placeholder="...and when?"/>
 
                 </div>
                 <div id="contact-form-right"><label class="iconic quote-alt" for="subject"> Subject </label><br />
