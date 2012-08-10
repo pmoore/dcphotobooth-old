@@ -1,18 +1,22 @@
 <?php
     $name = $_POST['name'];
     $from = $_POST['from'];
-    $to = "info@dmvphotobooths.com";
+//    $to = "info@dmvphotobooths.com";
+    $to = "pmmoor1@gmail.com";
     $subject = $_POST["subject"];
     $location = $_POST["location"];
     $date = $_POST["date"];
     $message = $_POST["message"];
     $referrer = $_POST['referrer'];
     $message_footer = "This message was auto generated from www.dc-photobooth.com.";
-    $headers = 'From: '.$from;
+    $headers = 'From: info@dmvphotobooths.com';
     
     $full_message = "";
     if($_POST["name"]!=""){
         $full_message .= "Name: ".$name."\n";
+    }
+    if($_POST["from"]!=""){
+        $full_message .= "Email: ".$from."\n";
     }
     if($_POST["location"]!=""){
         $full_message .= "Event Location: ".$location."\n";
