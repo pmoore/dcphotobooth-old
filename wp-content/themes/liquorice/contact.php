@@ -20,7 +20,7 @@ get_header();
                     <input id="usermail" type="email" name="usermail" placeholder="Trust me, we hate spam as much as you do." />
                     <br />
                     <label class="iconic location" for="userlocation"> Location </label><br />
-                    <input id="usersite" type="text" name="userlocation" placeholder="Where is this all going down?"/>
+                    <input id="userlocation" type="text" name="userlocation" placeholder="Where is this all going down?"/>
                     <br />
                     <label class="iconic date" for="userdate"> Event Date </label><br />
                     <input id="userdate" type="text" name="userdate" placeholder="...and when?"/>
