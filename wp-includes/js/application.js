@@ -79,6 +79,7 @@ $(function(){
             },
             function(response){
                 alert(response);
+                window.location = "../";
             }
         );  
         return false;
