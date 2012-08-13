@@ -63,6 +63,8 @@ blockquote p{
 ul{ margin-left:15px; }
 ol{ padding-left:25px; }
 
+strong{ font-weight: bold; }
+
 @font-face {
     font-family: 'ColaborateThinRegular';
     src: url('fonts/ColabThi-webfont.eot');
