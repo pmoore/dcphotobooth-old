@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Gordon and Jackie', 
+ $events = array (  array(  'name' => 'GW Bound!', 
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-08-24")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/08/i-NnHQQRm-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/08/i-NnHQQRm.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/University/GW-Bound/25074466_xwqNnK',
+                            'link_title' => 'DC Photobooth at GW Bound'
+                        ),
+                    array(  'name' => 'Gordon and Jackie', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-07-28")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_020742-201x300.jpg',
