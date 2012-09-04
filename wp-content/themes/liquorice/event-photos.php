@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'GW Bound!', 
+ $events = array (  array(  'name' => 'Kikola and McBee', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-09-02")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/20000101040731-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/20000101040731.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/McBee-wedding/25160543_ccRKb2',
+                            'link_title' => 'DC Photobooth at Kikola and McBee\'s Wedding'
+                        ),
+                    array(  'name' => 'Jena and Jeffrey', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-09-01")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/20000101024545-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/20000101024545.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Jena/25150657_CQdjPH',
+                            'link_title' => 'DC Photobooth at Jena and Jeffrey\'s Wedding'
+                        ),
+                    array(  'name' => 'GW Bound!', 
                             'type' => 'Party', 
                             'date' => date("M d, Y", strtotime("2012-08-24")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/08/i-NnHQQRm-201x300.jpg',
