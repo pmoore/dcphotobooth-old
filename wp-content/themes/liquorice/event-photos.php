@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Kikola and McBee', 
+ $events = array (  array(  'name' => 'The Wedding Salon', 
+                            'type' => 'Bridal Show', 
+                            'date' => date("M d, Y", strtotime("2012-09-10")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/wedding-slaon-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/wedding-slaon.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/The-Wedding-Salon/25305705_fjvgXN',
+                            'link_title' => 'DC Photobooth at the Wedding Salon Bridal Show'
+                        ),
+                    array(  'name' => 'Sherif and Karmel', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-09-09")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/i-TMM65XH-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/i-TMM65XH.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Sharif-Karmel-Wedding/25305727_dKjXG8',
+                            'link_title' => 'DC Photobooth at Sherif and Karmel\'s Wedding'
+                        ),
+                    array(  'name' => 'Kikola and McBee', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-09-02")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/20000101040731-201x300.jpg',
