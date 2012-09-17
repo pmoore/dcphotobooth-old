@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'The Wedding Salon', 
+ $events = array (  array(  'name' => 'Lighthouse Wealth Management', 
+                            'type' => 'Corporate Event', 
+                            'date' => date("M d, Y", strtotime("2012-09-15")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/lighthouse-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/lighthouse.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Corporate-Event/Lighthouse-Wealth-Management/25390318_ZTWXxX',
+                            'link_title' => 'DC Photobooth and Lighthouse Wealth Management'
+                        ),
+                    array(  'name' => 'Caroline and Emily', 
+                            'type' => 'Bat Mitzvah', 
+                            'date' => date("M d, Y", strtotime("2012-09-15")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/caroline-emily-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/caroline-emily.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Mitzvahs/caroline-and-emily-bat-mitzvah/25388279_s87ksP',
+                            'link_title' => 'DC Photobooth at Caroline and Emily\'s Bat Mitzvah'
+                        ),
+                    array(  'name' => 'The Wedding Salon', 
                             'type' => 'Bridal Show', 
                             'date' => date("M d, Y", strtotime("2012-09-10")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/wedding-slaon-201x300.jpg',
