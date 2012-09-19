@@ -206,3 +206,43 @@ $(function(){
     });
     
 }); //end initializers
+
+var reviewCount = 1;
+
+$('.ww-review-box').ready(function($){
+    setTimeout(function(){
+        $('.ww-review-content').each(function(){
+            $(this).clone().addClass("bubble-left").appendTo('#home-reviews-container');
+            $('#home-reviews-all').show();
+        });
+        
+        $('.ww-reviews-header-box-right').each(function(){
+            $(this).clone().attr("id", "home-reviews-count-text").appendTo('#home-reviews-count');
+        });
+        $('#home-reviews-count-text a').text($('#home-reviews-count-text').text()+" total on WeddingWire");
+        
+        $('#home-reviews-prev-container').addClass('disabled');
+        
+    }, 500);
+    
+    $('#home-reviews-next-container').click(function(e){
+        if(reviewCount < 3){
+            reviewCount++;
+            $('#home-reviews-container').css('margin-left', parseInt($('#home-reviews-container').css('margin-left'))-824);
+            $('#home-reviews-prev-container').removeClass('disabled');
+            if(reviewCount == 3)
+                $('#home-reviews-next-container').addClass('disabled');
+        }
+        
+    });
+    $('#home-reviews-prev-container').click(function(e){
+        if(reviewCount > 1){
+            reviewCount--;
+            $('#home-reviews-container').css('margin-left', parseInt($('#home-reviews-container').css('margin-left'))+824);
+            $('#home-reviews-next-container').removeClass('disabled');
+            if(reviewCount == 1)
+                $('#home-reviews-prev-container').addClass('disabled');
+        }
+        
+    });
+})

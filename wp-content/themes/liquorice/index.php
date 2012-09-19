@@ -36,7 +36,6 @@
       <div style="clear:both"></div>
           
 <!--      Header for home page as needed -->
-       
       <a href="http://dc-photobooth.smugmug.com/Weddings/The-Wedding-Salon/25305705_fjvgXN" style="text-decoration: none;" target="blank" id="index-header-link" title="DC Photobooth at the Wedding Salon Bridal Show">
       <div id="index-header">
           <div class="home-section-header">The Wedding Salon Bridal Show</div>          
@@ -47,8 +46,6 @@
       </a>
       
       <div style="clear:both"></div>
-      
-      
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
           <a class="home-slideshow-ad" href="/contact">
@@ -102,7 +99,9 @@
               
               <div class="home-section-header">1) why dc photobooth?</div>
               <div class="home-section-description">Looking to rent a photobooth for your wedding, corporate party, or other event?  With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible.  </div>
-              <div class="home-section-action"><a href="/photobooth-sample" title="DC Photobooth's sample photos">check out our photos &raquo;</a></div>
+              <div class="home-section-action"><a href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" target="_blank" title="DC Photobooth's reviews">read our reviews &raquo;</a></div>
+              
+              <div class="home-section-action"></div>
           </div>
           <div class="dc-border home">&nbsp;</div>
           <div class="home-section">
@@ -125,11 +124,26 @@
       
       <?php $options = get_option('liquorice_theme_options'); ?>
       <div style="clear:both"></div>
-      <div class="home-section bottom">
+      <div class="home-section">
         <div class="home-section-header">4) keep up with us</div>
         <div class="home-section-description">Follow our blog to see where we've been, where we're going and to check out some of our images from past events!  Also be sure to follow our Facebook and Twitter pages for chances to win great prizes!</div>
         <div class="home-section-action"><a href="<?php echo $options['facebookurl']; ?>" target="blank" title="DC Photobooth Facebook">facebook</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="<?php echo $options['twitterurl']; ?>" target="blank" title="DC Photobooth Twitter">twitter</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="/blog"  title="DC Photobooth Blog">blog &raquo;</a></div>
       </div>
+      
+      <div class="dc-border home">&nbsp;</div>
+      
+      <div id="home-reviews-all" name="home-reviews-all">
+        <div class="home-section-header">Read Some of Our Reviews:</div>
+        <div id="home-reviews-prev-container"><div id="home-reviews-prev"></div></div>
+        <div id="home-reviews-next-container"><div id="home-reviews-next"></div></div>
+        <div id="home-reviews"><div id="home-reviews-container"></div></div>
+        <div class="home-reviews-footer">
+            <div style="float:left" id="home-reviews-count"></div>
+            <div style="float:right"><a href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" target="_blank">Read All Our Reviews &raquo;</a></div>
+        </div>
+      </div>
+      <div style="clear:both"></div>
+      
       
       <div class="home-section bottom seo-container" id="home-seo-container">
           <div class="seo-text">
@@ -141,6 +155,10 @@
               (hover for more)
           </div>
       </div>
+      
+      <script type="text/javascript" src="http://wwcdn.weddingwire.com/static/js/widgets/myReviews.js"></script><div id="ww-widget-reviews" class="ww-reset ww-reviews-widget"><div class="ww-reviews-placeholder">Read all of our <a target="_new" href="http://www.weddingwire.com/biz/dc-photobooth-washington-baltimore/d2e61fd51540494f.html">Wedding Rentals, Unique Wedding Services Reviews</a> at <a target="_new" href="http://www.weddingwire.com"><img src="http://wwcdn.weddingwire.com/static/images/logo/WWlogo-83x19.gif" alt="Weddings, Wedding Cakes,  Wedding Planning, Wedding Checklists, Free Wedding Websites, Wedding Dresses, Wedding Ideas & more"/></a></div></div><script type="text/javascript"><!--
+        WeddingWire.createReview({"vendorId":"d2e61fd51540494f", "id":"ww-widget-reviews"});
+        --></script>
       
   </div>
   

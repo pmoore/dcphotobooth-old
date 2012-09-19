@@ -218,3 +218,103 @@ a.facebook{
   #primaryContent   { padding: 0 10px; }
   .home-section-action  { font-size: 18px; }
 }
+#home-reviews{
+    width: 825px;
+    overflow: hidden;
+    margin: 0 auto 5px auto;
+}
+#home-reviews-container{
+    width: 3800px;
+}
+.bubble-left{
+    margin: 5px 0 5px 25px;
+    position: relative;
+    padding: 15px;
+    background: white;
+    border: 2px solid #E2DBD1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #3D3C3B;
+    float:left;
+    width: 775px;
+}
+
+.bubble-left::after {
+    top: 16px;
+    left: -25px;
+    bottom: auto;
+    border-width: 15px 25px 0 0;
+    border-color: transparent #E2DBD1;
+    content: "";
+    position: absolute;
+    border-style: solid;
+    display: block;
+    width: 0;
+}
+.home-reviews-footer{
+    font-size: 13px;
+    width: 795px;
+    margin: 0 auto 15px auto;
+    overflow:auto;
+    padding-left: 25px;
+}
+#home-reviews-all{
+    display: none;
+    margin: 20px auto 60px auto;
+}
+#home-reviews-prev{
+    float:right;
+}
+#home-reviews-next{
+    float:left;
+}
+#home-reviews-next-container, #home-reviews-prev-container{
+    width:65px;
+    height: 75px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#home-reviews-next-container{
+    float:right;
+    margin-left: 10px;
+}
+#home-reviews-prev-container{
+    float:left;
+    margin-right: 10px;
+}
+#home-reviews-next, #home-reviews-prev{
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-width: 20px;
+}
+#home-reviews-next{
+    border-left-color: #CC4D22;
+}
+#home-reviews-prev{
+    border-right-color: #CC4D22;
+}
+#home-reviews-next-container.disabled, #home-reviews-prev-container.disabled{
+    cursor: default;
+}
+#home-reviews-next-container.disabled #home-reviews-next{
+    border-left-color: #E2DBD1;
+}
+#home-reviews-prev-container.disabled #home-reviews-prev{
+    border-right-color: #E2DBD1;
+    cursor: none;
+}
+
+#home-reviews-count-text{
+    padding-top: 2px !important;
+    padding-left: 55px;
+    float:left !important;
+    width: 175px;
+}
+#ww-widget-reviews{
+    display: none;
+}
