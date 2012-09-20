@@ -59,7 +59,7 @@
 
 <div id="primaryContent">
     <div class="post" id="sample-gallery-page">
-        <h1 class="postTitle page">sample galleries</h1>
+        <h1 class="postTitle page">sample images</h1>
         
         <!-- AddThis Button BEGIN -->
         <div class="addthis_toolbox addthis_default_style" id="image_social_toolbox" style="width:325px; text-align: center; margin: 0px auto; float:left; margin-top: 20px;">
