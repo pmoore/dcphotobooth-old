@@ -10,26 +10,36 @@
  $sample_img_height = 240;
  
  $sample_images = array(    
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/lighthouse-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/lighthouse-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101094929-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101094929-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101015241-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101015241-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_002520-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101_002520-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101_022821-1921269247-O-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/06/20000101_022821-1921269247-O-688x1024.jpg" ),
+     
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_042514-201x300.jpg", 
             "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_042514-688x1024.jpg" ),
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-4W6ndHh-201x300.jpg", 
             "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/i-4W6ndHh-688x1024.jpg" ),
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-201x300.jpg", 
             "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_023552-688x1024.jpg" ),
-    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_003205-201x300.jpg", 
-            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_003205-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/08/i-NnHQQRm-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/08/i-NnHQQRm-688x1024.jpg" ),
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-201x300.jpg", 
             "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_035157-688x1024.jpg" ),
-     
     
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_025723-201x300.jpg",
             "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_025723-688x1024.jpg" ),
-    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth26-201x300.jpg",
-            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth26.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/20000101024545-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/20000101024545-688x1024.jpg" ),
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-201x300.jpg",
             "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/04/20000101_030427-688x1024.jpg" ),
-    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth20-201x300.jpg",
-            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth20.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/i-TMM65XH-201x300.jpg",
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/i-TMM65XH-688x1024.jpg" ),
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_034046-201x300.jpg",
             "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/05/20000101_034046-688x1024.jpg" ),
      
