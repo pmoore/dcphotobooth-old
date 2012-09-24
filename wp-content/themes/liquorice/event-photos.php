@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Lighthouse Wealth Management', 
+ $events = array (  array(  'name' => 'Sarah and Bill', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-09-23")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/sarahandbill-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/sarahandbill.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/9-23-Sarah-and-Bill/25547498_ZHJRVC',
+                            'link_title' => 'DC Photobooth at Sarah and Bill\'s Wedding'
+                        ),
+                    array(  'name' => 'Re/Max Allegiance', 
+                            'type' => 'Corporate Event', 
+                            'date' => date("M d, Y", strtotime("2012-09-18")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/remax-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/remax.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Corporate-Event/9-18-Remax/25547487_tqrjhX',
+                            'link_title' => 'DC Photobooth at Re/Max Allegiance Convention'
+                        ),
+                    array(  'name' => 'Lighthouse Wealth Management', 
                             'type' => 'Corporate Event', 
                             'date' => date("M d, Y", strtotime("2012-09-15")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/lighthouse-201x300.jpg',
