@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Sarah and Bill', 
+ $events = array (  array(  'name' => 'Sara and Robert', 
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-09-29")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/sara-robert-bash-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/sara-robert-bash.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Sara-and-Robert-Bash/25658878_K42WBb',
+                            'link_title' => 'DC Photobooth at Sara and Robert\'s Bash'
+                        ),
+                    array(  'name' => 'Sarah and Bill', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-09-23")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/09/sarahandbill-201x300.jpg',
