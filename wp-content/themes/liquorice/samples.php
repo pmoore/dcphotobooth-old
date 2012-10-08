@@ -9,7 +9,18 @@
  $sample_img_width = 160;
  $sample_img_height = 240;
  
- $sample_images = array(    
+ $sample_images = array(  
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/10/i-dPbMpLr-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/10/i-dPbMpLr-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/10/sara-robert-bash-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/10/sara-robert-bash-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/wedding-slaon-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/wedding-slaon-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/caroline-emily-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/caroline-emily-688x1024.jpg" ),
+    array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/sarahandbill-201x300.jpg", 
+            "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/sarahandbill-688x1024.jpg" ),
+     
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/lighthouse-201x300.jpg", 
             "large" => "http://www.dc-photobooth.com/wp-content/uploads/2012/09/lighthouse-688x1024.jpg" ),
     array(  "small" => "http://www.dc-photobooth.com/wp-content/uploads/2012/07/20000101094929-201x300.jpg", 
