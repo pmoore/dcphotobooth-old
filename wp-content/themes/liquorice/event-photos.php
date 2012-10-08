@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Sara and Robert', 
+ $events = array (  array(  'name' => 'Jamie and AJ', 
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-10-05")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/i-dPbMpLr-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/i-dPbMpLr.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/jamie-aj-wedding/25766526_qfptG7',
+                            'link_title' => 'DC Photobooth at Jamie and AJ\'s Wedding'
+                        ),
+                    array(  'name' => 'Sara and Robert', 
                             'type' => 'Party', 
                             'date' => date("M d, Y", strtotime("2012-09-29")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/sara-robert-bash-201x300.jpg',
