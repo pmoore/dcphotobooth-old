@@ -14,6 +14,14 @@
                             'host_url' => 'http://dc-photobooth.smugmug.com/Events/Corporate-Event/Kingstowne/25996311_t6dF4x',
                             'link_title' => 'DC Photobooth at Kingstowne\'s Volunteer Event'
                         ),
+                    array(  'name' => 'Legal Services of Northern Virginia', 
+                            'type' => 'Non-Profit Event', 
+                            'date' => date("M d, Y", strtotime("2012-10-13")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/lsnv-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/lsnv.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/Legal-Services-of-N-VA-10-13/26005024_Sk8Zv9',
+                            'link_title' => 'DC Photobooth at Kingstowne\'s Volunteer Event'
+                        ),
                     array(  'name' => 'Jamie and AJ', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-10-05")), 
