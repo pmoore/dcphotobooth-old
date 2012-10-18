@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Jamie and AJ', 
+ $events = array (  array(  'name' => 'Kingstowne', 
+                            'type' => 'Volunteer Event', 
+                            'date' => date("M d, Y", strtotime("2012-10-12")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/kingstowne-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/kingstowne.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Corporate-Event/Kingstowne/25996311_t6dF4x',
+                            'link_title' => 'DC Photobooth at Kingstowne\'s Volunteer Event'
+                        ),
+                    array(  'name' => 'Jamie and AJ', 
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-10-05")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/i-dPbMpLr-201x300.jpg',
