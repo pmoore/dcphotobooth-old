@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Kingstowne', 
+ $events = array (  array(  'name' => 'Natalie & Brian',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-10-20")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/nataliebrian-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/nataliebrian.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/10-20-Natalie-Brian/26072591_7MS3tv',
+                            'link_title' => 'DC Photobooth at Natalie & Brian\'s Wedding'
+                        ),
+                    array(  'name' => 'Kingstowne',  
                             'type' => 'Volunteer Event', 
                             'date' => date("M d, Y", strtotime("2012-10-12")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/kingstowne-201x300.jpg',
