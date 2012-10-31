@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Natalie & Brian',  
+ $events = array (  array(  'name' => 'Damien & Yen',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-10-27")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/daminyen-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/daminyen.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Yen-and-Damien/26253763_Kp6z6L',
+                            'link_title' => 'DC Photobooth at Damien & Yen\'s Wedding'
+                        ),
+                    array(  'name' => 'Natalie & Brian',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-10-20")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/nataliebrian-201x300.jpg',
