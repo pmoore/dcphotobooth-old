@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Damien & Yen',  
+ $events = array (  array(  'name' => 'Leire & John',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-11-03")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/leirejohn-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/leirejohn.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/11-03-Leire/26342276_DmXJQw',
+                            'link_title' => 'DC Photobooth at Leire & John\'s Wedding'
+                        ),
+                    array(  'name' => 'Damien & Yen',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-10-27")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/10/daminyen-201x300.jpg',
