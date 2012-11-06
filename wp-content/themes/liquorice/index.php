@@ -36,14 +36,14 @@
       <div style="clear:both"></div>
           
 <!--      Header for home page as needed -->
-      <a href="http://dc-photobooth.smugmug.com/Weddings/The-Wedding-Salon/25305705_fjvgXN" style="text-decoration: none;" target="blank" id="index-header-link" title="DC Photobooth at the Wedding Salon Bridal Show">
+<!--      <a href="http://dc-photobooth.smugmug.com/Weddings/The-Wedding-Salon/25305705_fjvgXN" style="text-decoration: none;" target="blank" id="index-header-link" title="DC Photobooth at the Wedding Salon Bridal Show">
       <div id="index-header">
           <div class="home-section-header">The Wedding Salon Bridal Show</div>          
           <div class="home-section-description">Looking for your photos from the Wedding Salon Bridal Show at the Madison Hotel in DC?&nbsp;&nbsp;Look no further!<br/>Click here to find your photo and view the rest of them from the evening!</div>          
           <div class="home-section-description"  style="text-align:center; display: none;"><img src="/wp-content/themes/liquorice/images/bridal_shows/sheraton-horizontal.png" alt="DC Photobooth at Sheraton Baltimore North Hotel" style="margin:10px 0"></div>
           <div class="home-section-action" style="padding-right: 0px; margin-bottom: 0px;">find my photos &raquo;</div>
       </div>
-      </a>
+      </a>-->
       
       <div style="clear:both"></div>
       

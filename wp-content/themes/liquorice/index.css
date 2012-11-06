@@ -318,3 +318,6 @@ a.facebook{
 #ww-widget-reviews{
     display: none;
 }
+.main-menu ul ul li{
+    display: none;
+}

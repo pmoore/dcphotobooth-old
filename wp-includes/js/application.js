@@ -16,6 +16,9 @@ $(function(){
     $('#temp-image-filler').cycle({
         fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
     });
+    $('#booth-images-cycle').cycle({
+        fx: 'fade'
+    });
     
     $('#index-header').hover(function(){
         $(this).find('.home-section-action').css('text-decoration','underline');
