@@ -207,7 +207,7 @@ a.facebook{
     opacity: 0.5;
 }
 
-@media (max-width: 1050px) {
+/*@media (max-width: 1050px) {
   .mobile-collapse, #site-description, #main-menu    { display: none; }
   #index-right, .home-section  { width: auto; }
   #primaryContent   { float: none;  margin: 0px auto;}
@@ -217,7 +217,7 @@ a.facebook{
   #canvas   { padding: 10px 0; }
   #primaryContent   { padding: 0 10px; }
   .home-section-action  { font-size: 18px; }
-}
+}*/
 #home-reviews{
     width: 825px;
     overflow: hidden;

@@ -944,11 +944,11 @@ a:hover.facebook{
 	padding:3px 5px;
 }
 
-
 /*
+
  * Media queries for responsive design
  *
- */
+ 
 
 @media (max-width: 1024px) { 
 	#canvas {
@@ -1059,7 +1059,7 @@ a:hover.facebook{
 		max-width:100%;
 		height:auto;	
 	}
-}
+}*/
 
 
 .stock-img{
