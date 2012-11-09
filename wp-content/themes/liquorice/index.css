@@ -321,3 +321,22 @@ a.facebook{
 .main-menu ul ul li{
     display: none;
 }
+
+#ww-widget-wwrated-2012{
+    position: absolute;
+    width: 65px;
+    height:65px;
+    right: -83px;
+    top: 52px;
+    box-shadow: 0px 0px 5px 1px #888;
+    -moz-box-shadow: 0px 0px 5px 1px #888888;
+    -webkit-box-shadow: 0px 0px 5px 1px #888;
+}
+#ww-widget-wwrated-2012 img.ww-top{
+    height: 56.5px;
+    width: 65px;
+}
+#ww-widget-wwrated-2012 img.ww-bottom{
+    width: 65px;
+    height: 8.5px;
+}

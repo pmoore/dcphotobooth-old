@@ -97,6 +97,11 @@
                   </div>
               </div>
               
+<!--              WeddingWire Rated-->
+              <script type="text/javascript" src="http://wwcdn.weddingwire.com/static/js/widgets/wwrated/2012.js"></script><div id="ww-widget-wwrated-2012" class="ww-reset ww-widget-wwrated-2012"><a target="_new" href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" title='DC Photobooth Reviews , Baltimore Event Rentals & Photobooths'>	<img class="ww-top" src="http://wwcdn.weddingwire.com/static/images/badges/ww-rated/2012/WW-RATED12-blue-top.png" alt="WeddingWire Rated 2012"></a><a target="_new" href="http://www.weddingwire.com" title="Weddings, Wedding, Wedding Venues">	<img class="ww-bottom" src="http://wwcdn.weddingwire.com/static/images/badges/ww-rated/2012/WW-RATED12-blue-bottom.png" alt="Weddings, Wedding, Wedding Venues"></a><div class="ww-clear"> </div></div><script type="text/javascript"><!--
+                WeddingWire.ensureInit(function() {WeddingWire.createWWRated2012({"vendorId":"d2e61fd51540494f", "divId":"ww-widget-wwrated-2012"});});
+                --></script>
+              
               <div class="home-section-header">1) why dc photobooth?</div>
               <div class="home-section-description">Looking to rent a photobooth for your wedding, corporate party, or other event?  With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible.  </div>
               <div class="home-section-action"><a href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" target="_blank" title="DC Photobooth's reviews">read our reviews &raquo;</a></div>
