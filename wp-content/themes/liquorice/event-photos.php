@@ -6,7 +6,39 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Leire & John',  
+ $events = array (  array(  'name' => 'Innas & Hazem',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-11-11")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/innashazem-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/innashazem.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Innas/26489200_sbfXxC',
+                            'link_title' => 'DC Photobooth at Innas & Hazem\'s Wedding'
+                        ),
+                    array(  'name' => 'Elizabeth & Charles',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-11-10")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/charleselizabeth-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/charleselizabeth.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Elizabeth-and-Charles-Wedding/26489008_2m8M9Z',
+                            'link_title' => 'DC Photobooth at Charles & Elizabeth\'s Wedding'
+                        ),
+                    array(  'name' => 'Sam\'s Bar Mitzvah',  
+                            'type' => 'Bar Mitzvah', 
+                            'date' => date("M d, Y", strtotime("2012-11-10")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/samMitzvah-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/samMitzvah.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Mitzvahs/Sam-Mitzvah/26488846_h893RH',
+                            'link_title' => 'DC Photobooth at Sam\'s Bar Mitzvah'
+                        ),
+                    array(  'name' => 'Brooksfield\'s 25th',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-11-02")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/brooksfield-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/brooksfield.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/School/Brooksfield-25th/26488767_F62cPq',
+                            'link_title' => 'DC Photobooth at Brooksfield\'s 25th Anniversary'
+                        ),
+                    array(  'name' => 'Leire & John',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-11-03")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/leirejohn-201x300.jpg',
