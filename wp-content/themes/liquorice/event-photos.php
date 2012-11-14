@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Innas & Hazem',  
+ $events = array (  array(  'name' => 'Bethesda Magazine 50th Issue',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-11-13")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/bethesdaMagazine-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/bethesdaMagazine.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/Bethesda-Magazine-50th-issue/26512781_r4tCKQ',
+                            'link_title' => 'DC Photobooth at Bethesda Magazine\'s 50th Issue Celebration'
+                        ),
+                    array(  'name' => 'Foundation for Jewish Camp',  
+                            'type' => 'Convention', 
+                            'date' => 'Nov 10-11, 2012', 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/jewishFoundation-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/jewishFoundation.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/Social-Click-Jewish-Foundation/26512843_J5VHcF',
+                            'link_title' => 'DC Photobooth with the Social Click and the Foundation for Jewish Camp'
+                        ),
+                    array(  'name' => 'Innas & Hazem',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2012-11-11")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/innashazem-201x300.jpg',
@@ -349,15 +365,16 @@
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/02/dcphotobooth10.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth/21522481_Hc6Zp9/',
                             'link_title' => 'DC Photobooth at the Baltimore Sheraton North Bridal Show'
-                        ),
-                    array(  'name' => 'DC Photobooth Launch Party', 
-                            'type' => 'Party', 
-                            'date' => date("M d, Y", strtotime("2012-01-26")), 
-                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347-201x300.jpg',
-                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347.jpg',
-                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth-Launch-Party/22144760_cZ9Nqj',
-                            'link_title' => 'DC Photobooth Launch Party'
                         )
+//     ,
+//                    array(  'name' => 'DC Photobooth Launch Party', 
+//                            'type' => 'Party', 
+//                            'date' => date("M d, Y", strtotime("2012-01-26")), 
+//                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347-201x300.jpg',
+//                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/03/20000101_000347.jpg',
+//                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/DC-Photobooth-Launch-Party/22144760_cZ9Nqj',
+//                            'link_title' => 'DC Photobooth Launch Party'
+//                        )
             );
  
  $sample_img_width = 160;
