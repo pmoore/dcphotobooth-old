@@ -6,7 +6,31 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Bethesda Magazine 50th Issue',  
+ $events = array (  array(  'name' => 'Washington & Lee Class of 2002',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2012-11-24")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/washingtonlee-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/washingtonlee.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/Washington-Lee-10-Year-Reunion/26730134_gG5Mkn',
+                            'link_title' => 'DC Photobooth at Washington & Lee\'s Class of 2002 reunion'
+                        ),
+                    array(  'name' => 'Susan & David',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-11-17")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/11.17-susandavid-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/11.17-susandavid.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Susan-Wedding-11-17/26729956_t5hJ9v',
+                            'link_title' => 'DC Photobooth at Susan and David\'s Wedding'
+                        ),
+                    array(  'name' => 'Zeta Tau Alpha Fall Formal',  
+                            'type' => 'Formal', 
+                            'date' => date("M d, Y", strtotime("2012-11-16")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/zeta-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/zeta-susandavid.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/Zeta-UMD-Event/26729765_Shsbmn',
+                            'link_title' => 'DC Photobooth at Zeta Tau Alpha Fall Formal'
+                        ),
+                    array(  'name' => 'Bethesda Magazine 50th Issue',  
                             'type' => 'Party', 
                             'date' => date("M d, Y", strtotime("2012-11-13")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/bethesdaMagazine-201x300.jpg',
