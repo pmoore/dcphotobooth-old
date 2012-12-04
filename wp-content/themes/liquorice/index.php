@@ -49,7 +49,7 @@
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
           <a class="home-slideshow-ad" href="/contact">
-              <div class="home-ad-header">Having an event in November?</div>
+              <div class="home-ad-header">Having an event in <?php echo date("F", strtotime("+1 months")); ?>?</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
               <div class="home-ad-sub-header">Click Here to Contact Us</div>
           </a>
@@ -62,7 +62,7 @@
             ?>
                     
           <a class="home-slideshow-ad" href="/contact">
-              <div class="home-ad-header">Having an event in November?</div>
+              <div class="home-ad-header">Having an event in <?php echo date("F", strtotime("+1 months")); ?>?</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
               <div class="home-ad-sub-header">Click Here to Contact Us</div>
           </a>
@@ -75,7 +75,7 @@
             ?>
                     
           <a class="home-slideshow-ad" href="/contact">
-              <div class="home-ad-header">Having an event in November?</div>
+              <div class="home-ad-header">Having an event in <?php echo date("F", strtotime("+1 months")); ?>?</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
               <div class="home-ad-sub-header">Click Here to Contact Us</div>
           </a>                

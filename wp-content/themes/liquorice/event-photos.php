@@ -6,7 +6,31 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Washington & Lee Class of 2002',  
+ $events = array (  array(  'name' => 'Lorenzo Alexander',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-01")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/12-1-alexander-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/12-1-alexander.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Holiday-Party/Alexander-Family-Party/26872663_dh7nmk',
+                            'link_title' => 'DC Photobooth at Washington Redskin\'s Lorenzo Alexander\'s Holiday Party'
+                        ),
+                    array(  'name' => 'eTrade',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-01")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/12-1-etrade-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/12-1-etrade.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/12-01-12-etrade-holiday-party/26840320_45pRM8',
+                            'link_title' => 'DC Photobooth at eTrade\'s Holiday Party'
+                        ),
+                    array(  'name' => 'Digitek',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-11-30")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/11-20-digitek-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/11-20-digitek.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/11-30-digitek-holiday-party/26823555_LZSkhH',
+                            'link_title' => 'DC Photobooth at Digitek\'s Holiday Party'
+                        ),
+                    array(  'name' => 'Washington & Lee Class of 2002',  
                             'type' => 'Party', 
                             'date' => date("M d, Y", strtotime("2012-11-24")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/11/washingtonlee-201x300.jpg',
