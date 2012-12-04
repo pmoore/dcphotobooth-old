@@ -6,7 +6,7 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Lorenzo Alexander',  
+ $events = array (  array(  'name' => 'Alexander Christmas Party',  
                             'type' => 'Holiday Party', 
                             'date' => date("M d, Y", strtotime("2012-12-01")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/12-1-alexander-201x300.jpg',
