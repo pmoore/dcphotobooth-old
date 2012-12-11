@@ -22,10 +22,10 @@
             <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/liquorice/style_ie.css" />
         <![endif]-->
         <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/liquorice/reset.css" />
-        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="/wp-includes/js/jquery/jquery-1.7.1.min.js"></script>
         <script src="/wp-includes/js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
-        <script src="/wp-includes/js/application.js"></script>
         <script src="/wp-includes/js/jquery/jquery.cycle.all.js"></script>
+        <script src="/wp-includes/js/application.js"></script>
         
 	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin' rel='stylesheet' type='text/css'>
         <link href='/wp-includes/css/jquery-ui-1.8.17.custom.css' rel='stylesheet' type='text/css'>

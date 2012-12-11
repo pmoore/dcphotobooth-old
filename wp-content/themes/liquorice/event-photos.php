@@ -6,7 +6,31 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Alexander Christmas Party',  
+ $events = array (  array(  'name' => 'TNS Inc.',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-08")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/tns-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/tns.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/12-8-TNS-Holiday-Party/27028524_mjJNxp',
+                            'link_title' => 'DC Photobooth at the TNS Holiday Party'
+                        ),
+                    array(  'name' => 'OPOWER',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-07")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/opower-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/opower.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/12-07-12-opower-holiday-party/26963359_z83WnV',
+                            'link_title' => 'DC Photobooth at OPOWER\'s Holiday Party'
+                        ),
+                    array(  'name' => 'triCerat Inc.',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-06")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/tricerat-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/tricerat.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/12-06-12-tricerat-inc-hoiday/26963322_P5RnWB',
+                            'link_title' => 'DC Photobooth at triCerat\'s Holiday Party'
+                        ),
+                    array(  'name' => 'Alexander Christmas Party',  
                             'type' => 'Holiday Party', 
                             'date' => date("M d, Y", strtotime("2012-12-01")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/12-1-alexander-201x300.jpg',
