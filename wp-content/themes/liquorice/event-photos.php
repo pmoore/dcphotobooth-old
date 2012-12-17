@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'TNS Inc.',  
+ $events = array (  array(  'name' => 'Reingold',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-14")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/reingold-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/reingold.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/12-14-Reingold-Holiday-Party/27137682_d4RFgm',
+                            'link_title' => 'DC Photobooth at the Reingold Holiday Party'
+                        ),
+                    array(  'name' => 'Sotheby\'s International Realty',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-13")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/sothebys-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/sothebys.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/12-13-12-Sothebys-holiday/27075897_83Rn52',
+                            'link_title' => 'DC Photobooth at Sotheby\'s Holiday Party'
+                        ),
+                    array(  'name' => 'TNS Inc.',  
                             'type' => 'Holiday Party', 
                             'date' => date("M d, Y", strtotime("2012-12-08")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/tns-201x300.jpg',
