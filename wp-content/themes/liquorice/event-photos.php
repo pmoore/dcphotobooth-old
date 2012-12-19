@@ -6,7 +6,23 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Reingold',  
+ $events = array (  array(  'name' => 'Easterns Automotive Group',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-16")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/easterns-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/easterns.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/Easterns/27144886_TpLQCD',
+                            'link_title' => 'DC Photobooth at the Reingold Holiday Party'
+                        ),
+                    array(  'name' => 'OutsourceIT',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-15")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/outsourceit-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/outsourceit.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/Outsourceit/27144837_vSGGNS',
+                            'link_title' => 'DC Photobooth at the OutsourceIT Holiday Party'
+                        ),
+                    array(  'name' => 'Reingold',  
                             'type' => 'Holiday Party', 
                             'date' => date("M d, Y", strtotime("2012-12-14")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/reingold-201x300.jpg',
@@ -21,6 +37,14 @@
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/sothebys.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/12-13-12-Sothebys-holiday/27075897_83Rn52',
                             'link_title' => 'DC Photobooth at Sotheby\'s Holiday Party'
+                        ),
+                    array(  'name' => 'Baker Botts LLP',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2012-12-12")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/bakerbotts-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/bakerbotts.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/12-12-Baker-Botts/27172448_4kRqnt',
+                            'link_title' => 'DC Photobooth at Baker Botts\' Holiday Party'
                         ),
                     array(  'name' => 'TNS Inc.',  
                             'type' => 'Holiday Party', 
