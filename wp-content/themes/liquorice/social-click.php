@@ -140,6 +140,15 @@
             </ul>
         </div>
         
+        <div class="booth-info-header" style="margin-top:15px">Rates</div>
+        <div class="booth-info-description">
+            <ul>
+                <li>Rates are dependant on date, location, and duration of the event.</li>
+                <li>Packages for the Social Click Photobooth vary more than the <a href="/photobooths/bulb-photobooth/">Bulb Photobooth</a>.  Please contact us with details of your event and we will be happy to give you a quote.</li>
+                <li><a style="font-weight:bold" href="/photobooth-packages">Click here for more information on available packages for the Social Click Photobooth</a></li>
+            </ul>
+        </div>
+        
         
     </div>
 </div>

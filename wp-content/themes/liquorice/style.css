@@ -1620,4 +1620,6 @@ img#main-sample-image{
     top: -60px;
     opacity: 0.5;
 }
-
+ul.package-details{
+    margin-top:10px;
+}

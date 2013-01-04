@@ -123,6 +123,16 @@
             </ul>
         </div>
         
+        <div class="booth-info-header" style="margin-top:15px">Rates</div>
+        <div class="booth-info-description">
+            <ul>
+                <li>Rates are dependant on date, location, and duration of the event.</li>
+                <li>Packages for the Bulb Photobooth start at $1100 for 4 hours of use (single prints) and are prorated from there (we generally require at least 2 hours).</li>
+                <li>Double prints are available for an additional $100</li>
+                <li><a style="font-weight:bold" href="/photobooth-packages">Click here for more information on available packages for the Bulb Photobooth</a></li>
+            </ul>
+        </div>
+        
         
     </div>
 </div>
