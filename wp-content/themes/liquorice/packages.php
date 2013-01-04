@@ -39,7 +39,7 @@
                         <li>Guestbook for guests to leave photos and a note</li>
                 </ul>
             </div>
-            <img class="alignnone size-medium wp-image-148 pageimg" title="DC Photobooth Guest Book" src="http://test.dc-photobooth.com:8085/wp-content/uploads/2012/01/guestbook-2-200x300.jpg" alt="DC Photobooth Guest Book" width="200" height="300" />
+            <img class="alignnone size-medium wp-image-148 pageimg" title="DC Photobooth Guest Book" src="/wp-content/uploads/2012/01/guestbook-2-200x300.jpg" alt="DC Photobooth Guest Book" width="200" height="300" />
 
         </div>
         
