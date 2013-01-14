@@ -6,7 +6,31 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Easterns Automotive Group',  
+ $events = array (  array(  'name' => 'Westfields Golf Club',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2013-01-12")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/westfields-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/westfields.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/01-12-13-Westfields-Golf-Club/27552169_Vfj7Ls',
+                            'link_title' => 'DC Photobooth at the Westfields Golf Club'
+                        ),
+                    array(  'name' => 'Waterford at Fair Oaks',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2013-01-06")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/waterford-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/waterford.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/01-06-13-Waterford-annual/27482443_dKTqQv',
+                            'link_title' => 'DC Photobooth at the Waterford at Fair Oaks'
+                        ),
+                    array(  'name' => 'Kimberly & William',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2012-12-29")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/kimberlywilliam-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/kimberlywilliam.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/12-29-12-Kimberly-William/27552119_cKrMzP',
+                            'link_title' => 'DC Photobooth at the Wedding of Kumberly & William'
+                        ),
+                    array(  'name' => 'Easterns Automotive Group',  
                             'type' => 'Holiday Party', 
                             'date' => date("M d, Y", strtotime("2012-12-16")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2012/12/easterns-201x300.jpg',
