@@ -6,7 +6,15 @@
 
  get_header();
  
- $events = array (  array(  'name' => 'Westfields Golf Club',  
+ $events = array (  array(  'name' => 'CustomInk',  
+                            'type' => 'Holiday Party', 
+                            'date' => date("M d, Y", strtotime("2013-01-26")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/customink-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/customink.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Holidays/1262013-CustomInk-Holiday/27766696_Jt53pF',
+                            'link_title' => 'DC Photobooth at the CustomInk Holiday Party'
+                        ),
+                    array(  'name' => 'Westfields Golf Club',  
                             'type' => 'Party', 
                             'date' => date("M d, Y", strtotime("2013-01-12")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/westfields-201x300.jpg',
