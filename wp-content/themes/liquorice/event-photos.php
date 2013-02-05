@@ -3,8 +3,8 @@
 /*
   Template Name: Event Photos 
  */
-http://www.dc-photobooth.com/wp-content/uploads/2013/02/fors-marsh
- get_header();
+
+get_header();
  
  $events = array (  array(  'name' => 'Fors Marsh Group',  
                             'type' => 'Company Party', 
