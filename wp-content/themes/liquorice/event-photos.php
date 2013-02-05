@@ -3,10 +3,18 @@
 /*
   Template Name: Event Photos 
  */
-
+http://www.dc-photobooth.com/wp-content/uploads/2013/02/fors-marsh
  get_header();
  
- $events = array (  array(  'name' => 'CustomInk',  
+ $events = array (  array(  'name' => 'Fors Marsh Group',  
+                            'type' => 'Company Party', 
+                            'date' => date("M d, Y", strtotime("2013-02-01")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/fors-marsh-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/fors-marsh.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/02-01-2013-Fors-Marsh-Group/27864927_n53PjC',
+                            'link_title' => 'DC Photobooth at the Fors Marsh Group Company Party'
+                        ),
+                    array(  'name' => 'CustomInk',  
                             'type' => 'Holiday Party', 
                             'date' => date("M d, Y", strtotime("2013-01-26")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/01/customink-201x300.jpg',
