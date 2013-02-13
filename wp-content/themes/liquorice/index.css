@@ -163,6 +163,11 @@ a.facebook{
     font-size: 35px;
 }
 
+.home-slideshow-ad .award-badge{
+    text-align: center;
+    margin-top:40px;
+}
+
 #index-event-photos-link{
     text-align: left;
     border-top-right-radius: 5px;
@@ -321,17 +326,26 @@ a.facebook{
 .main-menu ul ul li{
     display: none;
 }
-
+#bca-2013 .ww-bca-2013,
 #ww-widget-wwrated-2012{
     position: absolute;
     width: 65px;
     height:65px;
-    right: -83px;
-    top: 52px;
     box-shadow: 0px 0px 5px 1px #888;
     -moz-box-shadow: 0px 0px 5px 1px #888888;
     -webkit-box-shadow: 0px 0px 5px 1px #888;
 }
+
+#ww-widget-wwrated-2012{
+    right: -83px;
+    top: 52px;
+}
+#bca-2013 .ww-bca-2013{
+    right: -83px;
+    top: 132px;
+}
+
+
 #ww-widget-wwrated-2012 img.ww-top{
     height: 56.5px;
     width: 65px;
@@ -340,3 +354,15 @@ a.facebook{
     width: 65px;
     height: 8.5px;
 }
+#bca-2013 .ww-bca-2013 > a.ww-bca-top img,
+#bca-2013 .ww-bca-2013 > a.ww-bca-bottom img{
+    width: 65px;
+}
+
+#bca-2013 .ww-bca-2013 > a.ww-bca-top img{
+    height: 16px;
+}
+#bca-2013 .ww-bca-2013 > a.ww-bca-bottom img{
+    height:49px;
+}
+

@@ -48,11 +48,20 @@
       <div style="clear:both"></div>
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
-          <a class="home-slideshow-ad" href="/contact">
+          <a class="home-slideshow-ad" href="#">
+              <div class="home-ad-header">DC Photobooth awarded a 2013</div>
+              <div class="home-ad-sub-header" style="font-size: 30px">Bride's Choice Award</div>
+              <div class="home-ad-sub-header">from WeddingWire!</div>
+              <div class="award-badge">
+                  <img src="http://static.weddingwire.com/static/images/badges/BCA-2013/BCA-logo.gif" />
+              </div>                 
+          </a>
+          
+<!--          <a class="home-slideshow-ad" href="/contact">
               <div class="home-ad-header">Having an event in <?php echo date("F", strtotime("+1 months")); ?>?</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
               <div class="home-ad-sub-header">Click Here to Contact Us</div>
-          </a>
+          </a>-->
           
           <?php 
                 foreach ( array_slice($main_images, 0, 2) as $key=>$img ) { ?>
@@ -91,6 +100,7 @@
       
       <div id="index-right">
           <div class="home-section">
+              
               <div id="index-event-photos-link">
                   <div id="index-event-photos-link-inner">
                         <a href="/event-photos">Find Your Photos</a>
@@ -101,6 +111,11 @@
               <script type="text/javascript" src="http://wwcdn.weddingwire.com/static/js/widgets/wwrated/2012.js"></script><div id="ww-widget-wwrated-2012" class="ww-reset ww-widget-wwrated-2012"><a target="_new" href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" title='DC Photobooth Reviews , Baltimore Event Rentals & Photobooths'>	<img class="ww-top" src="http://wwcdn.weddingwire.com/static/images/badges/ww-rated/2012/WW-RATED12-blue-top.png" alt="WeddingWire Rated 2012"></a><a target="_new" href="http://www.weddingwire.com" title="Weddings, Wedding, Wedding Venues">	<img class="ww-bottom" src="http://wwcdn.weddingwire.com/static/images/badges/ww-rated/2012/WW-RATED12-blue-bottom.png" alt="Weddings, Wedding, Wedding Venues"></a><div class="ww-clear"> </div></div><script type="text/javascript"><!--
                 WeddingWire.ensureInit(function() {WeddingWire.createWWRated2012({"vendorId":"d2e61fd51540494f", "divId":"ww-widget-wwrated-2012"});});
                 --></script>
+              
+              <!-- BCA Award -->
+              <div id="bca-2013">
+              <link rel='stylesheet' type='text/css' href='http://wwcdn.weddingwire.com/static/css/wireWidgets.css' /><div class='ww-bca-2013 ww-reset'><a class='ww-bca-top' href='http://www.weddingwire.com' title='Weddings, Wedding Venues'><img src='http://wwcdn.weddingwire.com/static/images/badges/BCA-2013/BCA_2013-badge-top.png' alt='Weddings, Wedding Venues' /></a><a class='ww-bca-bottom' href='http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html' title="DC Photobooth, Best Wedding Event Rentals in Baltimore - 2013 Bride's Choice Award Winner"><img src='http://wwcdn.weddingwire.com/static/images/badges/BCA-2013/BCA_2013-badge-bottom.png' alt="DC Photobooth, Best Wedding Event Rentals in Baltimore - 2013 Bride's Choice Award Winner" /></a><div class='ww-clear'>&nbsp;</div></div><img src='//api.weddingwire.com/api/v3/Tracker.gif?target_id=d2e61fd51540494f&type=bca_2013&partner_key=163r5mm3' width='1' height='1' />
+              </div>
               
               <div class="home-section-header">1) why dc photobooth?</div>
               <div class="home-section-description">Looking to rent a photobooth for your wedding, corporate party, or other event?  With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible.  </div>

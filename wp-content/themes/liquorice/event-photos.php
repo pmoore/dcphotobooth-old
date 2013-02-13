@@ -6,7 +6,15 @@
 
 get_header();
  
- $events = array (  array(  'name' => 'Fors Marsh Group',  
+ $events = array (  array(  'name' => 'Terp Wellness Expo',  
+                            'type' => 'Wellness Event', 
+                            'date' => date("M d, Y", strtotime("2013-02-07")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/2.7.UMD_-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/2.7.UMD_.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/02-07-13-maryland-university/27906554_KFwX3H',
+                            'link_title' => 'DC Photobooth at the UMD Terp Wellness Expo'
+                        ),
+                    array(  'name' => 'Fors Marsh Group',  
                             'type' => 'Company Party', 
                             'date' => date("M d, Y", strtotime("2013-02-01")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/fors-marsh-201x300.jpg',
