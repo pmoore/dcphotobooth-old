@@ -54,7 +54,7 @@
               <div class="home-ad-sub-header">from WeddingWire!</div>
               <div class="award-badge">
                   <img src="http://static.weddingwire.com/static/images/badges/BCA-2013/BCA-logo.gif" />
-              </div>                 
+              </div>                               
           </a>
           
 <!--          <a class="home-slideshow-ad" href="/contact">
@@ -116,6 +116,10 @@
               <div id="bca-2013">
               <link rel='stylesheet' type='text/css' href='http://wwcdn.weddingwire.com/static/css/wireWidgets.css' /><div class='ww-bca-2013 ww-reset'><a class='ww-bca-top' href='http://www.weddingwire.com' title='Weddings, Wedding Venues'><img src='http://wwcdn.weddingwire.com/static/images/badges/BCA-2013/BCA_2013-badge-top.png' alt='Weddings, Wedding Venues' /></a><a class='ww-bca-bottom' href='http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html' title="DC Photobooth, Best Wedding Event Rentals in Baltimore - 2013 Bride's Choice Award Winner"><img src='http://wwcdn.weddingwire.com/static/images/badges/BCA-2013/BCA_2013-badge-bottom.png' alt="DC Photobooth, Best Wedding Event Rentals in Baltimore - 2013 Bride's Choice Award Winner" /></a><div class='ww-clear'>&nbsp;</div></div><img src='//api.weddingwire.com/api/v3/Tracker.gif?target_id=d2e61fd51540494f&type=bca_2013&partner_key=163r5mm3' width='1' height='1' />
               </div>
+              
+              <div id="theknot2013">
+                  <img src="/wp-content/themes/liquorice/images/badges/theknotbestof.gif" />
+              </div>                 
               
               <div class="home-section-header">1) why dc photobooth?</div>
               <div class="home-section-description">Looking to rent a photobooth for your wedding, corporate party, or other event?  With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible.  </div>

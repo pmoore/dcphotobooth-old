@@ -327,7 +327,8 @@ a.facebook{
     display: none;
 }
 #bca-2013 .ww-bca-2013,
-#ww-widget-wwrated-2012{
+#ww-widget-wwrated-2012, 
+#theknot2013 img{
     position: absolute;
     width: 65px;
     height:65px;
@@ -343,6 +344,10 @@ a.facebook{
 #bca-2013 .ww-bca-2013{
     right: -83px;
     top: 132px;
+}
+#theknot2013 img{
+    right: -83px;
+    top: 212px;
 }
 
 
