@@ -5,8 +5,17 @@
  */
 
 get_header();
+
  
- $events = array (  array(  'name' => 'Terp Wellness Expo',  
+ $events = array (  array(  'name' => 'Catapult Consultants',  
+                            'type' => 'Coprorate Event', 
+                            'date' => date("M d, Y", strtotime("2013-02-23")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/2-23-catapult-consultants-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/2-23-catapult-consultants.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Corporate-Event/Catapult-Consultants/28170227_jvgSXT',
+                            'link_title' => 'DC Photobooth at Catapult Consultants Coroporate Event'
+                        ),
+                    array(  'name' => 'Terp Wellness Expo',  
                             'type' => 'Wellness Event', 
                             'date' => date("M d, Y", strtotime("2013-02-07")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/2.7.UMD_-201x300.jpg',
