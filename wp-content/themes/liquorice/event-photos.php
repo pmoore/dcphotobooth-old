@@ -7,7 +7,15 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'Catapult Consultants',  
+ $events = array (  array(  'name' => 'UMD Teacher Appreciation',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2013-03-22")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/04/umd-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/04/umd.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/3-22-2013-Teachers-at/28579832_pwnVTw',
+                            'link_title' => 'DC Photobooth at UMD Teacher Appreciation Event'
+                        ),
+                    array(  'name' => 'Catapult Consultants',  
                             'type' => 'Coprorate Event', 
                             'date' => date("M d, Y", strtotime("2013-02-23")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/2-23-catapult-consultants-201x300.jpg',
