@@ -7,7 +7,31 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'UMD Teacher Appreciation',  
+ $events = array (  array(  'name' => 'Erica & Paul',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-04-13")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4-13-erica-paul-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4-13-erica-paul.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/04-13-13EricaPaul/28928661_TcX5wN',
+                            'link_title' => 'DC Photobooth at Erica and Paul\'s Wedding'
+                        ),
+                    array(  'name' => 'Save the Children',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2013-04-10")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4-10-save-the-children-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4-10-save-the-children.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Corporate-Event/Save-the-Children/28854488_pXgwBK',
+                            'link_title' => 'DC Photobooth at the Save the Children Event'
+                        ),
+                    array(  'name' => 'Capturing Love',  
+                            'type' => 'Book Release Party', 
+                            'date' => date("M d, Y", strtotime("2013-04-09")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4-9-capturing-the-love-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4-9-capturing-the-love.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/04-09-13-capturing-love/28840962_ZZRLwX',
+                            'link_title' => 'DC Photobooth at Capturing the Love'
+                        ),
+                    array(  'name' => 'UMD Teacher Appreciation',  
                             'type' => 'Party', 
                             'date' => date("M d, Y", strtotime("2013-03-22")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/04/umd-201x300.jpg',
@@ -16,7 +40,7 @@ get_header();
                             'link_title' => 'DC Photobooth at UMD Teacher Appreciation Event'
                         ),
                     array(  'name' => 'Catapult Consultants',  
-                            'type' => 'Coprorate Event', 
+                            'type' => 'Corporate Event', 
                             'date' => date("M d, Y", strtotime("2013-02-23")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/2-23-catapult-consultants-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/02/2-23-catapult-consultants.jpg',
