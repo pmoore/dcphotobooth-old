@@ -55,7 +55,7 @@ get_header();
 
     </div>
     <div class="italic" style="text-align: center; color: #666;">
-        Having trouble?  Try <a href="mailto:info@dmvphotobooths.com">sending us an email the old fashion way</a>, or give us a call at 703.898.1702.
+        Having trouble?  Try <a href="mailto:info@dmvphotobooths.com">sending us an email the old fashion way</a>, or give us a call at 202.417.8133.
     </div>
     
 </div>

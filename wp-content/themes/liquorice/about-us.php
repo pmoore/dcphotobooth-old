@@ -17,7 +17,7 @@
 
         <div id="about-us-main">DC Photobooth is owned and operated by 3 guys who really know the wedding industry. After years of working for the leading online wedding website, we decided to put to use our valuable experiences working first hand with brides and wedding pros to create a product that is not only the most advanced in the wedding field, but the most compatible for the party on the day you’ll never forget!
 
-            Call us at 703.898.1702 or email us at <a href="mailto:info@dmvphotobooth.com">info@dmvphotobooth.com</a> to tell us more about your event!
+            Call us at 202.417.8133 or email us at <a href="mailto:info@dmvphotobooth.com">info@dmvphotobooth.com</a> to tell us more about your event!
         </div>
 
         <div id="member-thumbs">

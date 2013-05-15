@@ -7,7 +7,48 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'Erica & Paul',  
+ $events = array (  array(  'name' => 'Susan & Tom',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-05-11")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.11-susan-tom-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.11-susan-tom.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Susan-and-Tom-5-11-13/29376332_wCXhcr',
+                            'link_title' => 'DC Photobooth at Susan and Tom\'s Wedding'
+                        ),
+                    array(  'name' => 'Sarah & Marques',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-05-04")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.4-sarah-marques-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.4-sarah-marques.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Sarah-Wedding/29368628_W6ZH3F',
+                            'link_title' => 'DC Photobooth at Sarah and Marques\' Wedding'
+                        ),
+                    array(  'name' => 'March of Dimes',  
+                            'type' => 'Fundraiser', 
+                            'date' => date("M d, Y", strtotime("2013-05-04")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.4-march-of-dimes-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.4-march-of-dimes.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Corporate-Event/March-of-Dimes/29368468_pRhqZX',
+                            'link_title' => 'DC Photobooth with the March of Dimes'
+                        ),
+                    array(  'name' => 'Zach\'s Bar Mitzvah',  
+                            'type' => 'Bar Mitzvah', 
+                            'date' => date("M d, Y", strtotime("2013-04-27")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4.27-zachs-mitz-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4.27-zachs-mitz.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Mitzvahs/Zachs-Bar-Mitzvah/29368537_9f5NQK',
+                            'link_title' => 'DC Photobooth at Zach\'s Bar Mitzvah'
+                        ),
+                    array(  'name' => 'Westlake High School',  
+                            'type' => 'Prom', 
+                            'date' => date("M d, Y", strtotime("2013-04-20")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4.20-Westlake-Prom-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4.20-Westlake-Prom.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Prom/Westlake-Prom-2013/29368288_3dMqv7',
+                            'link_title' => 'DC Photobooth at Westlake High School Prom'
+                        ),
+                    
+                    array(  'name' => 'Erica & Paul',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2013-04-13")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/4-13-erica-paul-201x300.jpg',
