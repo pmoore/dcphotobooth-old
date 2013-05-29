@@ -7,15 +7,7 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'Marie & Jon',  
-                            'type' => 'Wedding', 
-                            'date' => date("M d, Y", strtotime("2013-05-26")), 
-                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.26-Marie-Jon-201x300.jpg',
-                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.26-Marie-Jon.jpg',
-                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Marie-and-Jon/29676178_42Bzzq',
-                            'link_title' => 'DC Photobooth at Marie and Jon\'s Wedding'
-                        ),
-                    array(  'name' => 'Randy\'s Graduation',  
+ $events = array (  array(  'name' => 'Randy\'s Graduation',  
                             'type' => 'Graduation Party', 
                             'date' => date("M d, Y", strtotime("2013-05-18")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.18-Randys-Graduation-201x300.jpg',
