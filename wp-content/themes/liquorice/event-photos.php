@@ -55,13 +55,13 @@ get_header();
                             'host_url' => 'http://dc-photobooth.smugmug.com/Other/06-07-13-Lake-Braddock-Prom1/29908752_vXmwfH',
                             'link_title' => 'DC Photobooth at Lake Braddock Prom 2013'
                         ),
-                    array(  'name' => 'Courtney Wilson',  
+                    array(  'name' => 'Courtney & Josh',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2013-06-01")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/06/6.1.-Courtney-wilson-201x300.jpg',
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/06/6.1.-Courtney-wilson.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Courtney-Wilson-Wedding/29791089_QRKn8b',
-                            'link_title' => 'DC Photobooth at Courtney Wilson\'s Wedding'
+                            'link_title' => 'DC Photobooth at Courtney & Josh\'s Wedding'
                         ),
      
                     array(  'name' => 'Randy\'s Graduation',  
