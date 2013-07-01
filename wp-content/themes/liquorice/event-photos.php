@@ -7,14 +7,39 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'APUS 2013',  
-                            'type' => 'Commencement', 
-                            'date' => date("M d, Y", strtotime("2013-06-19")), 
-                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/06/6.19-APUS-commencement-201x300.jpg',
-                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/06/6.19-APUS-commencement.jpg',
-                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/APUS-2013/30078414_RvtR6K',
-                            'link_title' => 'DC Photobooth at APUS 2013 Commencement'
+ $events = array (  array(  'name' => 'Nadia & Joel',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-06-30")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.30-nadia-and-joel-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.30-nadia-and-joel.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Nadia-Wedding/30286470_N7Zpkg',
+                            'link_title' => 'DC Photobooth at Nadia and Joel\'s Wedding'
                         ),
+                    array(  'name' => 'Meghan & Kevin',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-06-29")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.29-meghan-and-kevin-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.29-meghan-and-kevin.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Meghan-and-Kevin/30275236_pmMx7T',
+                            'link_title' => 'DC Photobooth at Meghan and Kevin\'s Wedding'
+                        ),
+                    array(  'name' => 'Sarah & Mike',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-06-22")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.22-sarah-mike-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.22-sarah-mike.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Sarah-Platt/30275112_ND3N7X',
+                            'link_title' => 'DC Photobooth at Sarah and Mike\'s Wedding'
+                        ),
+                    array(  'name' => 'Larissa & Sean',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-06-21")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.21-larissa-sean-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.21-larissa-sean.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Larissa-and-Sean-Wedding/30275160_kfwmGP',
+                            'link_title' => 'DC Photobooth at Larissa and Sean\'s Wedding'
+                        ),
+                    
                     array(  'name' => 'Brooke & TJ',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2013-06-15")), 
