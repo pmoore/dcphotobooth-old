@@ -7,7 +7,56 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'Nadia & Joel',  
+ $events = array (  array(  'name' => 'Jessi & Rob',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-07-27")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.27-Jessi-and-Rob-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.27-Jessi-and-Rob.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/July27th/30774102_622h7K',
+                            'link_title' => 'DC Photobooth at Jesse and Rob\'s Wedding'
+                        ),
+                    array(  'name' => 'Shayla & Craig',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-07-27")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.27-Shayla-and-Craig-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.27-Shayla-and-Craig.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Shayla-and-Craig-Wedding/30855240_FVJccQ',
+                            'link_title' => 'DC Photobooth at Shayla and Craig\'s Wedding'
+                        ),
+                    array(  'name' => 'AFT Reclaiming the Promise',  
+                            'type' => 'Event', 
+                            'date' => date("M d, Y", strtotime("2013-07-23")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.23-AFT-Reclaim-the-Promise-1-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.23-AFT-Reclaim-the-Promise-1.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/07-23-2013-AFT-Reclaiming-The/30706831_R8bG2k',
+                            'link_title' => 'DC Photobooth at AFT Reclaiming the Promise'
+                        ),
+                    array(  'name' => 'AFT Reclaiming the Promise',  
+                            'type' => 'Event', 
+                            'date' => date("M d, Y", strtotime("2013-07-22")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.22-AFT-Reclaim-the-Promise-1-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.22-AFT-Reclaim-the-Promise-1.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/07-22-2013-AFT-Reclaiming-The/30838898_SLXHbS',
+                            'link_title' => 'DC Photobooth at AFT Reclaiming the Promise'
+                        ),
+                    array(  'name' => 'Jazzy\'s Sweet Sixteen',  
+                            'type' => 'Sweet Sixteen', 
+                            'date' => date("M d, Y", strtotime("2013-07-06")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.06-Jazzys-Sweet-Sixteen-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.06-Jazzys-Sweet-Sixteen.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/07-06-2013-Jazzys-Sweet/30406868_WZHNkH',
+                            'link_title' => 'DC Photobooth at Jazzy\'s Sweet Sixteen'
+                        ),
+                    array(  'name' => 'Courtney & Evan',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-07-05")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.05-Courtney-and-Evan-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.05-Courtney-and-Evan.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/07-05-2013-Courtney-Evan/30406438_Hj4867',
+                            'link_title' => 'DC Photobooth at Courtney and Evan\'s Wedding'
+                        ),
+                    
+                    array(  'name' => 'Nadia & Joel',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2013-06-30")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/07/6.30-nadia-and-joel-201x300.jpg',
