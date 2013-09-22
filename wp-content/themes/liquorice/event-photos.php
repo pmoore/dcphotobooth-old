@@ -7,7 +7,99 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'Jessi & Rob',  
+ $events = array (  array(  'name' => 'Legacy Food Service Alliance',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2013-09-17")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/9.17-legacy-food-service-alliance-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/9.17-legacy-food-service-alliance.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/09-17-13-Legacy-Foodservice/31966620_nZ8X8h',
+                            'link_title' => 'DC Photobooth at Legacy Food Service Alliance Event'
+                        ),
+                    array(  'name' => 'Jennifer & Fred',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-09-13")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/9.13-jennifer-fred-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/9.13-jennifer-fred.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/9-13-13-Jennfier-Fred-Wedding/31937277_kwZSWB',
+                            'link_title' => 'DC Photobooth at Jennifer & Fred\'s Wedding'
+                        ),
+                    array(  'name' => 'Danielle & Sean',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-08-31")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.31-danielle-sean-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.31-danielle-sean.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/08-31-2013-Danielle-Sean/31782774_mwXcK3',
+                            'link_title' => 'DC Photobooth at Danielle & Sean\'s Wedding'
+                        ),
+                    array(  'name' => 'Tiffany & Jeffrey',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-08-24")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.24-tiffany-jeffrey-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.24-tiffany-jeffrey.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/08-24-2013-Tiffany-Jeffrey/31782684_8NKx6p',
+                            'link_title' => 'DC Photobooth at Tiffany & Jeffrey\'s Wedding'
+                        ),
+                    array(  'name' => 'AFT Reclaiming the Promise',  
+                            'type' => 'Event', 
+                            'date' => date("M d, Y", strtotime("2013-08-24")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.24-aft-reclaiming-the-promise-199x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.24-aft-reclaiming-the-promise.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/AFT-Reclaiming-The-Promise/31451125_qjcBMm#!i=2723766175&k=HsDN2Mx',
+                            'link_title' => 'DC Photobooth at AFT Reclaiming the Promise Event'
+                        ),
+                    array(  'name' => 'GW Bound',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2013-08-23")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.23-gw-bound-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.23-gw-bound.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/08-23-2013-GW-Bound/31782498_D77MS3#!i=2756678872&k=X22p6br',
+                            'link_title' => 'DC Photobooth at GW Bound'
+                        ),
+                    array(  'name' => 'Khadija & Zeshan',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-08-18")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.18-Khadija-Zeshan-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.18-Khadija-Zeshan.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/08-18-13-Khadija-Wedding/31315297_fB2dC7#!i=2710826767&k=Xrvrm3z',
+                            'link_title' => 'DC Photobooth at Khadija & Zeshan\'s Wedding'
+                        ),
+                    array(  'name' => 'Mehreen & Faraz',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-08-17")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.17-mehreen-faraz-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.17-mehreen-faraz.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/08-17-13-Mehreen-Faraz-Wedding/31314408_wvJCHj#!i=2710735075&k=VkghzD9',
+                            'link_title' => 'DC Photobooth at Mehreen & Faraz\'s Wedding'
+                        ),
+                    array(  'name' => 'The Harters',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-08-17")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.17-the-harters-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.17-the-harters.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/08-17-13-The-Harters/31315091_kZRFkZ#!i=2710802114&k=zCfJnGf',
+                            'link_title' => 'DC Photobooth at The Harters\' Wedding'
+                        ),
+                    array(  'name' => 'Sara & Duke',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-08-10")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.10-sara_duke-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.10-sara_duke.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/08-10-13-Sara-Duke-Wedding/31159772_v7zRc9#!i=2695971792&k=vmnQJq7',
+                            'link_title' => 'DC Photobooth at Sara & Duke\'s Wedding'
+                        ),
+                    array(  'name' => 'Shark Week',  
+                            'type' => 'Event', 
+                            'date' => date("M d, Y", strtotime("2013-08-02")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.2-shark_week-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/8.2-shark_week.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/08-02-13-Shark-Week-2013/31157015_cmmLjH#!i=2695708856&k=vvckgxZ',
+                            'link_title' => 'DC Photobooth at Shark Week'
+                        ),
+                    
+     
+     
+     
+                    array(  'name' => 'Jessi & Rob',  
                             'type' => 'Wedding', 
                             'date' => date("M d, Y", strtotime("2013-07-27")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/08/07.27-Jessi-and-Rob-201x300.jpg',
@@ -136,8 +228,7 @@ get_header();
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/06/6.1.-Courtney-wilson.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/Courtney-Wilson-Wedding/29791089_QRKn8b',
                             'link_title' => 'DC Photobooth at Courtney & Josh\'s Wedding'
-                        ),
-     
+                        ),     
                     array(  'name' => 'Randy\'s Graduation',  
                             'type' => 'Graduation Party', 
                             'date' => date("M d, Y", strtotime("2013-05-18")), 
@@ -145,6 +236,14 @@ get_header();
                             'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/05/5.18-Randys-Graduation.jpg',
                             'host_url' => 'http://dc-photobooth.smugmug.com/Other/Randys-Graduation/29676156_sW9Zjv',
                             'link_title' => 'DC Photobooth at Randy\'s Graduation Party'
+                        ),
+                    array(  'name' => 'Bonanno & Kerrigan',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-05-17")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/5.17-bonanno-kerrigan-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/5.17-bonanno-kerrigan.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/Bridgette-Kerrigan/31369086_3jfXzc',
+                            'link_title' => 'DC Photobooth at the Bonanno & Kerrigan Wedding'
                         ),
                     array(  'name' => 'Susan & Tom',  
                             'type' => 'Wedding', 
