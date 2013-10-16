@@ -7,7 +7,15 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'Legacy Food Service Alliance',  
+ $events = array (  array(  'name' => 'Diana & James',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-09-21")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/10/9.21-dianajames-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/10/9.21-dianajames.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/09-21-13-Diana-James-Wedding/32087870_NNk5wM',
+                            'link_title' => 'DC Photobooth at Diana & James\' Wedding'
+                        ),
+                    array(  'name' => 'Legacy Food Service Alliance',  
                             'type' => 'Party', 
                             'date' => date("M d, Y", strtotime("2013-09-17")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/09/9.17-legacy-food-service-alliance-201x300.jpg',
