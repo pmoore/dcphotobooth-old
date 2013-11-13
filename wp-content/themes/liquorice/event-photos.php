@@ -7,7 +7,60 @@
 get_header();
 
  
- $events = array (  array(  'name' => 'St. Jude',  
+ $events = array (  array(  'name' => 'Ingrid & Russell',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-11-09")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/11.09-ingrid-russel-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/11.09-ingrid-russel.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/11-09-13-Ingrid-Russell/33407258_fXfCsS',
+                            'link_title' => 'DC Photobooth at Ingrid & Russell\'s Wedding'
+                        ),
+                    array(  'name' => 'Alex & Marshall\'s Birthday',  
+                            'type' => 'Birthday', 
+                            'date' => date("M d, Y", strtotime("2013-11-02")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/11.02-alex-marshall-birthday-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/11.02-alex-marshall-birthday.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Events/Birthday/11-02-13-Alex-Marshall-1st/33219852_WNcqvd',
+                            'link_title' => 'DC Photobooth at Alex & Marshall\'s Birthday'
+                        ),
+                    array(  'name' => 'Carlos & Emily',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-10-26")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/10.26-carlos-emily-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/10.26-carlos-emily.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/10-26-13-Carlos-Emily-Wedding/33131009_KmxD8b',
+                            'link_title' => 'DC Photobooth at Carlos & Emily\'s Wedding'
+                        ),
+     
+     
+                    array(  'name' => 'UMD Homecoming',  
+                            'type' => 'Event', 
+                            'date' => date("M d, Y", strtotime("2013-10-26")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/10.26-umd-homecoming-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/10.26-umd-homecoming.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/10-26-13-UMD-Homecoming/33061261_DFvTbv',
+                            'link_title' => 'DC Photobooth at UMD Homecoming'
+                        ),
+     
+                    array(  'name' => 'Zipcar Halloween',  
+                            'type' => 'Party', 
+                            'date' => date("M d, Y", strtotime("2013-10-25")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/10.25-zipcar-halloween-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/10.25-zipcar-halloween.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Other/Zip-Car/33050481_7t65kN',
+                            'link_title' => 'DC Photobooth at Zipcar\'s Halloween Party'
+                        ),
+                    array(  'name' => 'Victoria & Geremy',  
+                            'type' => 'Wedding', 
+                            'date' => date("M d, Y", strtotime("2013-10-19")), 
+                            'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/10.19-victoria-geremy-201x300.jpg',
+                            'featured_image_large' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/11/10.19-victoria-geremy.jpg',
+                            'host_url' => 'http://dc-photobooth.smugmug.com/Weddings/10-19-13-Victoria-Geremy/33079235_kzXJxK',
+                            'link_title' => 'DC Photobooth at Victoria & Geremy\'s Wedding'
+                        ),
+                    
+     
+                    array(  'name' => 'St. Jude',  
                             'type' => 'Event', 
                             'date' => date("M d, Y", strtotime("2013-10-15")), 
                             'featured_image' => 'http://www.dc-photobooth.com/wp-content/uploads/2013/10/10.15-st-jude-event-201x300.jpg',
