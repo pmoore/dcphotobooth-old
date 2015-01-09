@@ -39,6 +39,7 @@ get_header();
                 <div class="style-select">
                     <select id="referrer">
                         <option value="Google">Google</option>
+                        <option value="Yelp">Yelp</option>
                         <option value="Facebook">Facebook</option>
                         <option value="WeddingWire">WeddingWire</option>
                         <option value="Craig's List">Craigslist</option>
