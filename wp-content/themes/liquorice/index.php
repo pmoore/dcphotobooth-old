@@ -48,12 +48,12 @@
       <div style="clear:both"></div>
       
       <div id="index-left" class="home-slideshow mobile-collapse" style="margin-left: 20px;">
-          <a class="home-slideshow-ad" href="#">
-              <div class="home-ad-header">DC Photobooth awarded a 2013</div>
+          <a class="home-slideshow-ad" href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" target="_blank">
+              <div class="home-ad-header">DC Photobooth awarded a 2015</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Bride's Choice Award</div>
               <div class="home-ad-sub-header">from WeddingWire!</div>
               <div class="award-badge">
-                  <img src="http://static.weddingwire.com/static/images/badges/BCA-2013/BCA-logo.gif" />
+                  <img src="http://static.weddingwire.com/static/images/badges/BCA-2015/BCA-logo.gif" />
               </div>                               
           </a>
           

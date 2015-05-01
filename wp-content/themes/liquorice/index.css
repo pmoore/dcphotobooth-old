@@ -165,7 +165,11 @@ a.facebook{
 
 .home-slideshow-ad .award-badge{
     text-align: center;
-    margin-top:40px;
+    margin-top:40px;    
+}
+.home-slideshow-ad .award-badge img {
+    width: 124px;
+    height: 125px;
 }
 
 #index-event-photos-link{
