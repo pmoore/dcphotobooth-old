@@ -4,3 +4,6 @@ wp-config.php
 migrate_dump_local.sh
 /wp-content/uploads/*
 wp-content/uploads/*
+wp-content/dml-logs/
+wp-content/themes/liquorice/samples-content.php
+wp-content/themes/liquorice/tiles/

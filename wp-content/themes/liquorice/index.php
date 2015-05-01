@@ -101,25 +101,60 @@
       <div id="index-right">
           <div class="home-section">
               
-              <div id="index-event-photos-link">
-                  <div id="index-event-photos-link-inner">
-                        <a href="/event-photos">Find Your Photos</a>
+              <div class="home-right-bar">
+                <div id="index-event-photos-link">
+                    <div id="index-event-photos-link-inner">
+                            <a href="/event-photos">Find Your Photos</a>
+                    </div>
+                </div>
+
+                <div id="bca-2015">
+                  <link href='//www.weddingwire.com/assets/global/widget.css' rel='stylesheet' type='text/css'>
+                  <div class='ww-bca-2015 ww-reset'>
+                  <a class="ww-bca-top" href="http://www.weddingwire.com" title="WeddingWire"><img alt="WeddingWire" src="//www.weddingwire.com/assets/badges/BCA-2015/BCA_2015-badge-top.png" />
+                  </a><a class="ww-bca-bottom" href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" title="DC Photobooth Reviews, Best Wedding Event Rentals in Washington DC - 2015 Couples&#39; Choice Award Winner"><img alt="DC Photobooth Reviews, Best Wedding Event Rentals in Washington DC - 2015 Couples&#39; Choice Award Winner" src="//www.weddingwire.com/assets/badges/BCA-2015/BCA_2015-badge-bottom.png" />
+                  </a><div class='ww-clear'>
+                  &nbsp;
+                  <img alt="" height="1" src="//www.weddingwire.com/apis/v3/tracker?partner_key=163r5mm3&amp;target_id=d2e61fd51540494f&amp;type=bca_2015" width="1" />
                   </div>
+                  </div>
+                </div>
+                  
+                <div id="bca-2014"> 
+                  <link href='//www.weddingwire.com/assets/global/widget.css' rel='stylesheet' type='text/css'>
+                    <div class='ww-bca-2014 ww-reset'>
+                    <a class="ww-bca-top" href="http://www.weddingwire.com" title="Weddings, Wedding Venues"><img alt="Weddings, Wedding Venues" src="//www.weddingwire.com/assets/badges/BCA-2014/BCA_2014-badge-top.png" />
+                    </a><a class="ww-bca-bottom" href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" title="DC Photobooth Reviews, Best Wedding Event Rentals in Washington DC - 2014 Couples&#39; Choice Award Winner"><img alt="DC Photobooth Reviews, Best Wedding Event Rentals in Washington DC - 2014 Couples&#39; Choice Award Winner" src="//www.weddingwire.com/assets/badges/BCA-2014/BCA_2014-badge-bottom.png" />
+                    </a><div class='ww-clear'>
+                    &nbsp;
+                    </div>
+                    <img alt="" height="1" src="//www.weddingwire.com/apis/v3/tracker?partner_key=163r5mm3&amp;target_id=d2e61fd51540494f&amp;type=bca_2014" width="1" />
+                    </div>
+                </div>  
+
+                <!-- BCA Award -->
+                <div id="bca-2013">
+                <link rel='stylesheet' type='text/css' href='http://wwcdn.weddingwire.com/static/css/wireWidgets.css' /><div class='ww-bca-2013 ww-reset'><a class='ww-bca-top' href='http://www.weddingwire.com' title='Weddings, Wedding Venues'><img src='http://wwcdn.weddingwire.com/static/images/badges/BCA-2013/BCA_2013-badge-top.png' alt='Weddings, Wedding Venues' /></a><a class='ww-bca-bottom' href='http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html' title="DC Photobooth, Best Wedding Event Rentals in Baltimore - 2013 Bride's Choice Award Winner"><img src='http://wwcdn.weddingwire.com/static/images/badges/BCA-2013/BCA_2013-badge-bottom.png' alt="DC Photobooth, Best Wedding Event Rentals in Baltimore - 2013 Bride's Choice Award Winner" /></a><div class='ww-clear'>&nbsp;</div></div><img src='//api.weddingwire.com/api/v3/Tracker.gif?target_id=d2e61fd51540494f&type=bca_2013&partner_key=163r5mm3' width='1' height='1' />
+                </div>
+
+                <div id="theknot2013">
+                    <img src="/wp-content/themes/liquorice/images/badges/theknotbestof.gif" />
+                </div>        
+
+                <div class="ww-rated">
+                  <script src='//www.weddingwire.com/assets/vendor/widgets/ww-rated-2013.js' type='application/javascript'></script><div id='ww-widget-wwrated-2013'><a class="ww-top" href="http://www.weddingwire.com" target="_blank" title="Weddings, Wedding, Wedding Venues"></a><a class="ww-bottom" href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" target="_blank" title="DC Photobooth Reviews, Washington DC, Maryland, Northern Virginia Event Rentals &amp; Photobooths"></a></div><script>  WeddingWire.ensureInit(function() {WeddingWire.createWWRated2013({"vendorId":"d2e61fd51540494f" }); });</script>
+                </div>      
+
+                <!--              WeddingWire Rated-->
+                <script type="text/javascript" src="http://wwcdn.weddingwire.com/static/js/widgets/wwrated/2012.js"></script><div id="ww-widget-wwrated-2012" class="ww-reset ww-widget-wwrated-2012"><a target="_new" href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" title='DC Photobooth Reviews , Baltimore Event Rentals & Photobooths'>  <img class="ww-top" src="http://wwcdn.weddingwire.com/static/images/badges/ww-rated/2012/WW-RATED12-blue-top.png" alt="WeddingWire Rated 2012"></a><a target="_new" href="http://www.weddingwire.com" title="Weddings, Wedding, Wedding Venues">  <img class="ww-bottom" src="http://wwcdn.weddingwire.com/static/images/badges/ww-rated/2012/WW-RATED12-blue-bottom.png" alt="Weddings, Wedding, Wedding Venues"></a><div class="ww-clear"> </div></div><script type="text/javascript"><!--
+                    WeddingWire.ensureInit(function() {WeddingWire.createWWRated2012({"vendorId":"d2e61fd51540494f", "divId":"ww-widget-wwrated-2012"});});
+                    --></script>
+
+
+                
               </div>
-              
-<!--              WeddingWire Rated-->
-              <script type="text/javascript" src="http://wwcdn.weddingwire.com/static/js/widgets/wwrated/2012.js"></script><div id="ww-widget-wwrated-2012" class="ww-reset ww-widget-wwrated-2012"><a target="_new" href="http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html" title='DC Photobooth Reviews , Baltimore Event Rentals & Photobooths'>	<img class="ww-top" src="http://wwcdn.weddingwire.com/static/images/badges/ww-rated/2012/WW-RATED12-blue-top.png" alt="WeddingWire Rated 2012"></a><a target="_new" href="http://www.weddingwire.com" title="Weddings, Wedding, Wedding Venues">	<img class="ww-bottom" src="http://wwcdn.weddingwire.com/static/images/badges/ww-rated/2012/WW-RATED12-blue-bottom.png" alt="Weddings, Wedding, Wedding Venues"></a><div class="ww-clear"> </div></div><script type="text/javascript"><!--
-                WeddingWire.ensureInit(function() {WeddingWire.createWWRated2012({"vendorId":"d2e61fd51540494f", "divId":"ww-widget-wwrated-2012"});});
-                --></script>
-              
-              <!-- BCA Award -->
-              <div id="bca-2013">
-              <link rel='stylesheet' type='text/css' href='http://wwcdn.weddingwire.com/static/css/wireWidgets.css' /><div class='ww-bca-2013 ww-reset'><a class='ww-bca-top' href='http://www.weddingwire.com' title='Weddings, Wedding Venues'><img src='http://wwcdn.weddingwire.com/static/images/badges/BCA-2013/BCA_2013-badge-top.png' alt='Weddings, Wedding Venues' /></a><a class='ww-bca-bottom' href='http://www.weddingwire.com/reviews/dc-photobooth-washington-baltimore/d2e61fd51540494f.html' title="DC Photobooth, Best Wedding Event Rentals in Baltimore - 2013 Bride's Choice Award Winner"><img src='http://wwcdn.weddingwire.com/static/images/badges/BCA-2013/BCA_2013-badge-bottom.png' alt="DC Photobooth, Best Wedding Event Rentals in Baltimore - 2013 Bride's Choice Award Winner" /></a><div class='ww-clear'>&nbsp;</div></div><img src='//api.weddingwire.com/api/v3/Tracker.gif?target_id=d2e61fd51540494f&type=bca_2013&partner_key=163r5mm3' width='1' height='1' />
-              </div>
-              
-              <div id="theknot2013">
-                  <img src="/wp-content/themes/liquorice/images/badges/theknotbestof.gif" />
-              </div>                 
+
+
               
               <div class="home-section-header">1) why dc photobooth?</div>
               <div class="home-section-description">Looking to rent a photobooth for your wedding, corporate party, or other event?  With the best photobooth in the business, fantastic props and a fun and professional staff, our booth is able to capture those memorable moments of your event in the highest quality possible.  </div>

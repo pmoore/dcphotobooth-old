@@ -172,15 +172,16 @@ a.facebook{
     text-align: left;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    position: absolute;
-    right: -85px;
+/*    position: absolute;*/
+/*    right: -85px;*/
     background-color: #FCF9F3;
     box-shadow: 4px 0px 10px -1px #888888;
     -moz-box-shadow: 4px 0px 10px -1px #888888;
     -webkit-box-shadow: 4px 0px 10px -1px #888888;
-    top: -24px;
+/*    top: -24px;*/
     font-weight: bold;
     z-index: 0;
+    width: 75px;
 }
 #index-event-photos-link:hover{
     box-shadow: 5px 0px 15px -1px #CC4D22;
@@ -316,7 +317,7 @@ a.facebook{
 
 #home-reviews-count-text{
     padding-top: 2px !important;
-    padding-left: 55px;
+    padding-left: 70px;
     float:left !important;
     width: 175px;
 }
@@ -326,48 +327,91 @@ a.facebook{
 .main-menu ul ul li{
     display: none;
 }
-#bca-2013 .ww-bca-2013,
-#ww-widget-wwrated-2012, 
-#theknot2013 img{
+
+
+.home-right-bar{
     position: absolute;
+    right: -95px;
+    top: -24px;
+}
+#bca-2013 .ww-bca-2013,
+#bca-2014 .ww-bca-2014,
+#bca-2015 .ww-bca-2015,
+#ww-widget-wwrated-2012, 
+#theknot2013 img,
+.ww-rated #ww-widget-wwrated-2013{
+/*    position: absolute;*/
     width: 65px;
     height:65px;
     box-shadow: 0px 0px 5px 1px #888;
     -moz-box-shadow: 0px 0px 5px 1px #888888;
     -webkit-box-shadow: 0px 0px 5px 1px #888;
+    margin: 15px 10px;
+}
+
+#theknot2013 img{
+    margin: 0 10px;
 }
 
 #ww-widget-wwrated-2012{
-    right: -83px;
-    top: 52px;
+/*    right: -83px;*/
+/*    top: 52px;*/
 }
 #bca-2013 .ww-bca-2013{
-    right: -83px;
-    top: 132px;
+/*    right: -83px;*/
+/*    top: 132px;*/
 }
 #theknot2013 img{
-    right: -83px;
-    top: 212px;
+/*    right: -83px;*/
+/*    top: 212px;*/
 }
 
+.ww-rated #ww-widget-wwrated-2013 {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    height: 75px;
+}
 
-#ww-widget-wwrated-2012 img.ww-top{
+#ww-widget-wwrated-2012 img.ww-top,
+#ww-widget-wwrated-2013 a.ww-top{
     height: 56.5px;
     width: 65px;
 }
-#ww-widget-wwrated-2012 img.ww-bottom{
+.ww-rated  #ww-widget-wwrated-2013 a.ww-top {
+    background-size: 65px auto;
+    height: 25px;
+}
+
+#ww-widget-wwrated-2012 img.ww-bottom,
+#ww-widget-wwrated-2013 a.ww-bottom{
     width: 65px;
     height: 8.5px;
 }
+.ww-rated #ww-widget-wwrated-2013 a.ww-bottom {
+    background-size: 65px auto;
+    height: 100px;
+    color: #3D3C3B;
+    padding-top: 40px;
+    font-family: ColaborateLightRegular;
+}
+
 #bca-2013 .ww-bca-2013 > a.ww-bca-top img,
-#bca-2013 .ww-bca-2013 > a.ww-bca-bottom img{
+#bca-2013 .ww-bca-2013 > a.ww-bca-bottom img,
+#bca-2014 .ww-bca-2014> a.ww-bca-top img,
+#bca-2014 .ww-bca-2014> a.ww-bca-bottom img,
+#bca-2015 .ww-bca-2015> a.ww-bca-top img,
+#bca-2015 .ww-bca-2015> a.ww-bca-bottom img{
     width: 65px;
 }
 
-#bca-2013 .ww-bca-2013 > a.ww-bca-top img{
+#bca-2013 .ww-bca-2013 > a.ww-bca-top img,
+#bca-2014 .ww-bca-2014 > a.ww-bca-top img,
+#bca-2015 .ww-bca-2015 > a.ww-bca-top img{
     height: 16px;
 }
-#bca-2013 .ww-bca-2013 > a.ww-bca-bottom img{
+#bca-2013 .ww-bca-2013 > a.ww-bca-bottom img,
+#bca-2014 .ww-bca-2014 > a.ww-bca-bottom img,
+#bca-2015 .ww-bca-2015 > a.ww-bca-bottom img{
     height:49px;
 }
-

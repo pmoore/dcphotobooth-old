@@ -13,7 +13,8 @@ get_header();
         
         <div style="clear:both"></div>
         <div id="contact-form-container"><form id="contact-form" class="contact-form" action=" " method="post">
-                <div id="contact-form-left"><label class="iconic user" for="username"> Name <span class="required">*</span></label><br />
+                <div id="contact-form-left">
+                    <label class="iconic user" for="username"> First &amp; Last Name <span class="required">*</span></label><br />
                     <input id="username" type="text" name="username" placeholder="What can we call you?"/>
                     <br />
                     <label class="iconic mail-alt" for="usermail"> E-mail address <span class="required">*</span></label><br/>
@@ -56,7 +57,7 @@ get_header();
 
     </div>
     <div class="italic" style="text-align: center; color: #666;">
-        Having trouble?  Try <a href="mailto:info@dmvphotobooths.com">sending us an email the old fashion way</a>, or give us a call at 202.417.8133.
+        Having trouble?  Try <a href="mailto:info@dmvphotobooths.com">sending us an email the old-fashioned way</a>, or give us a call at 202.417.8133.
     </div>
     
 </div>
