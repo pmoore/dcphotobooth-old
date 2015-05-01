@@ -1,8 +1,8 @@
 <?php
     $name = $_POST['name'];
     $from = $_POST['from'];
-    $to = "info@dmvphotobooths.com";
-//    $to = "pmmoor1@gmail.com";
+//    $to = "info@dmvphotobooths.com";
+    $to = "epsmit@gmail.com";
     $subject = $_POST["subject"];
     $location = $_POST["location"];
     $date = $_POST["date"];
