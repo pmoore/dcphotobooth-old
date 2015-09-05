@@ -1,8 +1,7 @@
 <?php
     $name = $_POST['name'];
     $from = $_POST['from'];
-//    $to = "info@dmvphotobooths.com";
-    $to = "epsmit@gmail.com";
+    $to = "info@dmvphotobooths.com";
     $subject = $_POST["subject"];
     $location = $_POST["location"];
     $date = $_POST["date"];
@@ -10,7 +9,7 @@
     $referrer = $_POST['referrer'];
     $message_footer = "This message was auto generated from www.dc-photobooth.com.";
     $headers = 'From: info@dmvphotobooths.com';
-    
+
     $full_message = "";
     if($_POST["name"]!=""){
         $full_message .= "Name: ".$name."\n";
@@ -29,16 +28,16 @@
     }
     $full_message .= "Message: ".$message."\n\n\n";
     $full_message .= $message_footer;
-    
+
     if(mail($to, $subject,$full_message, $headers)){
         echo "Message was successfully sent!";
     }
     else{
-        echo "there’s some errors to send the mail, verify your server options. 
-        From: ".$from.", 
-        To: ".$to.", 
-        Subject: ".$subject.", 
+        echo "there’s some errors to send the mail, verify your server options.
+        From: ".$from.",
+        To: ".$to.",
+        Subject: ".$subject.",
         Message: ".$message;
     }
-    
+
 ?>
