@@ -71,7 +71,7 @@
             ?>
                     
           <a class="home-slideshow-ad" href="/contact">
-              <div class="home-ad-header">Having an event in <?php echo date("F", strtotime("+1 months")); ?>?</div>
+              <div class="home-ad-header">Having an event in <?php echo date("F", strtotime("+2 months")); ?>?</div>
               <div class="home-ad-sub-header" style="font-size: 30px">Get $200 Off!</div>
               <div class="home-ad-sub-header">Click Here to Contact Us</div>
           </a>
